@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "delightful:canvas",
+    "/": "minecraft:bamboo"
+  },
+  "pattern": [
+    "/ /",
+    "# #",
+    "/#/"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:bamboo_basket"
+  }
+}

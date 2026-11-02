@@ -1,0 +1,23 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/dough"
+    },
+    {
+      "tag": "c:crops/garlic_chive"
+    },
+    {
+      "tag": "c:eggs"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:garlic_chive_egg_boiled_dumpling",
+      "count": 2
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

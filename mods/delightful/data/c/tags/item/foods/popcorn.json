@@ -1,0 +1,9 @@
+{
+  "values": [
+    "delightful:popcorn",
+    {
+      "id": "culturaldelights:popcorn",
+      "required": false
+    }
+  ]
+}

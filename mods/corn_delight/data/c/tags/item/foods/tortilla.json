@@ -1,9 +1,0 @@
-{
-  "values": [
-    "corn_delight:tortilla",
-    {
-      "id": "culturaldelights:tortilla",
-      "required": false
-    }
-  ]
-}

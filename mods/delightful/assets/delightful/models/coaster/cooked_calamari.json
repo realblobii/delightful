@@ -1,0 +1,6 @@
+{
+	"parent": "delightful:coaster/calamari",
+	"textures": {
+		"calamari": "delightful:block/coaster/cooked_calamari"
+	}
+}

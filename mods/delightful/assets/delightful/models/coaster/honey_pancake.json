@@ -1,0 +1,6 @@
+{
+	"parent": "delightful:coaster/pancake",
+	"textures": {
+		"pancake": "delightful:block/coaster/honey_pancake"
+	}
+}

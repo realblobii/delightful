@@ -1,0 +1,10 @@
+{
+  "parent": "delightful:block/template_pie_slice3",
+  "textures": {
+    "particle": "delightful:block/syrup_cheesecake_top",
+    "bottom": "delightful:block/syrup_cheesecake_bottom",
+    "inner": "delightful:block/syrup_cheesecake_inner",
+    "side": "delightful:block/syrup_cheesecake_side",
+    "top": "delightful:block/syrup_cheesecake_top"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "item": "delightful:pumpkin_slice"
+    },
+    {
+      "tag": "c:foods/leafy_green"
+    },
+    {
+      "tag": "c:foods/raw_pork"
+    },
+    {
+      "tag": "c:drinks/milk"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:pumpkin_soup",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

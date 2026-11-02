@@ -1,0 +1,27 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/raw_beef"
+    },
+    {
+      "tag": "delightful:coffee_food_ingredients"
+    },
+    {
+      "tag": "c:foods/carrot"
+    },
+    {
+      "tag": "c:foods/potato"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:coffee_braised_beef",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 400,
+  "container": "minecraft:bowl"
+}

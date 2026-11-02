@@ -1,0 +1,23 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "item": "delightful:bell_pepper_black"
+    },
+    {
+      "tag": "c:crops/rice"
+    },
+    {
+      "tag": "delightful:stuffed_bell_pepper_ingredients"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:stuffed_bell_pepper_black",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

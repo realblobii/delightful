@@ -1,0 +1,30 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "delightful:coffee_ingredients"
+    },
+    {
+      "tag": "delightful:coffee_ingredients"
+    },
+    {
+      "tag": "delightful:coffee_ingredients"
+    },
+    {
+      "tag": "c:drinks/milk"
+    },
+    {
+      "item": "delightful:pumpkin_slice"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:pumpkin_coffee",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200,
+  "container": "minecraft:glass_bottle"
+}

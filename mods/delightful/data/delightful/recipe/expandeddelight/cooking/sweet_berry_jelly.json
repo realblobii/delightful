@@ -1,0 +1,24 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:sweet_berry_jelly",
+      "count": 1
+    }
+  ],
+  "experience": 0.35,
+  "time": 200,
+  "container": "delightful:glass_jar"
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "down": "delightful:block/bamboo_cabinet_top",
+    "east": "delightful:block/bamboo_cabinet_side",
+    "north": "delightful:block/small_bamboo_drawers_front_open",
+    "south": "delightful:block/bamboo_cabinet_side",
+    "up": "delightful:block/bamboo_cabinet_top",
+    "west": "delightful:block/bamboo_cabinet_side",
+    "particle": "delightful:block/small_bamboo_drawers_front_open"
+  }
+}

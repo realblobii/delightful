@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "down": "delightful:block/birch_cabinet_side",
+    "east": "delightful:block/birch_cabinet_with_polished_blackstone_countertop_side",
+    "north": "delightful:block/birch_cabinet_with_polished_blackstone_countertop_front_open",
+    "south": "delightful:block/birch_cabinet_with_polished_blackstone_countertop_side",
+    "up": "minecraft:block/polished_blackstone",
+    "west": "delightful:block/birch_cabinet_with_polished_blackstone_countertop_side",
+    "particle": "delightful:block/birch_cabinet_with_polished_blackstone_countertop_front_open"
+  }
+}

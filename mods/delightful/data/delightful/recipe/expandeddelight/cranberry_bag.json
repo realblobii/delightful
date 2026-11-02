@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "delightful:cranberries",
+    "delightful:cranberries",
+    "delightful:cranberries",
+    "delightful:cranberries",
+    "delightful:cranberries",
+    "delightful:cranberries",
+    "delightful:cranberries",
+    "delightful:cranberries",
+    "delightful:cranberries"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:cranberry_bag"
+  }
+}

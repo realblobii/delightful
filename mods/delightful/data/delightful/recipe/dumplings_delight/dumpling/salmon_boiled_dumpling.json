@@ -1,0 +1,23 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/dough"
+    },
+    {
+      "tag": "c:foods/raw_salmon"
+    },
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:salmon_boiled_dumpling",
+      "count": 2
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

@@ -1,6 +1,0 @@
-{
-	"parent": "rusticdelight:coaster/cake_slice",
-	"textures": {
-		"slice": "rusticdelight:block/coaster/syrup_cheesecake_slice"
-	}
-}

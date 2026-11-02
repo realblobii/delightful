@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:furnace_minecart"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:minecart",
+      "count": 1
+    },
+    {
+      "id": "minecraft:furnace",
+      "count": 1
+    }
+  ]
+}

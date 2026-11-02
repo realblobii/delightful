@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "delightful:sweet_potato",
+    "delightful:sweet_potato",
+    "delightful:sweet_potato",
+    "delightful:sweet_potato",
+    "delightful:sweet_potato",
+    "delightful:sweet_potato",
+    "delightful:sweet_potato",
+    "delightful:sweet_potato",
+    "delightful:sweet_potato"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:sweet_potato_crate"
+  }
+}

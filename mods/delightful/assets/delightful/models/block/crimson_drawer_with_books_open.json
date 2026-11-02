@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"down": "delightful:block/crimson_cabinet_top",
+		"east": "delightful:block/crimson_cabinet_side",
+		"north": "delightful:block/crimson_drawer_with_books_front_open",
+		"south": "delightful:block/crimson_cabinet_side",
+		"up": "delightful:block/crimson_cabinet_top",
+		"west": "delightful:block/crimson_cabinet_side",
+		"particle": "delightful:block/crimson_drawer_with_books_front_open"
+	}
+}

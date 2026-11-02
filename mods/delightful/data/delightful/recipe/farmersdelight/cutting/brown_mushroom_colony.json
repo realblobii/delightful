@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    {
+      "item": "delightful:brown_mushroom_colony"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:brown_mushroom",
+      "count": 5
+    }
+  ]
+}

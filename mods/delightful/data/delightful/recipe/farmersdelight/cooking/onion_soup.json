@@ -1,0 +1,26 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "c:foods/bread"
+    },
+    {
+      "tag": "c:drinks/milk"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:onion_soup",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

@@ -1,0 +1,27 @@
+{
+  "values": [
+    "#c:crops/grain",
+    "#c:crops/cabbage",
+    "#c:crops/onion",
+    "#c:crops/rice",
+    "#c:crops/tomato",
+    "#c:crops/cotton",
+    "#c:crops/bell_pepper",
+    "#c:crops/coffee_beans",
+    "#c:crops/coffee",
+    "#c:crops/asparagus",
+    "#c:crops/sweet_potato",
+    "#c:crops/chili_pepper",
+    {
+      "id": "#c:crops/peanut",
+      "required": false
+    },
+    "#c:crops/corn",
+    "#c:crops/celery",
+    "#c:crops/eggplant",
+    "#c:crops/fennel",
+    "#c:crops/garlic",
+    "#c:crops/garlic_chive",
+    "#c:crops/greenonion"
+  ]
+}

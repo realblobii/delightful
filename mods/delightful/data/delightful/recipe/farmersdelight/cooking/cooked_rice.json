@@ -1,0 +1,17 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:crops/rice"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:cooked_rice",
+      "count": 1
+    }
+  ],
+  "experience": 0.35,
+  "time": 100
+}

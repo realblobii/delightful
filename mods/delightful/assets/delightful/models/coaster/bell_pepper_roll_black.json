@@ -1,0 +1,6 @@
+{
+  "parent": "brewinandchewin:block/coaster_fish_roll",
+  "textures": {
+    "roll": "delightful:block/coaster/bell_pepper_roll_black"
+  }
+}

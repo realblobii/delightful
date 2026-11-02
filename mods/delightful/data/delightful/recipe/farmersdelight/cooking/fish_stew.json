@@ -1,0 +1,23 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/safe_raw_fish"
+    },
+    {
+      "item": "delightful:tomato_sauce"
+    },
+    {
+      "tag": "c:crops/onion"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:fish_stew",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

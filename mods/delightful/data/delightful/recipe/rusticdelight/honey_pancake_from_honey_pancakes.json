@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "delightful:honey_pancakes"
+  ],
+  "result": {
+    "count": 6,
+    "id": "delightful:honey_pancake"
+  }
+}

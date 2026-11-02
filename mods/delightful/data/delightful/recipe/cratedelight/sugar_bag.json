@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:sugar"
+  },
+  "result": {
+    "count": 1,
+    "id": "delightful:sugar_bag"
+  }
+}

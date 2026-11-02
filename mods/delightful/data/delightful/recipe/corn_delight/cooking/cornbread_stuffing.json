@@ -1,0 +1,26 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "item": "delightful:cornbread"
+    },
+    {
+      "tag": "c:foods/vegetables"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:cornbread_stuffing",
+      "count": 1
+    }
+  ],
+  "experience": 0.5,
+  "time": 200
+}

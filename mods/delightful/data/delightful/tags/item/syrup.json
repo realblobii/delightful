@@ -1,0 +1,9 @@
+{
+  "values": [
+    "delightful:syrup",
+    {
+      "id": "hearthandharvest:syrup_bottle",
+      "required": false
+    }
+  ]
+}

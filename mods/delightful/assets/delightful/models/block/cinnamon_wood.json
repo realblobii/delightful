@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "delightful:block/cinnamon_log",
+    "side": "delightful:block/cinnamon_log"
+  }
+}

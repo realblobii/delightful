@@ -1,0 +1,27 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "delightful:cooking_oil"
+    },
+    {
+      "item": "delightful:batter"
+    },
+    {
+      "tag": "c:foods/raw_chicken"
+    },
+    {
+      "tag": "c:foods/onion"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:fried_chicken",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

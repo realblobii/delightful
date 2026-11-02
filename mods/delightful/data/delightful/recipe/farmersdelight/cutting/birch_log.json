@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:birch_log"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:stripped_birch_log",
+      "count": 1
+    },
+    {
+      "id": "delightful:tree_bark",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "delightful:block/template_basket",
+  "textures": {
+    "bottom": "delightful:block/wooden_basket_bottom",
+    "handle": "delightful:block/wooden_basket_handle",
+    "side": "delightful:block/wooden_basket_side",
+    "top": "delightful:block/wooden_basket_top"
+  }
+}

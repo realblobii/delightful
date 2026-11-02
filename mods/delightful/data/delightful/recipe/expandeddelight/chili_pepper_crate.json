@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "delightful:chili_pepper",
+    "delightful:chili_pepper",
+    "delightful:chili_pepper",
+    "delightful:chili_pepper",
+    "delightful:chili_pepper",
+    "delightful:chili_pepper",
+    "delightful:chili_pepper",
+    "delightful:chili_pepper",
+    "delightful:chili_pepper"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:chili_pepper_crate"
+  }
+}

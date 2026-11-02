@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    {
+      "item": "delightful:cherry_blossom_pancakes"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:cherry_blossom_pancake",
+      "count": 6
+    },
+    {
+      "id": "minecraft:bowl",
+      "count": 1
+    }
+  ]
+}

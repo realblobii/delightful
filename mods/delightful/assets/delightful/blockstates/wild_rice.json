@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "delightful:block/wild_rice_bottom"
+    },
+    "half=upper": {
+      "model": "delightful:block/wild_rice_top"
+    }
+  }
+}

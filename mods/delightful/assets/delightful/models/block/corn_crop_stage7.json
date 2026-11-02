@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "delightful:block/corn_crop_stage7"
+  },
+  "render_type": "cutout"
+}

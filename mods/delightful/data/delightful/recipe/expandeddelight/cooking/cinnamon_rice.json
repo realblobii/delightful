@@ -1,0 +1,21 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:crops/rice"
+    },
+    {
+      "item": "delightful:cinnamon"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:cinnamon_rice",
+      "count": 1
+    }
+  ],
+  "experience": 0.5,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

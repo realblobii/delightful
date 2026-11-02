@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "delightful:bell_pepper_slice_red"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:bell_pepper_seeds"
+  }
+}

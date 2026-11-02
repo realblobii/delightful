@@ -1,0 +1,6 @@
+{
+	"parent": "delightful:coaster/cake_slice",
+	"textures": {
+		"slice": "delightful:block/coaster/coffee_cheesecake_slice"
+	}
+}

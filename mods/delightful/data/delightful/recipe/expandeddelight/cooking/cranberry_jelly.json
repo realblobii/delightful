@@ -1,0 +1,24 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "item": "delightful:cranberries"
+    },
+    {
+      "item": "delightful:cranberries"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:cranberry_jelly",
+      "count": 1
+    }
+  ],
+  "experience": 0.35,
+  "time": 200,
+  "container": "delightful:glass_jar"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/milk"
+    },
+    {
+      "tag": "c:crops/asparagus"
+    },
+    {
+      "tag": "c:foods/leafy_green"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:asparagus_soup_creamy",
+      "count": 1
+    }
+  ],
+  "experience": 0.8,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

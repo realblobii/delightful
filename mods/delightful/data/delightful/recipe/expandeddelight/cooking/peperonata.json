@@ -1,0 +1,30 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/vegetable"
+    },
+    {
+      "tag": "c:crops/chili_pepper"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "tag": "c:foods/pasta"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:peperonata",
+      "count": 1
+    }
+  ],
+  "experience": 1.3,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

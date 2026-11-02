@@ -1,0 +1,23 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "delightful:cooking_oil"
+    },
+    {
+      "item": "delightful:dumplings"
+    },
+    {
+      "item": "delightful:dumplings"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:fried_dumplings",
+      "count": 2
+    }
+  ],
+  "experience": 1.0,
+  "time": 100
+}

@@ -1,0 +1,27 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/raw_calamari"
+    },
+    {
+      "tag": "c:foods/potato"
+    },
+    {
+      "tag": "c:foods/onion"
+    },
+    {
+      "tag": "c:drinks/milk"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:calamari_soup",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

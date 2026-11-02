@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "down": "delightful:block/dark_oak_cabinet_top",
+    "east": "delightful:block/dark_oak_cabinet_side",
+    "north": "delightful:block/dark_oak_cabinet_with_glass_doors_front_open",
+    "south": "delightful:block/dark_oak_cabinet_side",
+    "up": "delightful:block/dark_oak_cabinet_top",
+    "west": "delightful:block/dark_oak_cabinet_side",
+    "particle": "delightful:block/dark_oak_cabinet_with_glass_doors_front_open"
+  }
+}

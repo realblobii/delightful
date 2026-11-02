@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "fd_cabinet",
+  "key": {
+    "i": "delightful:cinnamon_planks",
+    "t": "delightful:cinnamon_trapdoor"
+  },
+  "pattern": [
+    "iii",
+    "t t",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:cinnamon_cabinet"
+  }
+}

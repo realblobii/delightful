@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "delightful:celery_crate"
+  ],
+  "result": {
+    "id": "delightful:celery",
+    "count": 9
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    {
+      "item": "delightful:garlic"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:garlic_clove",
+      "count": 5
+    }
+  ]
+}

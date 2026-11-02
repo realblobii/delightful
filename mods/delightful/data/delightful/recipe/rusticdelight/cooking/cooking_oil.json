@@ -1,0 +1,33 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "delightful:cooking_oil_ingredients"
+    },
+    {
+      "tag": "delightful:cooking_oil_ingredients"
+    },
+    {
+      "tag": "delightful:cooking_oil_ingredients"
+    },
+    {
+      "tag": "delightful:cooking_oil_ingredients"
+    },
+    {
+      "tag": "delightful:cooking_oil_ingredients"
+    },
+    {
+      "tag": "delightful:cooking_oil_ingredients"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:cooking_oil",
+      "count": 2
+    }
+  ],
+  "experience": 0.35,
+  "time": 100,
+  "container": "minecraft:glass_bottle"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    {
+      "item": "delightful:wild_tomatoes"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:tomato_seeds",
+      "count": 1
+    }
+  ]
+}

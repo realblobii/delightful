@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "delightful:tortilla_raw",
+  "result": {
+    "id": "delightful:tortilla"
+  },
+  "experience": 0.5,
+  "cookingtime": 200
+}

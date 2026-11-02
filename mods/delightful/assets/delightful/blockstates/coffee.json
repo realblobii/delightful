@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "delightful:block/coffee_stage0"
+    },
+    "age=1": {
+      "model": "delightful:block/coffee_stage1"
+    },
+    "age=2": {
+      "model": "delightful:block/coffee_stage2"
+    },
+    "age=3": {
+      "model": "delightful:block/coffee_stage3"
+    },
+    "age=4": {
+      "model": "delightful:block/coffee_stage4"
+    },
+    "age=5": {
+      "model": "delightful:block/coffee_stage5"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "delightful:block/template_farmland_custom",
+  "textures": {
+    "bottom": "delightful:block/rich_soil",
+    "side": "delightful:block/rich_soil",
+    "top": "delightful:block/rich_soil_farmland"
+  }
+}

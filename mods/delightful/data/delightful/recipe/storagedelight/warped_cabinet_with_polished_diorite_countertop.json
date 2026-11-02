@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "C C",
+    "BBB"
+  ],
+  "key": {
+    "A": "minecraft:polished_diorite_slab",
+    "B": "minecraft:warped_slab",
+    "C": "minecraft:warped_trapdoor"
+  },
+  "result": {
+    "id": "delightful:warped_cabinet_with_polished_diorite_countertop"
+  }
+}

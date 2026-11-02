@@ -1,0 +1,23 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/raw_beef"
+    },
+    {
+      "tag": "c:crops/carrot"
+    },
+    {
+      "tag": "c:crops/potato"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:beef_stew",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

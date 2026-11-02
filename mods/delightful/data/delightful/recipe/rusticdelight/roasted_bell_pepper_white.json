@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": "delightful:bell_pepper_white",
+  "result": {
+    "count": 1,
+    "id": "delightful:roasted_bell_pepper_white"
+  }
+}

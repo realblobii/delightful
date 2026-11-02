@@ -1,0 +1,23 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "delightful:cooking_oil"
+    },
+    {
+      "item": "delightful:batter"
+    },
+    {
+      "tag": "c:foods/safe_raw_fish"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:fried_fish",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 100
+}

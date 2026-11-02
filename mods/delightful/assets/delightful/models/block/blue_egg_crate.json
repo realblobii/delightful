@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "delightful:block/blue_egg_crate_side",
+    "bottom": "delightful:block/crate_bottom",
+    "top": "delightful:block/blue_egg_crate_top"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "delightful:pumpkin_slice_crate"
+  ],
+  "result": {
+    "count": 9,
+    "id": "delightful:pumpkin_slice"
+  }
+}

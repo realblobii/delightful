@@ -1,8 +1,0 @@
-id = "expandeddelight"
-name = "expandeddelight (Delightful carry)"
-version = "0.1.0"
-description = "Carried from expandeddelight's MIT-licensed source by Delightful's tools/carry.py. Not run in Horizon yet."
-authors = ["Delightful"]
-api = "0.2"
-side = "both"
-capabilities = ["registries"]

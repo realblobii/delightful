@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "delightful:milk_coffee",
+    "#delightful:cherry_blossom_ingredients"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:cherry_blossom_coffee"
+  }
+}

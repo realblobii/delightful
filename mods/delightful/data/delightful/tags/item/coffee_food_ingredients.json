@@ -1,0 +1,10 @@
+{
+  "values": [
+    "delightful:coffee",
+    "delightful:dark_coffee",
+    {
+      "id": "farmersrespite:coffee",
+      "required": false
+    }
+  ]
+}

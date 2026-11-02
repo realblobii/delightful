@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"down": "delightful:block/warped_cabinet_top",
+		"east": "delightful:block/warped_cabinet_side",
+		"north": "delightful:block/warped_drawer_with_books_front_open",
+		"south": "delightful:block/warped_cabinet_side",
+		"up": "delightful:block/warped_cabinet_top",
+		"west": "delightful:block/warped_cabinet_side",
+		"particle": "delightful:block/warped_drawer_with_books_front_open"
+	}
+}

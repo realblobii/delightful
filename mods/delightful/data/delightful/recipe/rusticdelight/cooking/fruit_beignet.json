@@ -1,0 +1,26 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "delightful:cooking_oil"
+    },
+    {
+      "tag": "c:foods/dough"
+    },
+    {
+      "tag": "c:foods/fruit"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:fruit_beignet",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 100
+}

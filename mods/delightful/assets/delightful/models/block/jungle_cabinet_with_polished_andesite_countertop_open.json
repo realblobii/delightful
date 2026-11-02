@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "down": "delightful:block/jungle_cabinet_side",
+    "east": "delightful:block/jungle_cabinet_with_polished_andesite_countertop_side",
+    "north": "delightful:block/jungle_cabinet_with_polished_andesite_countertop_front_open",
+    "south": "delightful:block/jungle_cabinet_with_polished_andesite_countertop_side",
+    "up": "minecraft:block/polished_andesite",
+    "west": "delightful:block/jungle_cabinet_with_polished_andesite_countertop_side",
+    "particle": "delightful:block/jungle_cabinet_with_polished_andesite_countertop_front_open"
+  }
+}

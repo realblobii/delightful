@@ -1,0 +1,10 @@
+{
+  "parent": "delightful:block/pie",
+  "textures": {
+    "particle": "delightful:block/pie_bottom",
+    "bottom": "delightful:block/pie_bottom",
+    "inner": "delightful:block/cranberry_cobbler_inner",
+    "side": "delightful:block/pie_side",
+    "top": "delightful:block/cranberry_cobbler_top"
+  }
+}

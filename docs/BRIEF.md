@@ -22,7 +22,7 @@ reason (so the list is reviewed, not silent).
 
 ## Decisions made
 
-1. **Each add-on is a separate mod**, toggled in Options > Mods (decided 2 Nov 2026).
+1. **One merged mod, no toggles** (decided 2 Nov 2026).
 2. **Heat:** the cooking pot (and other heated machines) are heated by a **lit campfire or lit furnace** below them, using
    Cookpot's heat-from-block rule (`heat.sources`, default offset directly below).
 3. **Cabinets, drawers, crates, shelves** are **custom chests** (container blocks with a vanilla menu), not Cookpot machines.
@@ -44,14 +44,12 @@ The aim is to use the real textures, models and sounds from the source mods, so 
 
 ## Add-on toggles
 
-**Decided 2 Nov 2026:** no settings menu. Each add-on is its own `.hmod`, switched on or off in Options > Mods. (An earlier plan, a native settings page, was dropped.)
+**Decided 2 Nov 2026:** none. Everything is merged into one mod and always on.
 
 ## Cookpot changes this needs
 
 - Possibly **fluids** for Brewin' And Chewin's keg (Horizon has a fluid container hook; not yet used by Cookpot).
 - Cabinet-style storage needs no Cookpot change.
-- Machines from toggled-off add-ons must be skippable: Cookpot would need a way to ignore a machine or recipe when its add-on
-  is off (for example a condition on the file). **[open]**
 
 ## Practical limits
 
@@ -68,7 +66,7 @@ First increment generated: see [FEATURES.md](FEATURES.md) and [UNSUPPORTED.md](U
 
 ## Next steps (original plan)
 
-1. (Done: no settings menu; add-ons are separate mods.)
+1. (Done: no toggles; one merged mod.)
 2. Research pass: what each source mod contains (blocks, items, machines, entities, worldgen) and what Horizon supports.
    Output: `docs/FEATURES.md` (what we build) and `docs/UNSUPPORTED.md` (what we drop).
 3. Cookpot changes (see above), tested by the user.

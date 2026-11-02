@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "delightful:chocolate_pancakes"
+  ],
+  "result": {
+    "count": 6,
+    "id": "delightful:chocolate_pancake"
+  }
+}

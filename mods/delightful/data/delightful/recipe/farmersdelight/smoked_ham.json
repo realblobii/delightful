@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": "delightful:ham",
+  "result": {
+    "count": 1,
+    "id": "delightful:smoked_ham"
+  }
+}

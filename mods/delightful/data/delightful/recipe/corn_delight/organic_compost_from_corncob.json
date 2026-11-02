@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:dirt",
+    "delightful:straw",
+    "delightful:straw",
+    "minecraft:bone_meal",
+    "minecraft:bone_meal",
+    "delightful:corncob",
+    "delightful:corncob",
+    "delightful:corncob",
+    "delightful:corncob"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:organic_compost"
+  }
+}

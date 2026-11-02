@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:red_mushroom"
+  },
+  "result": {
+    "count": 1,
+    "id": "delightful:red_mushroom_crate"
+  }
+}

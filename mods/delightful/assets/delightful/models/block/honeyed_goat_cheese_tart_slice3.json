@@ -1,0 +1,10 @@
+{
+  "parent": "delightful:block/pie_slice3",
+  "textures": {
+    "particle": "delightful:block/honeyed_goat_cheese_tart_top",
+    "bottom": "delightful:block/pie_bottom",
+    "inner": "delightful:block/honeyed_goat_cheese_tart_inner",
+    "side": "delightful:block/pie_side",
+    "top": "delightful:block/honeyed_goat_cheese_tart_top"
+  }
+}

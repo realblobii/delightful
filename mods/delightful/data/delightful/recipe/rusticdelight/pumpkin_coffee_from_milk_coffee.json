@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "delightful:milk_coffee",
+    "delightful:pumpkin_slice"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:pumpkin_coffee"
+  }
+}

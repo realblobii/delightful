@@ -1,0 +1,13 @@
+{
+  "values": [
+    "delightful:rope",
+    {
+      "id": "quark:rope",
+      "required": false
+    },
+    {
+      "id": "supplementaries:rope",
+      "required": false
+    }
+  ]
+}

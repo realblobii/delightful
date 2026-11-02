@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    {
+      "item": "delightful:bell_pepper_black"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:bell_pepper_slice_black",
+      "count": 2
+    }
+  ]
+}

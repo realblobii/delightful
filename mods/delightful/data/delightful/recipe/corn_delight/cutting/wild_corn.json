@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    {
+      "item": "delightful:wild_corn"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:corn_seeds",
+      "count": 1
+    },
+    {
+      "id": "delightful:straw",
+      "count": 1
+    }
+  ]
+}

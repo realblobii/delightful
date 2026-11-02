@@ -1,0 +1,20 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "tag": "c:crops/tomato"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:tomato_sauce",
+      "count": 1
+    }
+  ],
+  "experience": 0.35,
+  "time": 100
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "delightful:item/mug",
+  "textures": {
+    "layer0": "delightful:item/apple_cider"
+  }
+}

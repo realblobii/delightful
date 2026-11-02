@@ -1,0 +1,27 @@
+{
+  "template": "minecraft:bread",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 14,
+      "saturation": 21.0
+    },
+    "minecraft:consumable": {
+      "consume_seconds": 1.6,
+      "animation": "eat",
+      "sound": "minecraft:entity.generic.eat",
+      "on_consume_effects": [
+        {
+          "type": "minecraft:apply_effects",
+          "effects": [
+            {
+              "id": "delightful:nourishment",
+              "duration": 3600,
+              "amplifier": 0
+            }
+          ],
+          "probability": 1.0
+        }
+      ]
+    }
+  }
+}

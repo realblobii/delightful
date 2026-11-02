@@ -1,0 +1,23 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:crops/cabbage"
+    },
+    [
+      "#c:foods/raw_meat",
+      "#c:foods/safe_raw_fish",
+      "#c:foods/vegetable",
+      "#c:mushrooms"
+    ]
+  ],
+  "results": [
+    {
+      "id": "delightful:cabbage_rolls",
+      "count": 1
+    }
+  ],
+  "experience": 0.35,
+  "time": 100
+}

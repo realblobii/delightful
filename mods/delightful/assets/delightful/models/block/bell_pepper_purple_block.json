@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "delightful:block/bell_pepper_purple_bottom",
+    "side": "delightful:block/bell_pepper_purple_side",
+    "top": "delightful:block/bell_pepper_purple_top"
+  }
+}

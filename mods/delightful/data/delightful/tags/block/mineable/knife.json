@@ -1,0 +1,21 @@
+{
+  "values": [
+    "minecraft:cactus",
+    "minecraft:melon",
+    "minecraft:pumpkin",
+    "minecraft:carved_pumpkin",
+    "minecraft:jack_o_lantern",
+    "minecraft:cobweb",
+    "minecraft:cake",
+    "delightful:rice_bag",
+    "delightful:apple_pie",
+    "delightful:sweet_berry_cheesecake",
+    "delightful:chocolate_pie",
+    "delightful:pumpkin_pie",
+    "#minecraft:wool_carpets",
+    "#minecraft:wool",
+    "#minecraft:candle_cakes",
+    "#delightful:straw_blocks",
+    "#c:mineable/knife"
+  ]
+}

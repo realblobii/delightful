@@ -1,0 +1,6 @@
+{
+  "parent": "delightful:coaster/stuffed_bell_pepper_red",
+  "textures": {
+    "bell_pepper": "delightful:block/coaster/stuffed_bell_pepper_yellow"
+  }
+}

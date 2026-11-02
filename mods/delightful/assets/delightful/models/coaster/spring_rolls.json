@@ -1,0 +1,6 @@
+{
+	"parent": "delightful:coaster/cabbage_rolls",
+	"textures": {
+		"rolls": "delightful:block/coaster/spring_rolls"
+	}
+}

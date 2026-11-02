@@ -1,0 +1,24 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "item": "delightful:cranberries"
+    },
+    {
+      "tag": "c:foods/cooked_chicken"
+    },
+    {
+      "tag": "c:crops/onion"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:cranberry_chicken",
+      "count": 1
+    }
+  ],
+  "experience": 0.9,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

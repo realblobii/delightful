@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "delightful:bread_bag"
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:bread"
+  }
+}

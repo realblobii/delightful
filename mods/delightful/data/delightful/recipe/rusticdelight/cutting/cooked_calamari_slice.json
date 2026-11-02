@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    {
+      "item": "delightful:cooked_calamari"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:cooked_calamari_slice",
+      "count": 2
+    },
+    {
+      "id": "minecraft:bone_meal",
+      "count": 1
+    }
+  ]
+}

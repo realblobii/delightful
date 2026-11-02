@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bread",
+    "delightful:peanut_butter",
+    "#c:jams/sweet_berry"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:sweet_berry_jelly_sandwich"
+  }
+}

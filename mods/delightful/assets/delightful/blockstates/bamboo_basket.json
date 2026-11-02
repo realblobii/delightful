@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "delightful:block/bamboo_basket",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "delightful:block/bamboo_basket",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "delightful:block/bamboo_basket",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "delightful:block/bamboo_basket",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "delightful:block/bamboo_basket"
+    },
+    "facing=west": {
+      "model": "delightful:block/bamboo_basket",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

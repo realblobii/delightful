@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "delightful:block/warped_cabinet_front",
+    "side": "delightful:block/warped_cabinet_side",
+    "top": "delightful:block/warped_cabinet_top"
+  }
+}

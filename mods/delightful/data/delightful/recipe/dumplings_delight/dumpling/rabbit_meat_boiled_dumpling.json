@@ -1,0 +1,24 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/dough"
+    },
+    [
+      "minecraft:rabbit",
+      "minecraft:rabbit_foot"
+    ],
+    {
+      "tag": "c:crops/greenonion"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:rabbit_meat_boiled_dumpling",
+      "count": 2
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

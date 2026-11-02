@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    {
+      "item": "delightful:salt_rock"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:salt",
+      "count": 2
+    }
+  ]
+}

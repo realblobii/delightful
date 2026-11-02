@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    {
+      "item": "delightful:chinese_cabbage"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:chinese_cabbage_leaf",
+      "count": 3
+    }
+  ]
+}

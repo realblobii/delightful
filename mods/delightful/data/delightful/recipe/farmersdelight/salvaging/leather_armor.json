@@ -1,0 +1,18 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    [
+      "minecraft:leather_helmet",
+      "minecraft:leather_chestplate",
+      "minecraft:leather_leggings",
+      "minecraft:leather_boots"
+    ]
+  ],
+  "results": [
+    {
+      "id": "minecraft:leather",
+      "count": 1
+    }
+  ]
+}

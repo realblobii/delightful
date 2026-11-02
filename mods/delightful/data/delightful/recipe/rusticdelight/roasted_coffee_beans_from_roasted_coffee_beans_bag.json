@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "delightful:roasted_coffee_beans_bag"
+  ],
+  "result": {
+    "count": 9,
+    "id": "delightful:roasted_coffee_beans"
+  }
+}

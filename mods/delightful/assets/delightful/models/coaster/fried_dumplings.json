@@ -1,0 +1,6 @@
+{
+	"parent": "delightful:coaster/dumplings",
+	"textures": {
+		"dumplings": "delightful:block/coaster/fried_dumplings"
+	}
+}

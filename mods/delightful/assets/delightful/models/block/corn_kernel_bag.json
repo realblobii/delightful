@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "delightful:block/corn_kernal_bag_top",
+    "down": "delightful:block/rice_bag_bottom",
+    "up": "delightful:block/corn_kernal_bag_top",
+    "north": "delightful:block/rice_bag_side_tied",
+    "south": "delightful:block/rice_bag_side_tied",
+    "east": "delightful:block/rice_bag_side",
+    "west": "delightful:block/rice_bag_side"
+  }
+}

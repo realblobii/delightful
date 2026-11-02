@@ -1,0 +1,27 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/cooked_salmon"
+    },
+    {
+      "tag": "c:crops/chili_pepper"
+    },
+    {
+      "tag": "c:crops/rice"
+    },
+    {
+      "tag": "c:crops/onion"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:chili_pepper_salmon",
+      "count": 1
+    }
+  ],
+  "experience": 1.3,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

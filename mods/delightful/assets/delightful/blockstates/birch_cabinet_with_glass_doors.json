@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "facing=north,open=false": {
+      "model": "delightful:block/birch_cabinet_with_glass_doors"
+    },
+    "facing=east,open=false": {
+      "model": "delightful:block/birch_cabinet_with_glass_doors",
+      "y": 90
+    },
+    "facing=south,open=false": {
+      "model": "delightful:block/birch_cabinet_with_glass_doors",
+      "y": 180
+    },
+    "facing=west,open=false": {
+      "model": "delightful:block/birch_cabinet_with_glass_doors",
+      "y": 270
+    },
+    "facing=north,open=true": {
+      "model": "delightful:block/birch_cabinet_with_glass_doors_open"
+    },
+    "facing=east,open=true": {
+      "model": "delightful:block/birch_cabinet_with_glass_doors_open",
+      "y": 90
+    },
+    "facing=south,open=true": {
+      "model": "delightful:block/birch_cabinet_with_glass_doors_open",
+      "y": 180
+    },
+    "facing=west,open=true": {
+      "model": "delightful:block/birch_cabinet_with_glass_doors_open",
+      "y": 270
+    },
+    "facing=up,open=false": {
+      "model": "delightful:block/birch_cabinet_with_glass_doors",
+      "x": 270
+    },
+    "facing=down,open=false": {
+      "model": "delightful:block/birch_cabinet_with_glass_doors",
+      "x": 90
+    },
+    "facing=up,open=true": {
+      "model": "delightful:block/birch_cabinet_with_glass_doors_open",
+      "x": 270
+    },
+    "facing=down,open=true": {
+      "model": "delightful:block/birch_cabinet_with_glass_doors_open",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cake",
+  "ingredients": [
+    "delightful:cake_slice",
+    "delightful:cake_slice",
+    "delightful:cake_slice",
+    "delightful:cake_slice",
+    "delightful:cake_slice",
+    "delightful:cake_slice",
+    "delightful:cake_slice"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cake"
+  }
+}

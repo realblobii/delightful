@@ -1,0 +1,29 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:crops/carrot"
+    },
+    {
+      "tag": "c:mushrooms"
+    },
+    {
+      "tag": "c:foods/pasta"
+    },
+    {
+      "tag": "c:foods/leafy_green"
+    },
+    {
+      "tag": "c:foods/vegetable"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:vegetable_noodles",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

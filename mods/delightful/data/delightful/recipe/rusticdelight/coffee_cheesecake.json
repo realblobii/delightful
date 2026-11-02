@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "delightful:pie_crust",
+    "M": "#c:drinks/milk",
+    "S": "minecraft:sugar",
+    "T": "#delightful:coffee_food_ingredients"
+  },
+  "pattern": [
+    " T ",
+    "SSS",
+    "MCM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:coffee_cheesecake"
+  }
+}

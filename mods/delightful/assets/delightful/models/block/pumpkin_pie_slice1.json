@@ -1,0 +1,9 @@
+{
+  "parent": "delightful:block/template_pie_slice1",
+  "textures": {
+    "bottom": "delightful:block/pie_bottom",
+    "inner": "delightful:block/pumpkin_pie_inner",
+    "side": "delightful:block/pie_side",
+    "top": "delightful:block/pumpkin_pie_top"
+  }
+}

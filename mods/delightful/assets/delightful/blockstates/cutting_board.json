@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "delightful:block/cutting_board",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "delightful:block/cutting_board"
+    },
+    "facing=south": {
+      "model": "delightful:block/cutting_board",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "delightful:block/cutting_board",
+      "y": 270
+    }
+  }
+}

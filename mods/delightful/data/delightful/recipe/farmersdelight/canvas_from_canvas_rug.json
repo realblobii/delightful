@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "fd_canvas",
+  "ingredients": [
+    "delightful:canvas_rug",
+    "delightful:canvas_rug"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:canvas"
+  }
+}

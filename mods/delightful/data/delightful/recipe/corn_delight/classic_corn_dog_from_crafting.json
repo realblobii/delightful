@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "delightful:corn_dog",
+    "delightful:tomato_sauce"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:classic_corn_dog"
+  }
+}

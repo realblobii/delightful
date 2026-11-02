@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "delightful:block/wooden_basket",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "delightful:block/wooden_basket",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "delightful:block/wooden_basket",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "delightful:block/wooden_basket",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "delightful:block/wooden_basket"
+    },
+    "facing=west": {
+      "model": "delightful:block/wooden_basket",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

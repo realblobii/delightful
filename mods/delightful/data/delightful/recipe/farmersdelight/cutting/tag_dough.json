@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    {
+      "tag": "c:foods/dough"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:raw_pasta",
+      "count": 1
+    }
+  ]
+}

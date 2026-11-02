@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": "delightful:calamari_slice",
+  "result": {
+    "count": 1,
+    "id": "delightful:cooked_calamari_slice"
+  }
+}

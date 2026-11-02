@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:wither_rose"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:black_dye",
+      "count": 2
+    }
+  ]
+}

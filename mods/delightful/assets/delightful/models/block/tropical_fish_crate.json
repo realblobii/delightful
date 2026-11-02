@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "delightful:block/tropical_fish_crate_side",
+    "bottom": "delightful:block/crate_bottom",
+    "top": "delightful:block/tropical_fish_crate_top"
+  }
+}

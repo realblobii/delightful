@@ -1,0 +1,24 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:crops/corn"
+    },
+    [
+      "#c:foods/milk",
+      "#c:drinks/milk"
+    ],
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:creamy_corn_drink",
+      "count": 1
+    }
+  ],
+  "experience": 0.35,
+  "time": 200
+}

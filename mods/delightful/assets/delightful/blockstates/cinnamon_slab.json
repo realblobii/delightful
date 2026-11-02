@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "delightful:block/cinnamon_slab"
+    },
+    "type=double": {
+      "model": "delightful:block/cinnamon_planks"
+    },
+    "type=top": {
+      "model": "delightful:block/cinnamon_slab_top"
+    }
+  }
+}

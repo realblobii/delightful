@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "fd_chocolate_pie",
+  "key": {
+    "O": "delightful:pie_crust",
+    "c": "minecraft:cocoa_beans",
+    "m": "#c:drinks/milk",
+    "x": "minecraft:sugar"
+  },
+  "pattern": [
+    "ccc",
+    "mmm",
+    "xOx"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:chocolate_pie"
+  }
+}

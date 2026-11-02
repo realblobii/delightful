@@ -1,7 +1,6 @@
 # Credits and licences
 
-Delightful's content is carried from these MIT-licensed projects; their licence texts are in `licenses/` and each content
-mod folder holds its own copy. Textures, models, sounds, text and recipes come from them unchanged except for format upgrades.
+Delightful's content is carried from these MIT-licensed projects; their licence texts are in `licenses/` (and inside `mods/delightful/licenses/`). Textures, models, sounds, text and recipes come from them unchanged except for format upgrades.
 
 | Mod | Author(s) (from the licence) | Source |
 |---|---|---|

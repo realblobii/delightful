@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:mangrove_wood"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:stripped_mangrove_wood",
+      "count": 1
+    },
+    {
+      "id": "delightful:tree_bark",
+      "count": 1
+    }
+  ]
+}

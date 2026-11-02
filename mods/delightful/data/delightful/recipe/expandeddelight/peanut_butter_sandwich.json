@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bread",
+    "delightful:peanut_butter"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:peanut_butter_sandwich"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "delightful:chili_pepper"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:chili_pepper_seeds"
+  }
+}

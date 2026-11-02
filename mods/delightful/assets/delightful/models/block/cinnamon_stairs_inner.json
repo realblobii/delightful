@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "delightful:block/cinnamon_planks",
+    "side": "delightful:block/cinnamon_planks",
+    "top": "delightful:block/cinnamon_planks"
+  }
+}

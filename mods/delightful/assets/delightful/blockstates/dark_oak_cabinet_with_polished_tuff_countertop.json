@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "facing=north,open=false": {
+      "model": "delightful:block/dark_oak_cabinet_with_polished_tuff_countertop"
+    },
+    "facing=east,open=false": {
+      "model": "delightful:block/dark_oak_cabinet_with_polished_tuff_countertop",
+      "y": 90
+    },
+    "facing=south,open=false": {
+      "model": "delightful:block/dark_oak_cabinet_with_polished_tuff_countertop",
+      "y": 180
+    },
+    "facing=west,open=false": {
+      "model": "delightful:block/dark_oak_cabinet_with_polished_tuff_countertop",
+      "y": 270
+    },
+    "facing=north,open=true": {
+      "model": "delightful:block/dark_oak_cabinet_with_polished_tuff_countertop_open"
+    },
+    "facing=east,open=true": {
+      "model": "delightful:block/dark_oak_cabinet_with_polished_tuff_countertop_open",
+      "y": 90
+    },
+    "facing=south,open=true": {
+      "model": "delightful:block/dark_oak_cabinet_with_polished_tuff_countertop_open",
+      "y": 180
+    },
+    "facing=west,open=true": {
+      "model": "delightful:block/dark_oak_cabinet_with_polished_tuff_countertop_open",
+      "y": 270
+    },
+    "facing=up,open=false": {
+      "model": "delightful:block/dark_oak_cabinet_with_polished_tuff_countertop",
+      "x": 270
+    },
+    "facing=down,open=false": {
+      "model": "delightful:block/dark_oak_cabinet_with_polished_tuff_countertop",
+      "x": 90
+    },
+    "facing=up,open=true": {
+      "model": "delightful:block/dark_oak_cabinet_with_polished_tuff_countertop_open",
+      "x": 270
+    },
+    "facing=down,open=true": {
+      "model": "delightful:block/dark_oak_cabinet_with_polished_tuff_countertop_open",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "ingredient": "delightful:tortilla_raw",
+  "result": {
+    "count": 1,
+    "id": "delightful:tortilla"
+  },
+  "experience": 0.5,
+  "cookingtime": 100
+}

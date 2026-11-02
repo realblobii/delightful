@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "delightful:coffee",
+    "#c:drinks/milk",
+    "#delightful:syrup"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:syrup_coffee"
+  }
+}

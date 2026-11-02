@@ -1,0 +1,23 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/raw_mutton"
+    },
+    {
+      "tag": "c:foods/pasta"
+    },
+    {
+      "item": "delightful:tomato_sauce"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:pasta_with_mutton_chop",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

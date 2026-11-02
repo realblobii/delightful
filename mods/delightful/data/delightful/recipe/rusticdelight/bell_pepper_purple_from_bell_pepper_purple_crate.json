@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "delightful:bell_pepper_purple_crate"
+  ],
+  "result": {
+    "count": 9,
+    "id": "delightful:bell_pepper_purple"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "item": "delightful:cornbread_batter"
+    },
+    [
+      "#c:foods/cooked_chicken",
+      "#c:foods/cooked_pork",
+      "#c:foods/cooked_beef",
+      "#c:foods/cooked_mutton"
+    ]
+  ],
+  "results": [
+    {
+      "id": "delightful:corn_dog",
+      "count": 1
+    }
+  ],
+  "experience": 0.5,
+  "time": 100
+}

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "delightful:block/rich_soil"
+      },
+      {
+        "model": "delightful:block/rich_soil",
+        "y": 90
+      },
+      {
+        "model": "delightful:block/rich_soil",
+        "y": 180
+      },
+      {
+        "model": "delightful:block/rich_soil",
+        "y": 270
+      }
+    ]
+  }
+}
