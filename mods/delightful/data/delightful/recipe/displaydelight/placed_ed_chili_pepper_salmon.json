@@ -1,0 +1,11 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:chili_pepper_salmon",
+  "block": "delightful:placed_ed_chili_pepper_salmon",
+  "top_only": true,
+  "sneak_to_place": true,
+  "take": true,
+  "stack_max": 1,
+  "stack_property": "stacks",
+  "sound": "minecraft:block.wool.place"
+}

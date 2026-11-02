@@ -1,0 +1,11 @@
+{
+  "render_type": "cutout",
+  "texture_size": [
+    16,
+    16
+  ],
+  "textures": {
+    "particle": "delightful:block/dd/bowl"
+  },
+  "elements": []
+}

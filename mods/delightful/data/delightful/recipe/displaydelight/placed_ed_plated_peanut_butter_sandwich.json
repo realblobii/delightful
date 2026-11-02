@@ -1,0 +1,11 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:peanut_butter_sandwich",
+  "block": "delightful:placed_ed_plated_peanut_butter_sandwich",
+  "top_only": true,
+  "sneak_to_place": true,
+  "take": true,
+  "stack_max": 1,
+  "stack_property": "stacks",
+  "sound": "minecraft:block.wool.place"
+}

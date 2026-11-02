@@ -1,0 +1,8 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "delightful:block/dd/melon_juice",
+  "render_type": "cutout",
+  "textures": {
+    "3": "delightful:block/dd/ed_apple_juice"
+  }
+}

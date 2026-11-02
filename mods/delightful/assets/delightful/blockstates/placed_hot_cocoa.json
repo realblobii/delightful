@@ -1,0 +1,63 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "delightful:block/dd/wood_support"
+      },
+      "when": {
+        "support": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "delightful:block/dd/hot_cocoa"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "delightful:block/dd/hot_cocoa",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "delightful:block/dd/hot_cocoa",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "delightful:block/dd/hot_cocoa",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    }
+  ]
+}

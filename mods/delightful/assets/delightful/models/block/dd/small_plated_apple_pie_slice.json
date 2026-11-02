@@ -1,0 +1,7 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "delightful:block/dd/small_plated_chocolate_pie_slice",
+  "textures": {
+    "4": "delightful:block/dd/apple_pie"
+  }
+}

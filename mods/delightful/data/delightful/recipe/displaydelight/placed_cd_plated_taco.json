@@ -1,0 +1,11 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:taco",
+  "block": "delightful:placed_cd_plated_taco",
+  "top_only": true,
+  "sneak_to_place": true,
+  "take": true,
+  "stack_max": 6,
+  "stack_property": "stacks",
+  "sound": "minecraft:block.wool.place"
+}

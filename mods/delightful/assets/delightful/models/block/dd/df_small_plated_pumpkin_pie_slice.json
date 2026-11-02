@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.11",
+  "credit": "Made with Blockbench",
+  "parent": "delightful:block/dd/small_plated_chocolate_pie_slice",
+  "textures": {
+    "4": "delightful:block/dd/df_pumkpin_pie_slice"
+  }
+}

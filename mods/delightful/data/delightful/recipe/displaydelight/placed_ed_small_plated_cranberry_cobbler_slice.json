@@ -1,0 +1,11 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:cranberry_cobbler_slice",
+  "block": "delightful:placed_ed_small_plated_cranberry_cobbler_slice",
+  "top_only": true,
+  "sneak_to_place": true,
+  "take": true,
+  "stack_max": 1,
+  "stack_property": "stacks",
+  "sound": "minecraft:block.wool.place"
+}

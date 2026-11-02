@@ -23,23 +23,35 @@ def find(kind, ref, ext):
     d = mods.get(ns)
     return bool(d and (d / "assets" / ns / kind / f"{path}{ext}").exists())
 
-def model_ok(ref, seen=None):
-    seen = seen or set()
-    if ref in seen:
-        return True
-    seen.add(ref)
+def chain(ref, seen=None):
+    """The models from `ref` up through its parents (own-namespace ones only), or None when one is missing."""
+    seen = seen if seen is not None else []
     ns, path = ref.split(":", 1) if ":" in ref else ("minecraft", ref)
-    if ns == "minecraft":
-        return True
+    if ns == "minecraft" or ref in seen:
+        return seen
     if not find("models", ref, ".json"):
-        return False
+        return None
+    seen.append(ref)
     m = jl(mods[ns] / "assets" / ns / "models" / f"{path}.json") or {}
-    if "parent" in m and not model_ok(m["parent"], seen):
+    return chain(m["parent"], seen) if "parent" in m else seen
+
+
+def model_ok(ref, seen=None):
+    models = chain(ref)
+    if models is None:
         return False
-    for t in (m.get("textures") or {}).values():
-        if isinstance(t, str) and not t.startswith("#") and not find("textures", t, ".png"):
-            return False
+    loaded = []
+    for r in models:
+        ns, path = r.split(":", 1)
+        loaded.append(jl(mods[ns] / "assets" / ns / "models" / f"{path}.json") or {})
+    used = set(re.findall(r'"#([A-Za-z0-9_]+)"', json.dumps([m.get("elements", []) for m in loaded])))
+    for m in loaded:
+        for k, t in (m.get("textures") or {}).items():
+            # A texture no face uses (a Blockbench leftover) may be missing without harm.
+            if k in used and isinstance(t, str) and not t.startswith("#") and not find("textures", t, ".png"):
+                return False
     return True
+
 
 def block_models(bs):
     refs = []
@@ -76,6 +88,8 @@ for mid, d in mods.items():
         res = r.get("result")
         rid = res.get("id") if isinstance(res, dict) else res if isinstance(res, str) else None
         ids = [rid] + [x.get("id") for x in r.get("results", []) if isinstance(x, dict)]
+        blk = r.get("block") if str(r.get("type", "")).startswith("roast:") else None
+        ids += [blk] if isinstance(blk, str) else []
         if any(i and i.startswith(mid + ":") and i.split(":", 1)[1] in gone for i in ids):
             p.unlink()
             dropped.append(p.relative_to(d / "data" / mid / "recipe").as_posix())

@@ -1,0 +1,129 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "delightful:dumplings",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "delightful:placed_plated_dumplings",
+                  "properties": {
+                    "stacks": "6"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 6
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "delightful:dumplings",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "delightful:placed_plated_dumplings",
+                  "properties": {
+                    "stacks": "5"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 5
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "delightful:dumplings",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "delightful:placed_plated_dumplings",
+                  "properties": {
+                    "stacks": "4"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 4
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "delightful:dumplings",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "delightful:placed_plated_dumplings",
+                  "properties": {
+                    "stacks": "3"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 3
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "delightful:dumplings",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "delightful:placed_plated_dumplings",
+                  "properties": {
+                    "stacks": "2"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 2
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "delightful:dumplings",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "delightful:placed_plated_dumplings",
+                  "properties": {
+                    "stacks": "1"
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

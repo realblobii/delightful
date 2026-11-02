@@ -1,0 +1,11 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:salmon_roll",
+  "block": "delightful:placed_plated_salmon_roll",
+  "top_only": true,
+  "sneak_to_place": true,
+  "take": true,
+  "stack_max": 6,
+  "stack_property": "stacks",
+  "sound": "minecraft:block.wool.place"
+}

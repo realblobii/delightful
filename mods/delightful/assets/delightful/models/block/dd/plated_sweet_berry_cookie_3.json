@@ -1,0 +1,7 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "delightful:block/dd/plated_cookie_3",
+  "textures": {
+    "4": "delightful:block/dd/sweet_berry_cookie"
+  }
+}

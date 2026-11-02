@@ -16,7 +16,7 @@ separate add-on mods (decided 2 Nov 2026): everything is always on.
 | cratedelight | 43 | 0 | github.com/axperty/cratedelight (branch 26.2-neoforge) |
 | storagedelight | 169 | 0 | github.com/axperty/storagedelight (branch 1.21.11-neoforge) |
 
-**Merged total:** 372 blocks, 312 items, 920 recipes. See `mods/delightful/MERGE-REPORT.md`.
+**Merged total:** 475 blocks, 312 items, 1023 recipes. See `mods/delightful/MERGE-REPORT.md`.
 
 ### Merging rules
 
@@ -53,6 +53,9 @@ separate add-on mods (decided 2 Nov 2026): everything is always on.
 - **Feasts and pies (needs the Roast mod):** 11 feast blocks and 11 pies are Roast definitions: servings taken with a bowl, pies eaten in
   bites or sliced with a knife (`#c:tools/knife`). Pumpkin pie is one of them, so **Pumpkin Pie Delight is already covered** (Farmer's Delight 1.3 itself
   makes pumpkin pie placeable and sliceable).
+- **Display Delight's 3D placeable foods (104 blocks, needs Roast):** sneak + right-click a food to set it down as its own 3D model; finger foods (cookies, rolls)
+  stack up to 6 on a plate; empty hand takes one, sneaking takes all; breaking drops the food. Carried from https://github.com/jkvin114/display-delight-neoforge
+  (LGPL-3.0, see CREDITS.md) by `tools/carry_dd.py`.
 - **A generic plate** (`delightful:plate`, Roast display): places **any item** on it and shows it, which gives Display-Delight-style placing for
   every food without a model per food. Craft 3 white terracotta in a row for 3 plates.
 - **Wild crops** generate in the world (15 features, rewritten as plain data; **untested**, see UNSUPPORTED.md).

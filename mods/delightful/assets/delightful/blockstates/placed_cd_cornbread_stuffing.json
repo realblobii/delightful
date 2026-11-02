@@ -1,0 +1,63 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "delightful:block/dd/wood_support"
+      },
+      "when": {
+        "support": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "delightful:block/dd/cd_cornbread_stuffing"
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "north"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "delightful:block/dd/cd_cornbread_stuffing",
+        "y": 180
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "south"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "delightful:block/dd/cd_cornbread_stuffing",
+        "y": 270
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "west"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "delightful:block/dd/cd_cornbread_stuffing",
+        "y": 90
+      },
+      "when": {
+        "AND": [
+          {
+            "facing": "east"
+          }
+        ]
+      }
+    }
+  ]
+}

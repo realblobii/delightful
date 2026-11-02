@@ -1,0 +1,11 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:melon_popsicle",
+  "block": "delightful:placed_plated_melon_popsicle",
+  "top_only": true,
+  "sneak_to_place": true,
+  "take": true,
+  "stack_max": 6,
+  "stack_property": "stacks",
+  "sound": "minecraft:block.wool.place"
+}

@@ -1,0 +1,32 @@
+{
+  "template": "minecraft:white_carpet",
+  "item": false,
+  "state_properties": {
+    "facing": {
+      "type": "enum",
+      "values": [
+        "north",
+        "south",
+        "east",
+        "west"
+      ]
+    },
+    "support": {
+      "type": "boolean"
+    },
+    "stacks": {
+      "type": "enum",
+      "values": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    }
+  },
+  "default_state": {
+    "stacks": "1"
+  }
+}

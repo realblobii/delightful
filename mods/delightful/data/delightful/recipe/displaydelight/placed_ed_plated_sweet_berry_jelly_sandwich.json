@@ -1,0 +1,11 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:sweet_berry_jelly_sandwich",
+  "block": "delightful:placed_ed_plated_sweet_berry_jelly_sandwich",
+  "top_only": true,
+  "sneak_to_place": true,
+  "take": true,
+  "stack_max": 1,
+  "stack_property": "stacks",
+  "sound": "minecraft:block.wool.place"
+}

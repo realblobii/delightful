@@ -1,0 +1,11 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:chocolate_cookie",
+  "block": "delightful:placed_ed_plated_chocolate_cookie",
+  "top_only": true,
+  "sneak_to_place": true,
+  "take": true,
+  "stack_max": 6,
+  "stack_property": "stacks",
+  "sound": "minecraft:block.wool.place"
+}

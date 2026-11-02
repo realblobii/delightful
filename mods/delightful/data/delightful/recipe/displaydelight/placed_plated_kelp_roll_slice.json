@@ -1,0 +1,11 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:kelp_roll_slice",
+  "block": "delightful:placed_plated_kelp_roll_slice",
+  "top_only": true,
+  "sneak_to_place": true,
+  "take": true,
+  "stack_max": 6,
+  "stack_property": "stacks",
+  "sound": "minecraft:block.wool.place"
+}

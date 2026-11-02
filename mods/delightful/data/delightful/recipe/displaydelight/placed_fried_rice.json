@@ -1,0 +1,11 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:fried_rice",
+  "block": "delightful:placed_fried_rice",
+  "top_only": true,
+  "sneak_to_place": true,
+  "take": true,
+  "stack_max": 1,
+  "stack_property": "stacks",
+  "sound": "minecraft:block.wool.place"
+}

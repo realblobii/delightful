@@ -18,7 +18,7 @@ From the carry reports. Nothing here has been checked in the game.
 - **Stove** is declared as a furnace-template block: it smelts like a furnace. It is not FD's stove.
 - **Cutting-board chances**: results with a chance below 100% (47 across the mods) are dropped, so bonus drops are missing.
 - **Ingredients using NeoForge's `difference`** (3) are approximated by their base ingredient.
-- **Display Delight** (not copied; see SOURCES.md): Delightful has a generic plate instead of a 3D model per food, and no wandering-trader sales.
+- **Display Delight:** 104 foods carried (the foods of mods Delightful has); its blocks for 16 other mods are not. Not done: the support table under non-sturdy tops (the `support` property stays false), hiding a plate with an axe, silk-touch drops of the block, particles, wandering-trader sales, and facing the placed food toward the player (it always faces north).
 
 ## Recipes skipped
 

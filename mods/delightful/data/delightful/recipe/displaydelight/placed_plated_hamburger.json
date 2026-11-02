@@ -1,0 +1,11 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:hamburger",
+  "block": "delightful:placed_plated_hamburger",
+  "top_only": true,
+  "sneak_to_place": true,
+  "take": true,
+  "stack_max": 1,
+  "stack_property": "stacks",
+  "sound": "minecraft:block.wool.place"
+}

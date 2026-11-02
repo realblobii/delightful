@@ -1,0 +1,7 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "delightful:block/dd/cooked_rice",
+  "textures": {
+    "rice": "delightful:block/dd/ed_cinnamon_rice"
+  }
+}

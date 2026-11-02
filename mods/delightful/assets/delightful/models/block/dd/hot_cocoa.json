@@ -1,0 +1,9 @@
+{
+  "format_version": "1.9.0",
+  "credit": "Made with Blockbench",
+  "parent": "delightful:block/dd/apple_cider",
+  "render_type": "cutout",
+  "textures": {
+    "6": "delightful:block/dd/hot_cocoa"
+  }
+}

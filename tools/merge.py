@@ -15,7 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 WORK, OUT = ROOT / "work", ROOT / "mods" / "delightful"
-PRIORITY = ["farmersdelight", "rusticdelight", "expandeddelight", "corn_delight", "dumplings_delight", "cratedelight", "storagedelight"]
+PRIORITY = ["farmersdelight", "rusticdelight", "expandeddelight", "corn_delight", "dumplings_delight", "cratedelight", "storagedelight", "displaydelight"]
 NAME = "delightful"
 WORLDGEN = True   # False leaves out the wild-crop worldgen files (a bad one can stop all content from loading)
 MACHINE_FILES = {"cooking_pot", "cutting_board"}
