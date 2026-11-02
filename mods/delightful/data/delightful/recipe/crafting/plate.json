@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT"
+  ],
+  "key": {
+    "T": "minecraft:white_terracotta"
+  },
+  "result": {
+    "id": "delightful:plate",
+    "count": 3
+  }
+}

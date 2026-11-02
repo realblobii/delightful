@@ -1,0 +1,18 @@
+{
+  "template": "minecraft:glazed_terracotta",
+  "item": true,
+  "state_properties": {
+    "servings": {
+      "type": "enum",
+      "values": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "default_state": {
+    "servings": "3"
+  }
+}

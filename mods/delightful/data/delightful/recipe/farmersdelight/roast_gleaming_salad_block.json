@@ -1,0 +1,9 @@
+{
+  "type": "roast:feast",
+  "block": "delightful:gleaming_salad_block",
+  "max": 4,
+  "serving": "delightful:gleaming_salad",
+  "on_empty": "keep",
+  "sound": "minecraft:block.wood.break",
+  "container": "minecraft:bowl"
+}

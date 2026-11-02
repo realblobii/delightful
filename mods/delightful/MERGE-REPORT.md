@@ -1,11 +1,11 @@
 # Merge report
 
 - sources: farmersdelight, rusticdelight, expandeddelight, corn_delight, dumplings_delight, cratedelight, storagedelight
-- blocks: 361, items: 312
-- asset files: 4381
+- blocks: 372, items: 312
+- asset files: 4401
 - tags merged: 340
 - worldgen files: 42
-- recipes kept: 888
+- recipes kept: 920
 - duplicate recipes removed: 2
 - same-name items/blocks merged: 9
 - asset path conflicts: 13

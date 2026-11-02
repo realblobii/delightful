@@ -197,6 +197,24 @@ for s in srcs:
             continue
         rep["conflicts"].append(f"unhandled file kept out: {rel}")
 
+# ---- extras: files written by hand for Delightful itself (the generic plate), copied as they are
+EXTRAS = ROOT / "extras" / NAME
+for p in sorted(EXTRAS.rglob("*")) if EXTRAS.exists() else []:
+    if not p.is_file():
+        continue
+    rel = p.relative_to(EXTRAS).as_posix()
+    if rel == f"assets/{NAME}/lang/en_us.json":
+        for k, v in jl(p).items():
+            lang.setdefault(k, v)
+        continue
+    d = OUT / rel
+    d.parent.mkdir(parents=True, exist_ok=True)
+    d.write_bytes(p.read_bytes())
+    m = re.match(rf"data/{NAME}/horizon/(block|item)/(.+)\.json$", rel)
+    if m:
+        declared[m.group(1)][m.group(2)] = "extras"
+        tabs.setdefault(f"{NAME}:{m.group(2)}", None)
+
 # tags (merged, de-duplicated, order kept)
 for (ns, rest), vals in sorted(tags.items()):
     uniq = []

@@ -82,6 +82,45 @@ def values_of(blockstate, prop):
     return vals
 
 
+SPECIAL = {}  # block name -> {"kind": "feast"|"pie", ...} read from the Java registrations
+
+
+def parse_special_blocks(java_files):
+    """Feast and pie blocks from the Java block registrations: their serving or slice item and whether a feast leaves a dish."""
+    feast_classes = {"FeastBlock", "RotatedFeastBlock"}
+    texts = {p: p.read_text(encoding="utf-8", errors="ignore") for p in java_files}
+    for t in texts.values():
+        for m in re.finditer(r"class (\w+) extends (?:Rotated)?FeastBlock", t):
+            feast_classes.add(m.group(1))
+    # A feast subclass may name its serving in its own constructor: `super(properties, Items.X, true)`.
+    class_info = {}
+    for t in texts.values():
+        for m in re.finditer(r"class (\w+) extends (?:Rotated)?FeastBlock", t):
+            sup = re.search(r"super\(([^;]*?)\);", t[m.end():], re.S)
+            if sup:
+                item = re.search(r"\b[A-Za-z]*(?:Items?|Registry)\.([A-Z][A-Z0-9_]+)", sup.group(1))
+                if item:
+                    flag = re.search(r"\b(true|false)\b", sup.group(1)[item.end():])
+                    class_info[m.group(1)] = {"kind": "feast", "serving": item.group(1).lower(), "leftovers": (flag.group(1) == "true") if flag else True}
+    out = {}
+    for t in texts.values():
+        for stmt in t.split(";"):
+            m = re.search(r'"([a-z][a-z0-9_]*)"\s*,\s*\(\)\s*->\s*new (\w+)\(', stmt)
+            if not m:
+                continue
+            name, cls = m.group(1), m.group(2)
+            item = re.search(r"\b[A-Za-z]*(?:Items?|Registry)\.([A-Z][A-Z0-9_]+)", stmt)
+            if cls in class_info and not item:
+                out[name] = dict(class_info[cls])
+            elif cls in feast_classes and item:
+                after = stmt[item.end():]
+                flag = re.search(r"\b(true|false)\b", after)
+                out[name] = {"kind": "feast", "serving": item.group(1).lower(), "leftovers": (flag.group(1) == "true") if flag else True}
+            elif cls == "PieBlock" and item:
+                out[name] = {"kind": "pie", "slice": item.group(1).lower()}
+    return out
+
+
 def enum_prop(bs, prop):
     vals = sorted(values_of(bs, prop))
     if set(vals) <= {"true", "false"}:
@@ -102,10 +141,16 @@ def decide(name, bs):
         return "minecraft:glazed_terracotta", {}
     if props == {"moisture"}:
         return "minecraft:farmland", {}
+    sp = SPECIAL.get(name)
+    if sp and sp["kind"] == "feast" and props <= {"facing", "servings"} and "servings" in props:
+        extra = {"servings": enum_prop(bs, "servings")}
+        return ("minecraft:glazed_terracotta" if "facing" in props else "minecraft:stone"), extra
+    if sp and sp["kind"] == "pie" and props <= {"bites", "facing"} and "bites" in props:
+        return ("minecraft:glazed_terracotta" if "facing" in props else "minecraft:stone"), {"bites": enum_prop(bs, "bites")}
     if "servings" in props:
-        return None, "feast blocks (servings taken with a bowl) need behaviour Horizon's templates lack"
+        return None, "a feast block this tool could not read the serving item of"
     if props == {"bites", "facing"}:
-        return "minecraft:cake", {"facing": enum_prop(bs, "facing")}
+        return None, "a pie block this tool could not read the slice item of"
     if "age" in props and props - {"age", "half"}:
         ages = [int(a) for a in values_of(bs, "age") if a.isdigit()]
         base = CROP_BY_MAX_AGE.get(max(ages)) if ages else None
@@ -409,6 +454,8 @@ def main():
     items = OrderedDict()
     for reg in regs:
         items.update(parse_items(reg.read_text(encoding="utf-8")))
+    SPECIAL.clear()
+    SPECIAL.update(parse_special_blocks(java_files))
     consts = {}
     foods = {}
     for foods_file in [p for p in java_files if "FoodProperties" in p.read_text(encoding="utf-8", errors="ignore")]:
@@ -537,6 +584,38 @@ def main():
     for name in sorted(set(declared_items) | set(blocks_out)):
         if name in item_models:
             jdump(out / f"assets/{mid}/items/{name}.json", {"model": {"type": "minecraft:model", "model": f"{mid}:item/{name}"}})
+
+    # ---- Roast definitions for feasts and pies (the Roast mod provides the behaviour)
+    roast_defs = 0
+    for name, decl in blocks_out.items():
+        sp = SPECIAL.get(name)
+        ps = (decl.get("state_properties") or {})
+        if not sp:
+            continue
+        bs = blockstates[name]
+        if sp["kind"] == "feast" and "servings" in ps:
+            top = max(int(v) for v in values_of(bs, "servings") if v.isdigit())
+            serving_decl = declared_items.get(sp["serving"], {})
+            container = serving_decl.get("crafting_remainder")
+            d = {"type": "roast:feast", "block": f"{mid}:{name}", "max": top, "serving": f"{mid}:{sp['serving']}",
+                 "on_empty": "keep" if sp["leftovers"] else "break", "sound": "minecraft:block.wood.break"}
+            if container:
+                d["container"] = container
+            jdump(out / f"data/{mid}/recipe/roast_{name}.json", d)
+            roast_defs += 1
+            decl["default_state"] = {"servings": str(top)}
+        elif sp["kind"] == "pie" and "bites" in ps:
+            top = max(int(v) for v in values_of(bs, "bites") if v.isdigit())
+            slice_item = sp["slice"]
+            fd = (foods.get(items.get(slice_item, {}).get("food") or "", {}) or {}).get("food", {"nutrition": 3, "saturation": 0.3})
+            d = {"type": "roast:cake", "block": f"{mid}:{name}", "max": top, "nutrition": fd.get("nutrition", 3),
+                 "saturation": fd.get("saturation", 0.3), "slice_tool": "#c:tools/knife", "slice_item": f"{mid}:{slice_item}"}
+            jdump(out / f"data/{mid}/recipe/roast_{name}.json", d)
+            roast_defs += 1
+            decl["default_state"] = {"bites": "0"}
+    for name, decl in blocks_out.items():
+        jdump(out / f"data/{mid}/horizon/block/{name}.json", decl)
+    rep["roast_defs"] = roast_defs
 
     # ---- mob effects the foods use (no behaviour yet: Horizon's mob effects do nothing on their own)
     used_effects = {e["id"].split(":")[1] for f in foods.values() for e in f["effects"] if e["id"].startswith(mid + ":")}
@@ -672,7 +751,7 @@ def main():
     # ---- report
     lines = [f"# Carry report: {mid}", "", "NOTHING here has been run in Horizon.", "",
              f"- files copied: {rep['copied']}", f"- blocks declared: {len(rep['blocks'])}, left out: {len(rep['blocks_unknown'])}",
-             f"- items declared: {rep['items']}", f"- wild-crop features: {rep.get('wild_features', 0)}", f"- recipes: {dict(rep['recipes'])}",
+             f"- items declared: {rep['items']}", f"- wild-crop features: {rep.get('wild_features', 0)}", f"- Roast feast and pie definitions: {rep.get('roast_defs', 0)}", f"- recipes: {dict(rep['recipes'])}",
              f"- recipes skipped: {len(rep['recipes_skipped'])}", "", "## Not carried or approximated"]
     lines += [f"- {k}: {v}" for k, v in sorted(rep["unsupported"].items())] or ["- (none)"]
     lines += ["", "## Blocks left out"] + ([f"- {k}: {v}" for k, v in sorted(rep["blocks_unknown"].items())] or ["- (none)"])

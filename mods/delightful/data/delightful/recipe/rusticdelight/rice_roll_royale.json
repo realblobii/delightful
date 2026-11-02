@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "delightful:kelp_roll_slice",
+    "delightful:kelp_roll_slice",
+    "delightful:kelp_roll_slice",
+    "delightful:bell_pepper_roll_green",
+    "delightful:bell_pepper_roll_yellow",
+    "delightful:bell_pepper_roll_red",
+    "delightful:calamari_roll",
+    "minecraft:bowl",
+    "delightful:cherry_blossom_roll"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:rice_roll_royale"
+  }
+}

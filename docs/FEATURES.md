@@ -16,7 +16,7 @@ separate add-on mods (decided 2 Nov 2026): everything is always on.
 | cratedelight | 43 | 0 | github.com/axperty/cratedelight (branch 26.2-neoforge) |
 | storagedelight | 169 | 0 | github.com/axperty/storagedelight (branch 1.21.11-neoforge) |
 
-**Merged total:** 361 blocks, 312 items, 888 recipes. See `mods/delightful/MERGE-REPORT.md`.
+**Merged total:** 372 blocks, 312 items, 920 recipes. See `mods/delightful/MERGE-REPORT.md`.
 
 ### Merging rules
 
@@ -29,6 +29,10 @@ separate add-on mods (decided 2 Nov 2026): everything is always on.
   Dumplings recipes that became identical to Farmer's Delight's after the cabbage merge were removed; alternative recipes for one item (such as seeds from different pepper slices) are kept on purpose.
 - Tags of the same name are merged into one. One creative tab ("Delightful"). One English text file.
 - **Machine ids:** `delightful:cooking_pot` and `delightful:cutting_board` (public API for add-ons: do not rename).
+
+## Required mods
+
+**Cookpot** (cooking pot, cutting board) and **Roast** (feasts, pies, plate). Without Roast the feast blocks and plate are inert blocks.
 
 ## How things map
 
@@ -46,6 +50,11 @@ separate add-on mods (decided 2 Nov 2026): everything is always on.
 - **Creative tab** per mod, in the original's order. **Models, textures, sounds, particles, English text** copied.
 - **Loot tables** of declared blocks copied (format unchecked against 26.3).
 - **Tags** copied.
+- **Feasts and pies (needs the Roast mod):** 11 feast blocks and 11 pies are Roast definitions: servings taken with a bowl, pies eaten in
+  bites or sliced with a knife (`#c:tools/knife`). Pumpkin pie is one of them, so **Pumpkin Pie Delight is already covered** (Farmer's Delight 1.3 itself
+  makes pumpkin pie placeable and sliceable).
+- **A generic plate** (`delightful:plate`, Roast display): places **any item** on it and shows it, which gives Display-Delight-style placing for
+  every food without a model per food. Craft 3 white terracotta in a row for 3 plates.
 - **Wild crops** generate in the world (15 features, rewritten as plain data; **untested**, see UNSUPPORTED.md).
 
 ## Rebuilding

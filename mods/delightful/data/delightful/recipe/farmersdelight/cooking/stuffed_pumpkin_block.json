@@ -1,0 +1,33 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "delightful:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:crops/rice"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "tag": "c:crops/potato"
+    },
+    {
+      "tag": "c:foods/berry"
+    },
+    {
+      "tag": "c:foods/vegetable"
+    }
+  ],
+  "results": [
+    {
+      "id": "delightful:stuffed_pumpkin_block",
+      "count": 1
+    }
+  ],
+  "experience": 2.0,
+  "time": 400,
+  "container": "minecraft:pumpkin"
+}

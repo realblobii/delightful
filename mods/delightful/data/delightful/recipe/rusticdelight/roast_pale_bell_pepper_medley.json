@@ -1,0 +1,8 @@
+{
+  "type": "roast:feast",
+  "block": "delightful:pale_bell_pepper_medley",
+  "max": 3,
+  "serving": "delightful:stuffed_bell_pepper_orange",
+  "on_empty": "keep",
+  "sound": "minecraft:block.wood.break"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "delightful:stuffed_bell_pepper_green",
+    "delightful:stuffed_bell_pepper_yellow",
+    "delightful:stuffed_bell_pepper_red",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:bell_pepper_medley"
+  }
+}

@@ -13,7 +13,7 @@ First increment generated (2 Nov 2026): one merged content mod, `delightful`, fr
 ## Requirements
 
 - Horizon (a nightly that matches the Cookpot pin).
-- [Cookpot](https://github.com/realblobii/cookpot), installed as a native mod.
+- [Cookpot](https://github.com/realblobii/cookpot) and [Roast](https://github.com/realblobii/roast), installed as native mods.
 
 ## Docs
 

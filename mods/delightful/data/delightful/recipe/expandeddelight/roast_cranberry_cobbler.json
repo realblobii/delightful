@@ -1,0 +1,9 @@
+{
+  "type": "roast:cake",
+  "block": "delightful:cranberry_cobbler",
+  "max": 3,
+  "nutrition": 3,
+  "saturation": 0.3,
+  "slice_tool": "#c:tools/knife",
+  "slice_item": "delightful:cranberry_cobbler_slice"
+}

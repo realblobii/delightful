@@ -1,0 +1,8 @@
+{
+  "type": "roast:feast",
+  "block": "delightful:rice_roll_medley_block",
+  "max": 8,
+  "serving": "delightful:salmon_roll",
+  "on_empty": "keep",
+  "sound": "minecraft:block.wood.break"
+}

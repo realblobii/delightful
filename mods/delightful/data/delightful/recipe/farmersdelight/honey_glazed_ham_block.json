@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:sweet_berries",
+    "minecraft:honey_bottle",
+    "minecraft:sweet_berries",
+    "minecraft:sweet_berries",
+    "delightful:smoked_ham",
+    "minecraft:sweet_berries",
+    "delightful:cooked_rice",
+    "minecraft:bowl",
+    "delightful:cooked_rice"
+  ],
+  "result": {
+    "count": 1,
+    "id": "delightful:honey_glazed_ham_block"
+  }
+}

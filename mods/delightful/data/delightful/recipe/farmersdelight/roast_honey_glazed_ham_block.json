@@ -1,0 +1,9 @@
+{
+  "type": "roast:feast",
+  "block": "delightful:honey_glazed_ham_block",
+  "max": 4,
+  "serving": "delightful:honey_glazed_ham",
+  "on_empty": "keep",
+  "sound": "minecraft:block.wood.break",
+  "container": "minecraft:bowl"
+}

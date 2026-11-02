@@ -1,0 +1,9 @@
+{
+  "type": "roast:cake",
+  "block": "delightful:apple_pie",
+  "max": 3,
+  "nutrition": 3,
+  "saturation": 1.8,
+  "slice_tool": "#c:tools/knife",
+  "slice_item": "delightful:apple_pie_slice"
+}

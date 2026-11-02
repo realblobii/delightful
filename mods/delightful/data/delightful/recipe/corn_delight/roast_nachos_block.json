@@ -1,0 +1,8 @@
+{
+  "type": "roast:feast",
+  "block": "delightful:nachos_block",
+  "max": 4,
+  "serving": "delightful:nachos",
+  "on_empty": "keep",
+  "sound": "minecraft:block.wood.break"
+}

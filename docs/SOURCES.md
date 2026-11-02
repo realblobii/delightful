@@ -27,3 +27,11 @@ Verified means a page for that project said so while this list was made (2 Nov 2
 ## Related
 
 - Delight Lib (a library by the Crate/Storage Delight author): https://modrinth.com/mod/delight-lib
+
+## Added 2 Nov 2026: Display Delight and Pumpkin Pie Delight
+
+| Mod | Finding |
+|---|---|
+| Display Delight (3D placeable foods) | **No source repository found** (searched; only CurseForge and Modrinth pages). Licence **LGPL-3.0-or-later** on Modrinth (one mirror says MIT); its 3D models are partly derived from third-party resource packs ("Farmer's 3D" by Pder, "MB-3D Items") of unknown licence. **Not copied.** Its behaviour (placing, stacking finger foods, sneak-place, take one or all) is covered by Roast's `placeable` and `display` kinds; Delightful gets a generic plate instead of per-food models. If you send the repo and accept LGPL for those files, the models can be carried. |
+| Pumpkin Pie Delight | **LGPL-3.0-only**, no repository found. **Redundant**: Farmer's Delight (1.3) already makes pumpkin pie placeable and sliceable, and Delightful's pumpkin pie is a Roast cake with knife slicing. Nothing copied. |
+| "Display Delight compatibility from the other mods" | Rustic Delight's `coaster` models are made for Brewin' And Chewin's coaster block (left out). Not carried. Roast's display plate shows those foods as items instead. |

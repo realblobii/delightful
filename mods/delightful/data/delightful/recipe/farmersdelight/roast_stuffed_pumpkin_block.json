@@ -1,0 +1,9 @@
+{
+  "type": "roast:feast",
+  "block": "delightful:stuffed_pumpkin_block",
+  "max": 4,
+  "serving": "delightful:stuffed_pumpkin",
+  "on_empty": "break",
+  "sound": "minecraft:block.wood.break",
+  "container": "minecraft:bowl"
+}

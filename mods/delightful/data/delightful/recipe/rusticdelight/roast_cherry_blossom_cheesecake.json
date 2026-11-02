@@ -1,0 +1,9 @@
+{
+  "type": "roast:cake",
+  "block": "delightful:cherry_blossom_cheesecake",
+  "max": 3,
+  "nutrition": 3,
+  "saturation": 0.3,
+  "slice_tool": "#c:tools/knife",
+  "slice_item": "delightful:cherry_blossom_cheesecake_slice"
+}

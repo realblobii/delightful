@@ -7,7 +7,7 @@ From the carry reports. Nothing here has been checked in the game.
 | Reason | Blocks |
 |---|---|
 | Signs need a text-editing block entity (canvas, hanging, wall) | 72 |
-| Feast blocks (servings taken with a bowl): Horizon's templates have no such behaviour | 22 |
+| Feast blocks this tool could not read a serving item from (Rustic pancakes, Corn's popcorn box, dumpling medley) | 9 |
 | Model files absent from the source repository | 2 |
 | No template fits: tatami mats (3), rope, skillet, rich-soil compost, tomato vine variants, Expanded Delight pieces | about 12 |
 
@@ -18,7 +18,7 @@ From the carry reports. Nothing here has been checked in the game.
 - **Stove** is declared as a furnace-template block: it smelts like a furnace. It is not FD's stove.
 - **Cutting-board chances**: results with a chance below 100% (47 across the mods) are dropped, so bonus drops are missing.
 - **Ingredients using NeoForge's `difference`** (3) are approximated by their base ingredient.
-- **Pies** are cake-template blocks with a `facing` property.
+- **Display Delight** (not copied; see SOURCES.md): Delightful has a generic plate instead of a 3D model per food, and no wandering-trader sales.
 
 ## Recipes skipped
 

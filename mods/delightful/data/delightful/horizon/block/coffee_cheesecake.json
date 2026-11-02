@@ -1,15 +1,18 @@
 {
-  "template": "minecraft:cake",
+  "template": "minecraft:glazed_terracotta",
   "item": true,
   "state_properties": {
-    "facing": {
+    "bites": {
       "type": "enum",
       "values": [
-        "east",
-        "north",
-        "south",
-        "west"
+        "0",
+        "1",
+        "2",
+        "3"
       ]
     }
+  },
+  "default_state": {
+    "bites": "0"
   }
 }

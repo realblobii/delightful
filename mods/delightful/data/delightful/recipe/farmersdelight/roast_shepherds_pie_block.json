@@ -1,0 +1,9 @@
+{
+  "type": "roast:feast",
+  "block": "delightful:shepherds_pie_block",
+  "max": 4,
+  "serving": "delightful:shepherds_pie",
+  "on_empty": "keep",
+  "sound": "minecraft:block.wood.break",
+  "container": "minecraft:bowl"
+}

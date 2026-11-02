@@ -1,0 +1,9 @@
+{
+  "type": "roast:cake",
+  "block": "delightful:honeyed_goat_cheese_tart",
+  "max": 3,
+  "nutrition": 3,
+  "saturation": 0.3,
+  "slice_tool": "#c:tools/knife",
+  "slice_item": "delightful:honeyed_goat_cheese_tart_slice"
+}
