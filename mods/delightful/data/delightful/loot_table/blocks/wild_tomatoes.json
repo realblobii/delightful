@@ -6,14 +6,17 @@
       "conditions": [
         {
           "chance": 0.2,
-          "condition": "minecraft:random_chance"
+          "condition": "minecraft:random_chance",
+          "type": "minecraft:random_chance"
         },
         {
           "condition": "minecraft:inverted",
           "term": {
             "ability": "shears_harvest",
-            "condition": "neoforge:can_item_perform_ability"
-          }
+            "condition": "neoforge:can_item_perform_ability",
+            "type": "neoforge:can_item_perform_ability"
+          },
+          "type": "minecraft:inverted"
         }
       ],
       "entries": [
@@ -35,7 +38,8 @@
               "conditions": [
                 {
                   "ability": "shears_harvest",
-                  "condition": "neoforge:can_item_perform_ability"
+                  "condition": "neoforge:can_item_perform_ability",
+                  "type": "neoforge:can_item_perform_ability"
                 }
               ],
               "name": "delightful:wild_tomatoes"

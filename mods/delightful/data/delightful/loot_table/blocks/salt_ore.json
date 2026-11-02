@@ -23,7 +23,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "type": "minecraft:match_tool"
                 }
               ],
               "name": "delightful:salt_ore"

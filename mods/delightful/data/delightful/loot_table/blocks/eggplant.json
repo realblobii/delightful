@@ -16,7 +16,8 @@
           "block": "delightful:eggplant",
           "properties": {
             "age": "7"
-          }
+          },
+          "type": "minecraft:block_state_property"
         }
       ],
       "functions": [

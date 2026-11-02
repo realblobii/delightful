@@ -5,6 +5,7 @@
 - asset files: 4773
 - tags merged: 340
 - worldgen files: 42
+- loot tables given a type key: 382
 - recipes kept: 1023
 - duplicate recipes removed: 2
 - same-name items/blocks merged: 9

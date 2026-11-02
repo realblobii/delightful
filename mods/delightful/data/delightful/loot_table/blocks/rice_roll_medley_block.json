@@ -9,7 +9,8 @@
           "condition": "minecraft:block_state_property",
           "properties": {
             "servings": "8"
-          }
+          },
+          "type": "minecraft:block_state_property"
         }
       ],
       "entries": [
@@ -30,8 +31,10 @@
             "condition": "minecraft:block_state_property",
             "properties": {
               "servings": "8"
-            }
-          }
+            },
+            "type": "minecraft:block_state_property"
+          },
+          "type": "minecraft:inverted"
         }
       ],
       "entries": [

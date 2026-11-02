@@ -9,7 +9,8 @@
           "condition": "minecraft:block_state_property",
           "properties": {
             "half": "lower"
-          }
+          },
+          "type": "minecraft:block_state_property"
         },
         {
           "condition": "minecraft:location_check",
@@ -21,7 +22,8 @@
                 "half": "upper"
               }
             }
-          }
+          },
+          "type": "minecraft:location_check"
         }
       ],
       "entries": [
@@ -33,7 +35,8 @@
               "conditions": [
                 {
                   "ability": "shears_harvest",
-                  "condition": "neoforge:can_item_perform_ability"
+                  "condition": "neoforge:can_item_perform_ability",
+                  "type": "neoforge:can_item_perform_ability"
                 }
               ],
               "name": "delightful:wild_rice"
@@ -42,7 +45,8 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "condition": "minecraft:survives_explosion"
+                  "condition": "minecraft:survives_explosion",
+                  "type": "minecraft:survives_explosion"
                 }
               ],
               "name": "delightful:rice"
@@ -60,7 +64,8 @@
           "condition": "minecraft:block_state_property",
           "properties": {
             "half": "upper"
-          }
+          },
+          "type": "minecraft:block_state_property"
         },
         {
           "condition": "minecraft:location_check",
@@ -72,7 +77,8 @@
                 "half": "lower"
               }
             }
-          }
+          },
+          "type": "minecraft:location_check"
         }
       ],
       "entries": [
@@ -84,7 +90,8 @@
               "conditions": [
                 {
                   "ability": "shears_harvest",
-                  "condition": "neoforge:can_item_perform_ability"
+                  "condition": "neoforge:can_item_perform_ability",
+                  "type": "neoforge:can_item_perform_ability"
                 }
               ],
               "name": "delightful:wild_rice"
@@ -93,7 +100,8 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "condition": "minecraft:survives_explosion"
+                  "condition": "minecraft:survives_explosion",
+                  "type": "minecraft:survives_explosion"
                 }
               ],
               "name": "delightful:rice"

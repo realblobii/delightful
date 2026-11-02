@@ -16,7 +16,8 @@
                   "block": "delightful:fennel",
                   "properties": {
                     "age": "7"
-                  }
+                  },
+                  "type": "minecraft:block_state_property"
                 }
               ],
               "name": "delightful:fennel"
@@ -55,7 +56,8 @@
           "block": "delightful:fennel",
           "properties": {
             "age": "7"
-          }
+          },
+          "type": "minecraft:block_state_property"
         }
       ]
     }

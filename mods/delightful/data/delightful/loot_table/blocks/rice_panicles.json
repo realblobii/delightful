@@ -15,13 +15,15 @@
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "3"
-                  }
+                  },
+                  "type": "minecraft:block_state_property"
                 },
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
                     "items": "#delightful:tools/knives"
-                  }
+                  },
+                  "type": "minecraft:match_tool"
                 }
               ],
               "name": "delightful:rice"
@@ -34,7 +36,8 @@
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "3"
-                  }
+                  },
+                  "type": "minecraft:block_state_property"
                 }
               ],
               "name": "delightful:rice_panicle"

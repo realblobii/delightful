@@ -15,7 +15,8 @@
                   "terms": [
                     {
                       "ability": "shears_dig",
-                      "condition": "neoforge:can_item_perform_ability"
+                      "condition": "neoforge:can_item_perform_ability",
+                      "type": "neoforge:can_item_perform_ability"
                     },
                     {
                       "condition": "minecraft:match_tool",
@@ -30,9 +31,11 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "type": "minecraft:match_tool"
                     }
-                  ]
+                  ],
+                  "type": "minecraft:any_of"
                 }
               ],
               "name": "delightful:wild_chili_pepper"

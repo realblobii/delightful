@@ -14,7 +14,8 @@
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "3"
-          }
+          },
+          "type": "minecraft:block_state_property"
         }
       ],
       "entries": [
@@ -52,7 +53,8 @@
           "condition": "minecraft:block_state_property",
           "properties": {
             "ropelogged": "false"
-          }
+          },
+          "type": "minecraft:block_state_property"
         }
       ],
       "entries": [
@@ -71,11 +73,13 @@
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "3"
-          }
+          },
+          "type": "minecraft:block_state_property"
         },
         {
           "chance": 0.05,
-          "condition": "minecraft:random_chance"
+          "condition": "minecraft:random_chance",
+          "type": "minecraft:random_chance"
         }
       ],
       "entries": [

@@ -16,7 +16,8 @@
                   "block": "delightful:placed_cd_plated_classic_corn_dog",
                   "properties": {
                     "stacks": "6"
-                  }
+                  },
+                  "type": "minecraft:block_state_property"
                 }
               ],
               "functions": [
@@ -35,7 +36,8 @@
                   "block": "delightful:placed_cd_plated_classic_corn_dog",
                   "properties": {
                     "stacks": "5"
-                  }
+                  },
+                  "type": "minecraft:block_state_property"
                 }
               ],
               "functions": [
@@ -54,7 +56,8 @@
                   "block": "delightful:placed_cd_plated_classic_corn_dog",
                   "properties": {
                     "stacks": "4"
-                  }
+                  },
+                  "type": "minecraft:block_state_property"
                 }
               ],
               "functions": [
@@ -73,7 +76,8 @@
                   "block": "delightful:placed_cd_plated_classic_corn_dog",
                   "properties": {
                     "stacks": "3"
-                  }
+                  },
+                  "type": "minecraft:block_state_property"
                 }
               ],
               "functions": [
@@ -92,7 +96,8 @@
                   "block": "delightful:placed_cd_plated_classic_corn_dog",
                   "properties": {
                     "stacks": "2"
-                  }
+                  },
+                  "type": "minecraft:block_state_property"
                 }
               ],
               "functions": [
@@ -111,7 +116,8 @@
                   "block": "delightful:placed_cd_plated_classic_corn_dog",
                   "properties": {
                     "stacks": "1"
-                  }
+                  },
+                  "type": "minecraft:block_state_property"
                 }
               ],
               "functions": [

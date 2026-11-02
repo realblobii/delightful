@@ -12,7 +12,8 @@
               "conditions": [
                 {
                   "ability": "shears_harvest",
-                  "condition": "neoforge:can_item_perform_ability"
+                  "condition": "neoforge:can_item_perform_ability",
+                  "type": "neoforge:can_item_perform_ability"
                 }
               ],
               "name": "delightful:wild_onions"
@@ -46,8 +47,10 @@
           "condition": "minecraft:inverted",
           "term": {
             "ability": "shears_harvest",
-            "condition": "neoforge:can_item_perform_ability"
-          }
+            "condition": "neoforge:can_item_perform_ability",
+            "type": "neoforge:can_item_perform_ability"
+          },
+          "type": "minecraft:inverted"
         }
       ],
       "entries": [

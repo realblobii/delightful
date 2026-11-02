@@ -14,7 +14,8 @@
           "condition": "minecraft:block_state_property",
           "properties": {
             "bites": "0"
-          }
+          },
+          "type": "minecraft:block_state_property"
         }
       ],
       "entries": [

@@ -48,6 +48,7 @@ source of truth. Nothing in Cookpot has been run in the game yet; say so wheneve
   `https://github.com/horizon-rust/horizon`.
 - When docs and source disagree, the source at the pinned commit wins.
 - Never claim something works unless it was run in the game. State what is untested.
+- Loot tables: Horizon reads a condition's kind from `type` (unknown = false); `tools/merge.py` adds it next to `condition`. Block loot is `<ns>:blocks/<name>`.
 - Content is read once at game start: JSON changes need a game restart, not a rebuild.
 - Block templates for machines must have a block entity (barrel, chest, furnace).
 

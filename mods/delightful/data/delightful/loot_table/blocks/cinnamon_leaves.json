@@ -17,7 +17,8 @@
                       "condition": "minecraft:match_tool",
                       "predicate": {
                         "items": "minecraft:shears"
-                      }
+                      },
+                      "type": "minecraft:match_tool"
                     },
                     {
                       "condition": "minecraft:match_tool",
@@ -32,9 +33,11 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "type": "minecraft:match_tool"
                     }
-                  ]
+                  ],
+                  "type": "minecraft:any_of"
                 }
               ],
               "name": "delightful:cinnamon_leaves"
@@ -43,7 +46,8 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "condition": "minecraft:survives_explosion"
+                  "condition": "minecraft:survives_explosion",
+                  "type": "minecraft:survives_explosion"
                 },
                 {
                   "chances": [
@@ -53,7 +57,8 @@
                     0.45
                   ],
                   "condition": "minecraft:table_bonus",
-                  "enchantment": "minecraft:fortune"
+                  "enchantment": "minecraft:fortune",
+                  "type": "minecraft:table_bonus"
                 }
               ],
               "name": "delightful:cinnamon_sapling"
@@ -75,7 +80,8 @@
                 "condition": "minecraft:match_tool",
                 "predicate": {
                   "items": "minecraft:shears"
-                }
+                },
+                "type": "minecraft:match_tool"
               },
               {
                 "condition": "minecraft:match_tool",
@@ -90,10 +96,13 @@
                       }
                     ]
                   }
-                }
+                },
+                "type": "minecraft:match_tool"
               }
-            ]
-          }
+            ],
+            "type": "minecraft:any_of"
+          },
+          "type": "minecraft:inverted"
         }
       ],
       "entries": [
@@ -109,7 +118,8 @@
                 0.1
               ],
               "condition": "minecraft:table_bonus",
-              "enchantment": "minecraft:fortune"
+              "enchantment": "minecraft:fortune",
+              "type": "minecraft:table_bonus"
             }
           ],
           "functions": [

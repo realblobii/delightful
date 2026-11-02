@@ -5,7 +5,8 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "condition": "minecraft:survives_explosion"
+          "condition": "minecraft:survives_explosion",
+          "type": "minecraft:survives_explosion"
         }
       ],
       "entries": [
@@ -17,7 +18,8 @@
               "condition": "minecraft:block_state_property",
               "properties": {
                 "half": "lower"
-              }
+              },
+              "type": "minecraft:block_state_property"
             }
           ],
           "name": "delightful:cinnamon_door"

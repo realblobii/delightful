@@ -16,7 +16,8 @@
               "condition": "minecraft:match_tool",
               "predicate": {
                 "items": "minecraft:shears"
-              }
+              },
+              "type": "minecraft:match_tool"
             },
             {
               "condition": "minecraft:match_tool",
@@ -31,9 +32,11 @@
                     }
                   ]
                 }
-              }
+              },
+              "type": "minecraft:match_tool"
             }
-          ]
+          ],
+          "type": "minecraft:any_of"
         }
       ],
       "entries": [
@@ -56,7 +59,8 @@
                 "condition": "minecraft:match_tool",
                 "predicate": {
                   "items": "minecraft:shears"
-                }
+                },
+                "type": "minecraft:match_tool"
               },
               {
                 "condition": "minecraft:match_tool",
@@ -71,10 +75,13 @@
                       }
                     ]
                   }
-                }
+                },
+                "type": "minecraft:match_tool"
               }
-            ]
-          }
+            ],
+            "type": "minecraft:any_of"
+          },
+          "type": "minecraft:inverted"
         }
       ],
       "entries": [
@@ -110,7 +117,8 @@
                     "condition": "minecraft:match_tool",
                     "predicate": {
                       "items": "minecraft:shears"
-                    }
+                    },
+                    "type": "minecraft:match_tool"
                   },
                   {
                     "condition": "minecraft:match_tool",
@@ -125,16 +133,21 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "type": "minecraft:match_tool"
                   }
-                ]
-              }
+                ],
+                "type": "minecraft:any_of"
+              },
+              "type": "minecraft:inverted"
             },
             {
               "chance": 0.3,
-              "condition": "minecraft:random_chance"
+              "condition": "minecraft:random_chance",
+              "type": "minecraft:random_chance"
             }
-          ]
+          ],
+          "type": "minecraft:all_of"
         }
       ],
       "entries": [

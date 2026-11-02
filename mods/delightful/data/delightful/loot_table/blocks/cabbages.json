@@ -20,7 +20,8 @@
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "7"
-                  }
+                  },
+                  "type": "minecraft:block_state_property"
                 }
               ],
               "name": "delightful:cabbage"
@@ -42,7 +43,8 @@
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "7"
-          }
+          },
+          "type": "minecraft:block_state_property"
         }
       ],
       "entries": [

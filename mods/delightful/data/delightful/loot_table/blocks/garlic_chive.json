@@ -16,7 +16,8 @@
                   "block": "delightful:garlic_chive",
                   "properties": {
                     "age": "7"
-                  }
+                  },
+                  "type": "minecraft:block_state_property"
                 }
               ],
               "name": "delightful:garlic_chive"
@@ -44,7 +45,8 @@
                   "block": "delightful:garlic_chive",
                   "properties": {
                     "age": "6"
-                  }
+                  },
+                  "type": "minecraft:block_state_property"
                 }
               ],
               "name": "delightful:garlic_chive"
@@ -68,7 +70,8 @@
                   "block": "delightful:garlic_chive",
                   "properties": {
                     "age": "5"
-                  }
+                  },
+                  "type": "minecraft:block_state_property"
                 }
               ],
               "name": "delightful:garlic_chive"
@@ -103,7 +106,8 @@
           "block": "delightful:garlic_chive",
           "properties": {
             "age": "7"
-          }
+          },
+          "type": "minecraft:block_state_property"
         }
       ]
     }
