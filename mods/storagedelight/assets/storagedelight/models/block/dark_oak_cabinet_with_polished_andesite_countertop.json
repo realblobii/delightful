@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "down": "storagedelight:block/dark_oak_cabinet_side",
+    "east": "storagedelight:block/dark_oak_cabinet_with_polished_andesite_countertop_side",
+    "north": "storagedelight:block/dark_oak_cabinet_with_polished_andesite_countertop_front",
+    "south": "storagedelight:block/dark_oak_cabinet_with_polished_andesite_countertop_side",
+    "up": "minecraft:block/polished_andesite",
+    "west": "storagedelight:block/dark_oak_cabinet_with_polished_andesite_countertop_side",
+    "particle": "storagedelight:block/dark_oak_cabinet_with_polished_andesite_countertop_front"
+  }
+}

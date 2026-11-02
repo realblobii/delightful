@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "C C",
+    "BBB"
+  ],
+  "key": {
+    "A": "minecraft:polished_andesite_slab",
+    "B": "minecraft:pale_oak_slab",
+    "C": "minecraft:pale_oak_trapdoor"
+  },
+  "result": {
+    "id": "storagedelight:pale_oak_cabinet_with_polished_andesite_countertop"
+  }
+}

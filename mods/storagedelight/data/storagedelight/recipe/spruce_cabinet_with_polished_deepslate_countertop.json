@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "C C",
+    "BBB"
+  ],
+  "key": {
+    "A": "minecraft:polished_deepslate_slab",
+    "B": "minecraft:spruce_slab",
+    "C": "minecraft:spruce_trapdoor"
+  },
+  "result": {
+    "id": "storagedelight:spruce_cabinet_with_polished_deepslate_countertop"
+  }
+}

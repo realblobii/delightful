@@ -38,12 +38,12 @@ CROP_BY_MAX_AGE = {3: "minecraft:beetroots", 7: "minecraft:wheat"}
 
 # The machines Cookpot provides for Farmer's Delight (see docs/FEATURES.md). Their blocks use the furnace as template
 # because it has a block entity and a horizontal `facing`.
-INCLUDED = {"farmersdelight", "expandeddelight", "corn_delight", "rusticdelight"}
+INCLUDED = {"farmersdelight", "expandeddelight", "corn_delight", "rusticdelight", "cratedelight", "storagedelight", "dumplings_delight"}
 MACHINE_BLOCKS = {"cooking_pot": "farmersdelight:cooking_pot", "cutting_board": "farmersdelight:cutting_board"}
 
 
 def jload(p):
-    return json.loads(Path(p).read_text(encoding="utf-8"))
+    return json.loads(Path(p).read_text(encoding="utf-8-sig"))
 
 
 def jdump(p, v):
@@ -94,7 +94,7 @@ def decide(name, bs):
     props = props_of(bs)
     if "sign" in name:
         return None, "signs need a text-editing block entity"
-    if name.endswith("_cabinet") or name.endswith("_basket") or name == "rice_bale":
+    if name.endswith("_cabinet") or name.endswith("_basket") or name == "rice_bale" or props == {"facing", "open"}:
         return "minecraft:barrel", {}
     if props == {"half"}:
         return "minecraft:tall_grass", {}
@@ -336,7 +336,10 @@ def main():
     def copy(rel, dest=None):
         d = out / (dest or rel)
         d.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(files[rel], d)
+        data = files[rel].read_bytes()
+        if rel.endswith(".json") and data.startswith(b"\xef\xbb\xbf"):
+            data = data[3:]  # a byte-order mark would stop some JSON readers
+        d.write_bytes(data)
         rep["copied"] += 1
 
     # ---- assets: models, textures, blockstates, particles, sounds, English text
@@ -378,10 +381,12 @@ def main():
     for name, decl in blocks_out.items():
         jdump(out / f"data/{mid}/horizon/block/{name}.json", decl)
     # Cabinets become barrels, which can face up and down.
-    for name in blocks_out:
-        if name.endswith("_cabinet"):
+    for name, decl in blocks_out.items():
+        if decl["template"] == "minecraft:barrel":
             p = out / f"assets/{mid}/blockstates/{name}.json"
-            jdump(p, augment_facing(jload(p)))
+            bs = jload(p)
+            if "facing=north" in "".join(bs.get("variants", {})) and not values_of(bs, "facing") & {"up", "down"}:
+                jdump(p, augment_facing(bs))
     # Assets of blocks that were left out are not shipped.
     for name in block_names - set(blocks_out):
         for sub in (f"assets/{mid}/blockstates/{name}.json",):

@@ -1,0 +1,8 @@
+id = "dumplings_delight"
+name = "dumplings_delight (Delightful carry)"
+version = "0.1.0"
+description = "Carried from dumplings_delight's MIT-licensed source by Delightful's tools/carry.py. Not run in Horizon yet."
+authors = ["Delightful"]
+api = "0.2"
+side = "both"
+capabilities = ["registries"]

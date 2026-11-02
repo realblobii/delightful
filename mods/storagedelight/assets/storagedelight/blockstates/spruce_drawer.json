@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "facing=north,open=false": {
+      "model": "storagedelight:block/spruce_drawer"
+    },
+    "facing=east,open=false": {
+      "model": "storagedelight:block/spruce_drawer",
+      "y": 90
+    },
+    "facing=south,open=false": {
+      "model": "storagedelight:block/spruce_drawer",
+      "y": 180
+    },
+    "facing=west,open=false": {
+      "model": "storagedelight:block/spruce_drawer",
+      "y": 270
+    },
+    "facing=north,open=true": {
+      "model": "storagedelight:block/spruce_drawer_open"
+    },
+    "facing=east,open=true": {
+      "model": "storagedelight:block/spruce_drawer_open",
+      "y": 90
+    },
+    "facing=south,open=true": {
+      "model": "storagedelight:block/spruce_drawer_open",
+      "y": 180
+    },
+    "facing=west,open=true": {
+      "model": "storagedelight:block/spruce_drawer_open",
+      "y": 270
+    },
+    "facing=up,open=false": {
+      "model": "storagedelight:block/spruce_drawer",
+      "x": 270
+    },
+    "facing=down,open=false": {
+      "model": "storagedelight:block/spruce_drawer",
+      "x": 90
+    },
+    "facing=up,open=true": {
+      "model": "storagedelight:block/spruce_drawer_open",
+      "x": 270
+    },
+    "facing=down,open=true": {
+      "model": "storagedelight:block/spruce_drawer_open",
+      "x": 90
+    }
+  }
+}

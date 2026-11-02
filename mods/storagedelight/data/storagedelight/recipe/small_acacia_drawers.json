@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:acacia_slab",
+    "B": "minecraft:acacia_trapdoor"
+  },
+  "result": {
+    "id": "storagedelight:small_acacia_drawers"
+  }
+}

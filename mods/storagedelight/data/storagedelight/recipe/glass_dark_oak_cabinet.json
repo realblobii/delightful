@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "TGT",
+    "SSS"
+  ],
+  "key": {
+    "S": "minecraft:dark_oak_slab",
+    "T": "minecraft:dark_oak_trapdoor",
+    "G": "#c:glass_panes"
+  },
+  "result": {
+    "id": "storagedelight:glass_dark_oak_cabinet"
+  }
+}

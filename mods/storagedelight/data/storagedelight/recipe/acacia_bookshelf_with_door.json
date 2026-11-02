@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BAC",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:acacia_slab",
+    "B": "minecraft:acacia_trapdoor",
+    "C": "minecraft:bookshelf"
+  },
+  "result": {
+    "id": "storagedelight:acacia_bookshelf_with_door"
+  }
+}

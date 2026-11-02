@@ -8,7 +8,7 @@ Delightful is **content (`.hmod`) with no code**, Its machines (the cooking pot 
 
 ## Status
 
-First increment generated (2 Nov 2026): four content mods (Farmer's Delight, Rustic, Expanded and Corn Delight). **Nothing has been run in Horizon yet.**
+First increment generated (2 Nov 2026): seven content mods (Farmer's Delight, Rustic, Expanded, Corn, Crate, Storage and Dumplings Delight). **Nothing has been run in Horizon yet.**
 
 ## Requirements
 

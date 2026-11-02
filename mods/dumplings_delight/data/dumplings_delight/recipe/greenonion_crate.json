@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "dumplings_delight:greenonion"
+  },
+  "result": {
+    "count": 1,
+    "id": "dumplings_delight:greenonion_crate"
+  }
+}

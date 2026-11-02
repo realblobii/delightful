@@ -1,0 +1,26 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/dough"
+    },
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "results": [
+    {
+      "id": "dumplings_delight:dandelion_leaf_boiled_dumpling",
+      "count": 2
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

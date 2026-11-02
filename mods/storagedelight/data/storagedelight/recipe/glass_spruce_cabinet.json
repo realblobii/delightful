@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "TGT",
+    "SSS"
+  ],
+  "key": {
+    "S": "minecraft:spruce_slab",
+    "T": "minecraft:spruce_trapdoor",
+    "G": "#c:glass_panes"
+  },
+  "result": {
+    "id": "storagedelight:glass_spruce_cabinet"
+  }
+}

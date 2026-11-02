@@ -9,6 +9,9 @@ Expect kinks. Counts are from each mod's `CARRY-REPORT.md` in `mods/<id>/`.
 | `rusticdelight` | 44 | 108 | 176 | 32 | 48 | github.com/PhantomWing/RusticDelight (MIT) |
 | `expandeddelight` | 41 (2 removed) | 61 | 57 | 17 | 17 | github.com/ianm1647/expandeddelight (MIT) |
 | `corn_delight` | 4 | 21 | 23 | 9 | 4 | github.com/0999312/Corn-Delight, branch 1.21 (MIT) |
+| `cratedelight` | 43 (1 removed) | 0 (all block items) | 63 | | | github.com/axperty/cratedelight, branch 26.2-neoforge (MIT) |
+| `storagedelight` | 169 (1 removed) | 0 (all block items) | 168 | | | github.com/axperty/storagedelight, branch 1.21.11-neoforge (MIT) |
+| `dumplings_delight` | 14 | 32 | 17 | 22 | 2 | github.com/Joshcraft2002/Dumplings-Delight-Rewrapped (MIT; the port of Dumpling's Delight) |
 
 Brewin' And Chewin' is **removed for now** (its keg needs fluids, which Cookpot lacks). Each is a separate content mod whose id is the original's namespace, so recipes and models that name another mod's
 (`farmersdelight:...`) still resolve. Install `farmersdelight` first; the add-ons need it.
@@ -46,5 +49,6 @@ python3 tools/package_mods.py            # dist/*.hmod
 
 ## Not built yet
 
-Crate Delight, Storage Delight and Dumpling Delight: **their source repositories were not found** (see SOURCES.md), so there
-is nothing to carry from. Send the repo links or the jars and they join.
+Nothing from the agreed list is missing except Brewin' And Chewin' (removed for now). Storage Delight's cabinets, drawers and
+bookshelves are all `minecraft:barrel` blocks (27 slots each, one vanilla menu); the originals' drawer-specific slot counts are
+not reproduced.

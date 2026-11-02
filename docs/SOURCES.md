@@ -14,13 +14,13 @@ Verified means a page for that project said so while this list was made (2 Nov 2
 | 4 | Expanded Delight | https://github.com/ianm1647/expandeddelight | MIT | Verified (Modrinth page). |
 | 5 | Corn Delight | https://github.com/0999312/Corn-Delight | MIT | Verified (Modrinth page). A separate Fabric edition exists (also listed MIT). |
 | 6 | Fruits Delight **(LEFT OUT)** | not found | unknown | **Repo and licence unverified.** CurseForge page: https://www.curseforge.com/minecraft/mc-mods/fruits-delight |
-| 7 | Crate Delight | not found | MIT (Modrinth page) | Licence listed; repo not found. https://modrinth.com/mod/crate-delight |
-| 8 | Dumpling Delight | not found (original is 1.16.5 and discontinued). Port: Dumplings Delight Rewrapped | MIT (port's listing) | Repo unverified. Port: https://modrinth.com/mod/dumplings-delight-rewrapped |
+| 7 | Crate Delight | https://github.com/axperty/cratedelight | MIT (LICENSE file, Axperty) | Verified. Used: branch 26.2-neoforge. |
+| 8 | Dumpling Delight | https://github.com/Joshcraft2002/Dumplings-Delight-Rewrapped (a port of the 1.16.5 original by FoggyHillside) | MIT (LICENSE file, FoggyHillside) | Verified. The port is what we use. |
 | 9 | Gensokyo Delight ~ Youkais' Feasts **(LEFT OUT)** | not found | unknown | **Assumed to be what "Genskoyo Delight" means: confirm.** https://www.curseforge.com/minecraft/mc-mods/gensokyo-delight-youkais-feasts |
 | 10 | Coffee Delight **(LEFT OUT)** | not found | custom "Pineapple License" | **Custom licence: read it before any reuse.** https://www.curseforge.com/minecraft/mc-mods/coffee-delight |
 | 11 | Cocktails Delight **(LEFT OUT)** | https://github.com/DraconicArcher/CocktailsDelight (inferred from a wiki link) | **All Rights Reserved** (Modrinth) | Do not reuse assets without the author's permission. |
 | 12 | Cultural Delights **(LEFT OUT)** | https://github.com/Baisylia/Cultural-Delights-1.19.2 | **All Rights Reserved** (Modrinth) | Do not reuse assets without permission. A Fabric port lists MIT but is a different upload: do not rely on it. |
-| 13 | Storage Delight | not found | MIT (Modrinth page) | Licence listed; repo not found. https://modrinth.com/mod/storage-delight |
+| 13 | Storage Delight | https://github.com/axperty/storagedelight | MIT (LICENSE file, Axperty) | Verified. Used: branch 1.21.11-neoforge. |
 
 "Corn Delight" was listed twice in the request; it appears once here.
 

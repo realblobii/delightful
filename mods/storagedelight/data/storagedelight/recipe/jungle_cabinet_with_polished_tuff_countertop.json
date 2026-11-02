@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "C C",
+    "BBB"
+  ],
+  "key": {
+    "A": "minecraft:polished_tuff_slab",
+    "B": "minecraft:jungle_slab",
+    "C": "minecraft:jungle_trapdoor"
+  },
+  "result": {
+    "id": "storagedelight:jungle_cabinet_with_polished_tuff_countertop"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "dumplings_delight:chinese_cabbage"
+    }
+  ],
+  "results": [
+    {
+      "id": "dumplings_delight:chinese_cabbage_leaf",
+      "count": 3
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "C C",
+    "BBB"
+  ],
+  "key": {
+    "A": "minecraft:polished_andesite_slab",
+    "B": "minecraft:warped_slab",
+    "C": "minecraft:warped_trapdoor"
+  },
+  "result": {
+    "id": "storagedelight:warped_cabinet_with_polished_andesite_countertop"
+  }
+}

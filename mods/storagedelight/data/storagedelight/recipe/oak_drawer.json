@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BBB",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:oak_slab",
+    "B": "minecraft:oak_trapdoor"
+  },
+  "result": {
+    "id": "storagedelight:oak_drawer"
+  }
+}

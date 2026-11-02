@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:mangrove_slab",
+    "B": "minecraft:mangrove_trapdoor"
+  },
+  "result": {
+    "id": "storagedelight:small_mangrove_drawers"
+  }
+}

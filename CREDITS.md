@@ -9,6 +9,9 @@ mod folder holds its own copy. Textures, models, sounds, text and recipes come f
 | Rustic Delight | PhantomWing | https://github.com/PhantomWing/RusticDelight |
 | Expanded Delight | ianm1647 | https://github.com/ianm1647/expandeddelight |
 | Corn Delight | Zheng Syameimaru | https://github.com/0999312/Corn-Delight |
+| Crate Delight | Axperty | https://github.com/axperty/cratedelight |
+| Storage Delight | Axperty | https://github.com/axperty/storagedelight |
+| Dumplings Delight (Rewrapped port) | FoggyHillside (original); port by Joshcraft2002 | https://github.com/Joshcraft2002/Dumplings-Delight-Rewrapped |
 
 **To confirm:** the repositories carry an MIT licence for the code. None stated a separate licence for artwork, but a mod's
 art may still belong to its artists: if an author objects, the content is removed. Expanded Delight ships no

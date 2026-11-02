@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "C C",
+    "BBB"
+  ],
+  "key": {
+    "A": "minecraft:polished_tuff_slab",
+    "B": "minecraft:mangrove_slab",
+    "C": "minecraft:mangrove_trapdoor"
+  },
+  "result": {
+    "id": "storagedelight:mangrove_cabinet_with_polished_tuff_countertop"
+  }
+}

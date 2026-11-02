@@ -1,0 +1,26 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/dough"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "tag": "c:crops/greenonion"
+    }
+  ],
+  "results": [
+    {
+      "id": "dumplings_delight:fungus_boiled_dumpling",
+      "count": 2
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

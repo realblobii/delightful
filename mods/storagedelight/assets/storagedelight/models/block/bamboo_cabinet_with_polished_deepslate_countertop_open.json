@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "down": "storagedelight:block/bamboo_cabinet_side",
+    "east": "storagedelight:block/bamboo_cabinet_with_polished_deepslate_countertop_side",
+    "north": "storagedelight:block/bamboo_cabinet_with_polished_deepslate_countertop_front_open",
+    "south": "storagedelight:block/bamboo_cabinet_with_polished_deepslate_countertop_side",
+    "up": "minecraft:block/polished_deepslate",
+    "west": "storagedelight:block/bamboo_cabinet_with_polished_deepslate_countertop_side",
+    "particle": "storagedelight:block/bamboo_cabinet_with_polished_deepslate_countertop_front_open"
+  }
+}

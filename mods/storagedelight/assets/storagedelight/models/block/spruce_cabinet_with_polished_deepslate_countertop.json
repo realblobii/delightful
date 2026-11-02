@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "down": "storagedelight:block/spruce_cabinet_side",
+    "east": "storagedelight:block/spruce_cabinet_with_polished_deepslate_countertop_side",
+    "north": "storagedelight:block/spruce_cabinet_with_polished_deepslate_countertop_front",
+    "south": "storagedelight:block/spruce_cabinet_with_polished_deepslate_countertop_side",
+    "up": "minecraft:block/polished_deepslate",
+    "west": "storagedelight:block/spruce_cabinet_with_polished_deepslate_countertop_side",
+    "particle": "storagedelight:block/spruce_cabinet_with_polished_deepslate_countertop_front"
+  }
+}

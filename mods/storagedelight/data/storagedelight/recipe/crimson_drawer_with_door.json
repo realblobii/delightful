@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "BBB",
+    "ABA"
+  ],
+  "key": {
+    "A": "minecraft:crimson_slab",
+    "B": "minecraft:crimson_trapdoor"
+  },
+  "result": {
+    "id": "storagedelight:crimson_drawer_with_door"
+  }
+}

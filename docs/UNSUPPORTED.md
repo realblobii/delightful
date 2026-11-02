@@ -36,5 +36,5 @@ From the carry reports. Nothing here has been checked in the game.
   the whole content load, so it is left for a later pass. Wild crops therefore do not generate.
 - **Advancements, enchantments, damage types**, JEI/EMI/Create integrations.
 - **Brewin' And Chewin'** (removed for now; its keg needs fluids) and **Fruits, Coffee, Cocktails, Cultural and Gensokyo Delight** (left out by decision).
-- **Crate, Storage and Dumpling Delight**: sources not found.
+- **Storage Delight's per-block container sizes** and its cabinet screens: all its blocks are plain barrels.
 - **Skillet and campfire cooking on a stove**, **the picnic basket's behaviour**, **canvas rugs and signs**.
