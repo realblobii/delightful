@@ -14,7 +14,7 @@
           "type": "minecraft:apply_effects",
           "effects": [
             {
-              "id": "minecraft:dig_speed",
+              "id": "minecraft:haste",
               "duration": 600,
               "amplifier": 0
             }

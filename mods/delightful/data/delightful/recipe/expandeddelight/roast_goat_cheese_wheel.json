@@ -2,8 +2,8 @@
   "type": "roast:cake",
   "block": "delightful:goat_cheese_wheel",
   "max": 3,
-  "nutrition": 3,
-  "saturation": 0.3,
+  "nutrition": 2,
+  "saturation": 0.8,
   "slice_tool": "#c:tools/knife",
   "slice_item": "delightful:goat_cheese_slice"
 }

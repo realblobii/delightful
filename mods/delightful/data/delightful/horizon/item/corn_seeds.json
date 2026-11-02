@@ -1,3 +1,14 @@
 {
-  "template": "minecraft:stick"
+  "template": "minecraft:bread",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 1,
+      "saturation": 0.4
+    },
+    "minecraft:consumable": {
+      "consume_seconds": 1.6,
+      "animation": "eat",
+      "sound": "minecraft:entity.generic.eat"
+    }
+  }
 }

@@ -15,12 +15,12 @@
           "type": "minecraft:apply_effects",
           "effects": [
             {
-              "id": "minecraft:movement_speed",
+              "id": "minecraft:speed",
               "duration": 900,
               "amplifier": 0
             },
             {
-              "id": "minecraft:dig_speed",
+              "id": "minecraft:haste",
               "duration": 900,
               "amplifier": 0
             }

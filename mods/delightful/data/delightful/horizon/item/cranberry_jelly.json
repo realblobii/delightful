@@ -1,3 +1,28 @@
 {
-  "template": "minecraft:stick"
+  "template": "minecraft:bread",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 3,
+      "saturation": 3.6
+    },
+    "minecraft:consumable": {
+      "consume_seconds": 1.6,
+      "animation": "eat",
+      "sound": "minecraft:entity.generic.eat",
+      "on_consume_effects": [
+        {
+          "type": "minecraft:apply_effects",
+          "effects": [
+            {
+              "id": "minecraft:absorption",
+              "duration": 400,
+              "amplifier": 0
+            }
+          ],
+          "probability": 0.0
+        }
+      ]
+    },
+    "minecraft:max_stack_size": 16
+  }
 }

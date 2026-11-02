@@ -6,7 +6,7 @@
 - tags merged: 340
 - worldgen files: 42
 - loot tables given a type key: 382
-- recipes kept: 1023
+- recipes kept: 1020
 - duplicate recipes removed: 2
 - same-name items/blocks merged: 9
 - asset path conflicts: 13

@@ -1,4 +1,18 @@
 {
-  "template": "minecraft:stick",
+  "template": "minecraft:bread",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 7,
+      "saturation": 7.0
+    },
+    "minecraft:consumable": {
+      "consume_seconds": 1.6,
+      "animation": "eat",
+      "sound": "minecraft:entity.generic.eat"
+    },
+    "minecraft:use_remainder": {
+      "id": "minecraft:bowl"
+    }
+  },
   "crafting_remainder": "minecraft:bowl"
 }

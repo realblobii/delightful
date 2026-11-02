@@ -1,4 +1,31 @@
 {
-  "template": "minecraft:stick",
-  "crafting_remainder": "minecraft:glass_bottle"
+  "template": "minecraft:bread",
+  "components": {
+    "minecraft:food": {
+      "nutrition": 1,
+      "saturation": 2.4
+    },
+    "minecraft:consumable": {
+      "consume_seconds": 1.6,
+      "animation": "drink",
+      "sound": "minecraft:entity.generic.drink",
+      "on_consume_effects": [
+        {
+          "type": "minecraft:apply_effects",
+          "effects": [
+            {
+              "id": "minecraft:absorption",
+              "duration": 200,
+              "amplifier": 0
+            }
+          ],
+          "probability": 0.0
+        }
+      ]
+    },
+    "minecraft:use_remainder": {
+      "id": "minecraft:glass_bottle"
+    },
+    "minecraft:max_stack_size": 16
+  }
 }

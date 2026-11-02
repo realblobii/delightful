@@ -14,7 +14,7 @@
           "type": "minecraft:apply_effects",
           "effects": [
             {
-              "id": "minecraft:confusion",
+              "id": "minecraft:nausea",
               "duration": 400,
               "amplifier": 0
             }

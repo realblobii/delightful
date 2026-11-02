@@ -193,6 +193,17 @@ def guess_template(name, bs):
 # ---------------------------------------------------------------------------------------------------------------------
 # Items: read from the Java registrations and food values.
 # ---------------------------------------------------------------------------------------------------------------------
+# Java field names of effects that 26.3 ids spell differently.
+EFFECT_IDS = {"movement_speed": "speed", "movement_slowdown": "slowness", "dig_speed": "haste", "dig_slowdown": "mining_fatigue",
+              "confusion": "nausea", "jump": "jump_boost", "damage_boost": "strength", "damage_resistance": "resistance",
+              "heal": "instant_health", "harm": "instant_damage"}
+
+
+def effect_id(java_name):
+    n = java_name.lower()
+    return "minecraft:" + EFFECT_IDS.get(n, n)
+
+
 def parse_foods(java_text, consts):
     foods = {}
     for m in re.finditer(r"public static final FoodProperties (\w+)\s*=(.*?);\s*(?=\n\s*(?:public|//|/\*|\}|$))", java_text, re.S):
@@ -214,7 +225,7 @@ def body_to_food(body, consts):
             inst = re.search(r"MobEffects\.(\w+)\s*,\s*([\w.]+)\s*(?:,\s*(\d+))?", expr)
             mod = re.search(r"(nourishment|comfort)\(\s*(\w+|\d+)\s*\)", expr)
             if inst:
-                effects.append({"id": "minecraft:" + inst.group(1).lower(), "duration": consts.get(inst.group(2), int(inst.group(2)) if inst.group(2).isdigit() else 600),
+                effects.append({"id": effect_id(inst.group(1)), "duration": consts.get(inst.group(2), int(inst.group(2)) if inst.group(2).isdigit() else 600),
                                 "amplifier": int(inst.group(3) or 0), "chance": chance})
             elif mod:
                 d = mod.group(2)
@@ -233,6 +244,30 @@ def consumable(entry, drink):
     return c
 
 
+# Expanded Delight builds foods with helper functions (EDItems.stewItem and so on); each adds fixed effects.
+HELPER_EFFECTS = {"stewItem": ("farmersdelight:comfort", 2400), "mealItem": ("farmersdelight:nourishment", 3600),
+                  "saladItem": ("minecraft:regeneration", 100), "jellyItem": (None, 400), "drinkItem": (None, 200),
+                  "pieSliceItem": ("minecraft:speed", 600)}
+
+
+def HELPER_FOODS(m):
+    """A builder body (as body_to_food reads it) for `foodItem(n, s)`, `stewItem(n, s)`, `drinkItem(n, s, EFFECT)` ..."""
+    kind, n, sat, eff = m.group(1), m.group(2), m.group(3), m.group(4)
+    body = f".nutrition({n}).saturationModifier({sat})"
+    fx, ticks = HELPER_EFFECTS.get(kind, (None, 0))
+    if kind in ("drinkItem", "jellyItem") and eff:
+        fx = "minecraft:" + eff.lower()
+    if kind == "pieSliceItem":
+        body += ".fast()"
+    if fx:
+        ns, nm = fx.split(":")
+        if ns == "minecraft":
+            body += f".effect(() -> new MobEffectInstance(MobEffects.{nm.upper()}, {ticks}, 0), 1.0f)"
+        else:
+            body += f".effect(() -> ModEffects.{nm}({ticks}), 1.0f)"
+    return body
+
+
 def parse_items(java_text):
     """Item registrations by statement: the first lower-case string literal is the item's name. Works for field
     initialisers, `register("name", ...)` calls and `Registry.register(..., asResource("name"), item)` alike."""
@@ -246,13 +281,20 @@ def parse_items(java_text):
         name = names[0]
         if name in items:
             continue
-        food = re.search(r"\b(?:FoodValues|\w*Foods?|\w*FoodProperties)\.(\w+)", stmt)
+        food = re.search(r"\b(?:\w*FoodValues|\w*Foods?|\w*FoodProperties)\.(\w+)", stmt)
         inline = stmt[stmt.index("nutrition("):] if "nutrition(" in stmt and not food else None
+        helper = re.search(r"\b(foodItem|stewItem|mealItem|saladItem|pieSliceItem|drinkItem|jellyItem)\(\s*(\d+)\s*,\s*([\d.]+)[fF]?\s*(?:,\s*(?:MobEffects\.)?(\w+))?\s*\)", stmt)
+        calories = re.search(r"amountAndCalories\(\s*(\d+)\s*,\s*([\d.]+)[fF]?\s*\)", stmt)
+        if helper and not inline:
+            inline, food = HELPER_FOODS(helper), None
+        elif calories and not inline:
+            inline, food = f".nutrition({calories.group(1)}).saturationModifier({calories.group(2)})", None
         stack = re.search(r"stacksTo\((\d+)\)", stmt)
         items[name] = {
             "tab": "idden" not in stmt.split("(")[0], "food": food.group(1) if food else None, "inline": inline,
-            "stack": int(stack.group(1)) if stack else None,
-            "bowl": "bowlFoodItem" in stmt or "BOWL" in stmt and "craftRemainder" in stmt,
+            "stack": int(stack.group(1)) if stack else (16 if helper and helper.group(1) in ("stewItem", "mealItem", "saladItem", "drinkItem", "jellyItem") else None),
+            "bowl": "bowlFoodItem" in stmt or "BOWL" in stmt and "craftRemainder" in stmt
+                    or bool(helper and helper.group(1) in ("stewItem", "mealItem", "saladItem")),
             "drink": "drinkItem" in stmt or "DrinkableItem" in stmt,
             "knife": "knifeItem" in stmt or "KnifeItem" in stmt,
             "block_item": "BlockItem(" in stmt or "ModBlocks." in stmt or "Blocks." in stmt,
@@ -564,6 +606,11 @@ def main():
                 comps["minecraft:use_remainder"] = {"id": "minecraft:bowl"}
             elif it["drink"]:
                 comps["minecraft:use_remainder"] = {"id": "minecraft:glass_bottle"}
+        elif it["drink"]:
+            template = "minecraft:bread"
+            comps["minecraft:food"] = {"nutrition": 0, "saturation": 0.0, "can_always_eat": True}
+            comps["minecraft:consumable"] = consumable({"fast": False, "effects": []}, True)
+            comps["minecraft:use_remainder"] = {"id": "minecraft:glass_bottle"}
         elif it["knife"]:
             template = "minecraft:iron_sword"
             rep["unsupported"]["knife stats (a plain iron sword stands in)"] += 1

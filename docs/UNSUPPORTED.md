@@ -55,3 +55,9 @@ Placement may also fail silently if a block's template refuses to survive on the
 
 The mods add trades in Java code. Horizon's content format has no villager-trade data and the 108 native hooks include none for
 trades (checked in `native-hooks.json` at the pinned commit). Adding them needs a new hook from the Horizon project. Not done.
+
+## Foods with behaviour in Java code
+
+Foods are read from the Java food definitions (nutrition, saturation, effects, bowl or bottle left behind). Items whose extra
+behaviour lives in Java code are plain foods here: hot cocoa (cures a harmful effect), melon juice and milk bottle (always edible, no
+nutrition or effect). Expanded Delight's helper foods (stews, meals, salads, drinks, jellies, pie slices) get the helper's fixed effect.
