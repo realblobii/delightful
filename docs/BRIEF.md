@@ -5,8 +5,7 @@
 ## Goal
 
 Delightful is a Farmer's Delight-style food and farming mod for Horizon, built as **content (`.hmod`, no Rust)** on top of
-[Cookpot](https://github.com/realblobii/cookpot) (the crafting-machine library), plus **one small native mod for the
-settings menu** (see "Settings"). It reproduces the content of Farmer's Delight and 7 add-ons (`docs/SOURCES.md`) as
+[Cookpot](https://github.com/realblobii/cookpot) (the crafting-machine library), (each add-on its own mod). It reproduces the content of Farmer's Delight and its add-ons (`docs/SOURCES.md`) as
 closely as Horizon allows.
 
 ## Scope
@@ -69,7 +68,7 @@ First increment generated: see [FEATURES.md](FEATURES.md) and [UNSUPPORTED.md](U
 
 ## Next steps (original plan)
 
-1. Research the settings menu and how a disabled add-on can be hidden (see "Settings").
+1. (Done: no settings menu; add-ons are separate mods.)
 2. Research pass: what each source mod contains (blocks, items, machines, entities, worldgen) and what Horizon supports.
    Output: `docs/FEATURES.md` (what we build) and `docs/UNSUPPORTED.md` (what we drop).
 3. Cookpot changes (see above), tested by the user.
