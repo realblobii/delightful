@@ -3,12 +3,12 @@
   "machine": "delightful:cutting_board",
   "inputs": [
     {
-      "item": "delightful:chinese_cabbage"
+      "item": "delightful:cabbage"
     }
   ],
   "results": [
     {
-      "id": "delightful:chinese_cabbage_leaf",
+      "id": "delightful:cabbage_leaf",
       "count": 3
     }
   ]

@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "delightful:chinese_cabbage_leaf",
-    "delightful:chinese_cabbage_leaf",
-    "delightful:chinese_cabbage_leaf"
+    "delightful:cabbage_leaf",
+    "delightful:cabbage_leaf",
+    "delightful:cabbage_leaf"
   ],
   "result": {
     "count": 1,
-    "id": "delightful:chinese_cabbage"
+    "id": "delightful:cabbage"
   }
 }

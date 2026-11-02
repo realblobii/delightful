@@ -16,15 +16,17 @@ separate add-on mods (decided 2 Nov 2026): everything is always on.
 | cratedelight | 43 | 0 | github.com/axperty/cratedelight (branch 26.2-neoforge) |
 | storagedelight | 169 | 0 | github.com/axperty/storagedelight (branch 1.21.11-neoforge) |
 
-**Merged total:** 363 blocks, 315 items, 890 recipes. See `mods/delightful/MERGE-REPORT.md`.
+**Merged total:** 361 blocks, 312 items, 888 recipes. See `mods/delightful/MERGE-REPORT.md`.
 
 ### Merging rules
 
 - Every `<source>:name` became `delightful:name`. Two sources with the same name are **one thing**: the first in priority
   (Farmer's Delight, Rustic, Expanded, Corn, Dumplings, Crate, Storage) keeps its model, textures and loot table.
-  Merged: the beetroot, carrot and potato crates (Farmer's Delight + Crate Delight) and calamari (Rustic + Dumplings).
-- **No duplicate recipes:** recipes with the same type, inputs and results are dropped (first source wins). None were found
-  identical after merging; alternative recipes for one item (such as seeds from different pepper slices) are kept on purpose.
+  Merged by name: the beetroot, carrot and potato crates (Farmer's Delight + Crate Delight) and calamari (Rustic + Dumplings).
+  **Merged by decision: Chinese cabbage is plain cabbage** (Dumplings' Chinese cabbage, leaf, seeds, crop and crate became
+  Farmer's Delight's cabbage, cabbage leaf, cabbage seeds, cabbages and cabbage crate; its recipes now use cabbage).
+- **No duplicate recipes:** recipes with the same type, inputs and results are dropped (first source wins). Two
+  Dumplings recipes that became identical to Farmer's Delight's after the cabbage merge were removed; alternative recipes for one item (such as seeds from different pepper slices) are kept on purpose.
 - Tags of the same name are merged into one. One creative tab ("Delightful"). One English text file.
 - **Machine ids:** `delightful:cooking_pot` and `delightful:cutting_board` (public API for add-ons: do not rename).
 

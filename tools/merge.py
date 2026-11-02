@@ -18,6 +18,13 @@ WORK, OUT = ROOT / "work", ROOT / "mods" / "delightful"
 PRIORITY = ["farmersdelight", "rusticdelight", "expandeddelight", "corn_delight", "dumplings_delight", "cratedelight", "storagedelight"]
 NAME = "delightful"
 MACHINE_FILES = {"cooking_pot", "cutting_board"}
+# Things that are the same under two names: (source, name) -> the name that stays. The source's own declaration, assets and
+# loot table are dropped and every reference to it points at the kept one.
+ALIASES = {
+    "chinese_cabbages": "cabbages", "chinese_cabbage_crate": "cabbage_crate", "chinese_cabbage_leaf": "cabbage_leaf",
+    "chinese_cabbage_seeds": "cabbage_seeds", "chinese_cabbage": "cabbage",
+}
+alias_re = re.compile(r"(?<=[:/])(%s)(?![a-z0-9_])" % "|".join(sorted(map(re.escape, ALIASES), key=len, reverse=True)))
 
 
 def jl(p):
@@ -35,7 +42,7 @@ ref_re = re.compile(r"(?<![A-Za-z0-9_.])(%s):" % "|".join(map(re.escape, srcs)))
 
 
 def rw(text):
-    return ref_re.sub(NAME + ":", text)
+    return alias_re.sub(lambda m: ALIASES[m.group(1)], ref_re.sub(NAME + ":", text))
 
 
 def rw_key(k):
@@ -57,6 +64,9 @@ for s in srcs:
     for kind in declared:
         for p in sorted((WORK / s / "data" / s / "horizon" / kind).glob("*.json")) if (WORK / s / "data" / s / "horizon" / kind).exists() else []:
             n = p.stem
+            if n in ALIASES:
+                rep["dupes"].append(f"{s}:{n} ({kind}) is the same as {ALIASES[n]}")
+                continue
             owner = declared["block"].get(n) or declared["item"].get(n)
             if owner and owner != s:
                 rep["dupes"].append(f"{s}:{n} ({kind}) merged into {owner}:{n}")
@@ -104,10 +114,12 @@ for s in srcs:
             rest = m.group(1)
             name = Path(rest).stem
             # declared-duplicate block/item assets are not copied again
-            if rest.startswith(("blockstates/", "items/")) and name in dupe_by_src[s]:
+            if name in dupe_by_src[s] or any(name.startswith(a) for a in ALIASES if s == "dumplings_delight"):
                 continue
             if rest == f"lang/en_us.json":
                 for k, v in jl(p).items():
+                    if s == "dumplings_delight" and k.rsplit(".", 1)[-1] in ALIASES:
+                        continue  # text of a name that is now another item
                     lang.setdefault(rw_key(k), rw(v) if isinstance(v, str) else v)
                 continue
             if rest == "sounds.json":
@@ -157,8 +169,9 @@ for s in srcs:
         m = re.match(r"data/(%s|c|minecraft)/tags/(.+)$" % re.escape(s), rel)
         if m:
             ns = NAME if m.group(1) == s else m.group(1)
+            rest_tag = alias_re.sub(lambda mm: ALIASES[mm.group(1)], "/" + m.group(2))[1:]
             for v in jl(p).get("values", []):
-                tags[(ns, m.group(2))].append(json.loads(rw(json.dumps(v))))
+                tags[(ns, rest_tag)].append(json.loads(rw(json.dumps(v))))
             continue
         m = re.match(r"data/%s/recipe/(.+)\.json$" % re.escape(s), rel)
         if m:

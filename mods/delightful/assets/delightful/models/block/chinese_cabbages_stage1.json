@@ -1,7 +1,0 @@
-{
-  "parent": "delightful:block/template_crop_cross",
-  "render_type": "minecraft:cutout",
-  "textures": {
-    "cross": "delightful:block/chinese_cabbages_stage1"
-  }
-}
