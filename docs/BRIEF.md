@@ -27,8 +27,8 @@ reason (so the list is reviewed, not silent).
 2. **Heat:** the cooking pot (and other heated machines) are heated by a **lit campfire or lit furnace** below them, using
    Cookpot's heat-from-block rule (`heat.sources`, default offset directly below).
 3. **Cabinets, drawers, crates, shelves** are **custom chests** (container blocks with a vanilla menu), not Cookpot machines.
-4. **Cutting board** is a **Cookpot machine with a screen**, not the original place-and-click board. A **knife is its
-   infinite "fuel"**: it must be present but is not used up. **[open]** needs a small Cookpot change: see below.
+4. **Cutting board** is a **Cookpot machine with a screen** (an `instant` machine), not the original place-and-click board.
+   **No knife is needed** (decided 2 Nov 2026: the knife requirement is dropped).
 5. Machines are Cookpot machine files; recipes are Cookpot recipe files. Machine ids are public API once chosen.
 
 ## Assets and licences
@@ -57,8 +57,6 @@ pass must find one, and if there isn't, tell the user before building. Fallbacks
 
 ## Cookpot changes this needs
 
-- **Non-consumed tool slot** (for the knife): a slot role whose item must be present but is not used up, optionally taking
-  durability damage. Cookpot's fuel slot consumes its item today.
 - Possibly **fluids** for Brewin' And Chewin's keg (Horizon has a fluid container hook; not yet used by Cookpot).
 - Cabinet-style storage needs no Cookpot change.
 - Machines from toggled-off add-ons must be skippable: Cookpot would need a way to ignore a machine or recipe when its add-on
@@ -78,5 +76,5 @@ pass must find one, and if there isn't, tell the user before building. Fallbacks
 1. Research the settings menu and how a disabled add-on can be hidden (see "Settings").
 2. Research pass: what each source mod contains (blocks, items, machines, entities, worldgen) and what Horizon supports.
    Output: `docs/FEATURES.md` (what we build) and `docs/UNSUPPORTED.md` (what we drop).
-3. Cookpot changes (tool slot), tested by the user.
+3. Cookpot changes (see above), tested by the user.
 4. Build Farmer's Delight first, then each add-on in order.

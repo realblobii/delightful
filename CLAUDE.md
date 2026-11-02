@@ -21,7 +21,7 @@ Decisions already made (do not re-ask):
 - Add-ons are toggled from a real settings menu (a small native mod, all on by default). Research how disabled content can be
   hidden before building it, and tell the user if it can't be done. Features Horizon or Cookpot cannot do are removed and listed
   in `docs/UNSUPPORTED.md`. Cabinets and storage are custom chests, not machines. The cutting board is a Cookpot machine
-  with a screen and a knife as non-consumed "fuel". Pots are heated by a lit campfire or furnace below.
+  with a screen (an `instant` machine); no knife is required. Pots are heated by a lit campfire or furnace below.
 
 ## Assets and licences (important)
 
