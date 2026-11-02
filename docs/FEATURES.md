@@ -46,6 +46,7 @@ separate add-on mods (decided 2 Nov 2026): everything is always on.
 - **Creative tab** per mod, in the original's order. **Models, textures, sounds, particles, English text** copied.
 - **Loot tables** of declared blocks copied (format unchecked against 26.3).
 - **Tags** copied.
+- **Wild crops** generate in the world (15 features, rewritten as plain data; **untested**, see UNSUPPORTED.md).
 
 ## Rebuilding
 

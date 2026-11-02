@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_savanna",
+  "features": [
+    "delightful:patch_wild_peanuts"
+  ],
+  "step": "vegetal_decoration"
+}

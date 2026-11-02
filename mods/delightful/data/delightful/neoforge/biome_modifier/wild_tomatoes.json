@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_hot/overworld",
+  "features": [
+    "delightful:patch_wild_tomatoes"
+  ],
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#c:is_plains",
+  "features": [
+    "delightful:patch_wild_asparagus"
+  ],
+  "step": "vegetal_decoration"
+}

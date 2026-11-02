@@ -295,6 +295,97 @@ def result_stack(v):
 
 
 # ---------------------------------------------------------------------------------------------------------------------
+# Wild crops: the mods' own worldgen types (`farmersdelight:wild_crop`, a random patch) are Java code, so they are rewritten as
+# plain 26.3 features: a `simple_block` placed by a count of attempts, an offset and a ground test. NOT TESTED in Horizon.
+# ---------------------------------------------------------------------------------------------------------------------
+BIOME_TAGS = {  # NeoForge convention tags Horizon does not have, as vanilla biome lists (a rough mapping)
+    "is_hot/overworld": ["minecraft:desert", "minecraft:savanna", "minecraft:savanna_plateau", "minecraft:badlands", "minecraft:eroded_badlands", "minecraft:wooded_badlands", "minecraft:jungle", "minecraft:sparse_jungle", "minecraft:bamboo_jungle"],
+    "is_wet/overworld": ["minecraft:swamp", "minecraft:mangrove_swamp", "minecraft:jungle", "minecraft:bamboo_jungle", "minecraft:river", "minecraft:beach"],
+    "is_mushroom": ["minecraft:mushroom_fields"], "is_desert": ["minecraft:desert"],
+    "is_jungle": ["minecraft:jungle", "minecraft:sparse_jungle", "minecraft:bamboo_jungle"],
+    "is_plains": ["minecraft:plains", "minecraft:sunflower_plains", "minecraft:meadow"],
+    "is_savanna": ["minecraft:savanna", "minecraft:savanna_plateau", "minecraft:windswept_savanna"],
+    "is_swamp": ["minecraft:swamp", "minecraft:mangrove_swamp"],
+    "is_ocean": ["minecraft:ocean", "minecraft:deep_ocean", "minecraft:cold_ocean", "minecraft:deep_cold_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"],
+    "is_forest": ["minecraft:forest", "minecraft:flower_forest", "minecraft:birch_forest", "minecraft:old_growth_birch_forest", "minecraft:dark_forest"],
+}
+
+
+def carry_worldgen(files, mid, blocks_out, out, rep):
+    def load(prefix):
+        return {Path(r).stem: (jload(p), r) for r, p in files.items() if re.match(rf"data/{mid}/{prefix}/[^/]+\.json$", r)}
+    configured, placed, mods = load("worldgen/configured_feature"), load("worldgen/placed_feature"), load("neoforge/biome_modifier")
+    made, skipped = {}, Counter()
+    for name, (c, _) in configured.items():
+        t, conf = c.get("type", ""), c.get("config", {})
+        primary = conf.get("primary_feature") if t.endswith(":wild_crop") else conf.get("feature") if t == "minecraft:random_patch" else None
+        if not primary:
+            skipped[f"configured feature type {t}"] += 1
+            continue
+        feat = primary.get("feature", {})
+        tp = (feat.get("config") or {}).get("to_place", {})
+        state = tp.get("state") if isinstance(tp, dict) and "state" in tp else tp
+        block = state.get("Name") if isinstance(state, dict) else None
+        if feat.get("type") != "minecraft:simple_block" or not block or not block.startswith(mid + ":") or block.split(":")[1] not in blocks_out:
+            skipped["wild crop whose block is not carried or is not a simple block"] += 1
+            continue
+        predicate = next((m["predicate"] for m in primary.get("placement", []) if m.get("type") == "minecraft:block_predicate_filter"), None)
+        if predicate is None:
+            skipped["wild crop without a ground test"] += 1
+            continue
+        made[name] = {"block": block, "predicate": predicate, "tries": int(conf.get("tries", 32)),
+                      "xz": int(conf.get("xz_spread", 6)), "y": int(conf.get("y_spread", 3))}
+    wild_features = set()
+    for pname, (pf, _) in placed.items():
+        ref = pf.get("feature")
+        if not (isinstance(ref, str) and ref.startswith(mid + ":") and ref.split(":")[1] in made):
+            skipped["placed feature of something not carried"] += 1
+            continue
+        info = made[ref.split(":")[1]]
+        keep = []
+        for m in pf.get("placement", []):
+            t = m.get("type", "")
+            if t in ("minecraft:rarity_filter", "minecraft:in_square", "minecraft:heightmap"):
+                keep.append(m)
+            elif t.endswith("configurable_rarity_filter"):
+                keep.append({"type": "minecraft:rarity_filter", "chance": 30})
+        keep += [
+            {"type": "minecraft:count", "count": info["tries"]},
+            {"type": "minecraft:offset", "x": {"type": "minecraft:uniform", "min_inclusive": -info["xz"], "max_inclusive": info["xz"]},
+             "y": {"type": "minecraft:uniform", "min_inclusive": -info["y"], "max_inclusive": info["y"]},
+             "z": {"type": "minecraft:uniform", "min_inclusive": -info["xz"], "max_inclusive": info["xz"]}},
+            {"type": "minecraft:block_predicate_filter", "predicate": info["predicate"]},
+            {"type": "minecraft:biome"},
+        ]
+        jdump(out / f"data/{mid}/worldgen/configured_feature/{ref.split(':')[1]}.json", {"type": "minecraft:simple_block", "to_place": {"Name": info["block"]}})
+        jdump(out / f"data/{mid}/worldgen/placed_feature/{pname}.json", {"feature": ref, "placement": keep})
+        wild_features.add(f"{mid}:{pname}")
+    used_tags = set()
+    for mname, (m, _) in mods.items():
+        feats = m.get("features")
+        feats = [feats] if isinstance(feats, str) else (feats or [])
+        biomes = m.get("allowed_biomes") or m.get("biomes")
+        if not feats or not all(f in wild_features for f in feats) or not biomes:
+            skipped["biome modifier for something not carried"] += 1
+            continue
+        if m.get("type") not in ("neoforge:add_features", f"{mid}:add_features_by_filter", "farmersdelight:add_features_by_filter"):
+            skipped[f"biome modifier type {m.get('type')}"] += 1
+            continue
+        if isinstance(biomes, str) and biomes.startswith("#c:"):
+            used_tags.add(biomes[3:])
+        jdump(out / f"data/{mid}/neoforge/biome_modifier/{mname}.json",
+              {"type": "neoforge:add_features", "biomes": biomes, "features": feats, "step": m.get("step", "vegetal_decoration")})
+    for tag in sorted(used_tags):
+        if tag in BIOME_TAGS:
+            jdump(out / f"data/c/tags/worldgen/biome/{tag}.json", {"values": BIOME_TAGS[tag]})
+        else:
+            rep["unsupported"][f"biome tag c:{tag} has no mapping, so its modifier does nothing"] += 1
+    for k, v in skipped.items():
+        rep["unsupported"][f"worldgen: {k}"] += v
+    rep["wild_features"] = len(wild_features)
+
+
+# ---------------------------------------------------------------------------------------------------------------------
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--src", required=True, help="a source mod repository")
@@ -565,6 +656,10 @@ def main():
             "mode": "instant", "sounds": {"done": "minecraft:block.wood.hit"}, "gui": {"slots": slots}})
         jdump(out / f"data/{mid}/horizon/menu/cutting_board.json", {"slots": 1 + n, "data_slots": 0, "results": list(range(1, 1 + n))})
 
+    # ---- wild crops (worldgen)
+    carry_worldgen(files, mid, blocks_out, out, rep)
+    rep["unsupported"]["villager trades: Horizon has no hook or data format for them"] += 0
+
     # ---- manifest, licence, credits
     (out / "horizon-mod.toml").write_text(
         f'id = "{mid}"\nname = "{mid} (Delightful carry)"\nversion = "0.1.0"\n'
@@ -577,7 +672,7 @@ def main():
     # ---- report
     lines = [f"# Carry report: {mid}", "", "NOTHING here has been run in Horizon.", "",
              f"- files copied: {rep['copied']}", f"- blocks declared: {len(rep['blocks'])}, left out: {len(rep['blocks_unknown'])}",
-             f"- items declared: {rep['items']}", f"- recipes: {dict(rep['recipes'])}",
+             f"- items declared: {rep['items']}", f"- wild-crop features: {rep.get('wild_features', 0)}", f"- recipes: {dict(rep['recipes'])}",
              f"- recipes skipped: {len(rep['recipes_skipped'])}", "", "## Not carried or approximated"]
     lines += [f"- {k}: {v}" for k, v in sorted(rep["unsupported"].items())] or ["- (none)"]
     lines += ["", "## Blocks left out"] + ([f"- {k}: {v}" for k, v in sorted(rep["blocks_unknown"].items())] or ["- (none)"])

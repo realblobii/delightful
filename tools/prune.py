@@ -79,6 +79,22 @@ for mid, d in mods.items():
         if any(i and i.startswith(mid + ":") and i.split(":", 1)[1] in gone for i in ids):
             p.unlink()
             dropped.append(p.relative_to(d / "data" / mid / "recipe").as_posix())
+    # worldgen that placed a removed block
+    wg = d / "data" / mid / "worldgen"
+    dead_cfg = set()
+    for f in list((wg / "configured_feature").glob("*.json")) if (wg / "configured_feature").exists() else []:
+        blk = (jl(f) or {}).get("to_place", {}).get("Name", "")
+        if blk.startswith(mid + ":") and blk.split(":", 1)[1] in gone:
+            dead_cfg.add(f"{mid}:{f.stem}")
+            f.unlink()
+    dead_placed = set()
+    for f in list((wg / "placed_feature").glob("*.json")) if (wg / "placed_feature").exists() else []:
+        if (jl(f) or {}).get("feature") in dead_cfg:
+            dead_placed.add(f"{mid}:{f.stem}")
+            f.unlink()
+    for f in list((d / "data" / mid / "neoforge" / "biome_modifier").glob("*.json")) if (d / "data" / mid / "neoforge" / "biome_modifier").exists() else []:
+        if set((jl(f) or {}).get("features", [])) & dead_placed:
+            f.unlink()
     lines = [f"# Prune report: {mid}", "", f"- blocks removed: {len(removed)}", f"- recipes removed: {len(dropped)}", "", "## Blocks"]
     lines += [f"- {k}: {v}" for k, v in sorted(removed.items())] or ["- (none)"]
     (d / "PRUNE-REPORT.md").write_text("\n".join(lines) + "\n", encoding="utf-8")

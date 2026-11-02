@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORK, OUT = ROOT / "work", ROOT / "mods" / "delightful"
 PRIORITY = ["farmersdelight", "rusticdelight", "expandeddelight", "corn_delight", "dumplings_delight", "cratedelight", "storagedelight"]
 NAME = "delightful"
+WORLDGEN = True   # False leaves out the wild-crop worldgen files (a bad one can stop all content from loading)
 MACHINE_FILES = {"cooking_pot", "cutting_board"}
 # Things that are the same under two names: (source, name) -> the name that stays. The source's own declaration, assets and
 # loot table are dropped and every reference to it points at the kept one.
@@ -166,6 +167,15 @@ for s in srcs:
             d.parent.mkdir(parents=True, exist_ok=True)
             d.write_bytes(rw(data.decode("utf-8")).encode("utf-8"))
             continue
+        m = re.match(r"data/%s/(worldgen|neoforge)/(.+)$" % re.escape(s), rel)
+        if m and not WORLDGEN:
+            continue
+        if m:
+            d = OUT / "data" / NAME / m.group(1) / m.group(2)
+            d.parent.mkdir(parents=True, exist_ok=True)
+            d.write_bytes(rw(data.decode("utf-8")).encode("utf-8"))
+            rep["worldgen"] = rep.get("worldgen", 0) + 1
+            continue
         m = re.match(r"data/(%s|c|minecraft)/tags/(.+)$" % re.escape(s), rel)
         if m:
             ns = NAME if m.group(1) == s else m.group(1)
@@ -210,7 +220,7 @@ if sounds:
 for f in sorted((ROOT / "licenses").glob("*")):
     shutil.copyfile(f, OUT / "licenses" / f.name)
 lines = [f"# Merge report", "", f"- sources: {', '.join(srcs)}", f"- blocks: {len(declared['block'])}, items: {len(declared['item'])}",
-         f"- asset files: {rep['files']}", f"- tags merged: {rep['tags']}", f"- recipes kept: {len(recipe_sigs)}",
+         f"- asset files: {rep['files']}", f"- tags merged: {rep['tags']}", f"- worldgen files: {rep.get('worldgen', 0)}", f"- recipes kept: {len(recipe_sigs)}",
          f"- duplicate recipes removed: {len(rep['recipes_dup'])}", f"- same-name items/blocks merged: {len(rep['dupes'])}",
          f"- asset path conflicts: {len([c for c in rep['conflicts'] if c.startswith('assets')])}", "", "## Merged names"]
 lines += [f"- {x}" for x in rep["dupes"]] or ["- (none)"]

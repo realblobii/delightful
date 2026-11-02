@@ -3,7 +3,8 @@
 - sources: farmersdelight, rusticdelight, expandeddelight, corn_delight, dumplings_delight, cratedelight, storagedelight
 - blocks: 361, items: 312
 - asset files: 4381
-- tags merged: 334
+- tags merged: 340
+- worldgen files: 42
 - recipes kept: 888
 - duplicate recipes removed: 2
 - same-name items/blocks merged: 9
