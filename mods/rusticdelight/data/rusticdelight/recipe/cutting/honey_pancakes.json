@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "rusticdelight:honey_pancakes"
+    }
+  ],
+  "results": [
+    {
+      "id": "rusticdelight:honey_pancake",
+      "count": 6
+    },
+    {
+      "id": "minecraft:bowl",
+      "count": 1
+    }
+  ]
+}

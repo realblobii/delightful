@@ -1,0 +1,27 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "rusticdelight:cooking_oil"
+    },
+    {
+      "item": "rusticdelight:batter"
+    },
+    {
+      "tag": "c:foods/raw_chicken"
+    },
+    {
+      "tag": "c:foods/onion"
+    }
+  ],
+  "results": [
+    {
+      "id": "rusticdelight:fried_chicken",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

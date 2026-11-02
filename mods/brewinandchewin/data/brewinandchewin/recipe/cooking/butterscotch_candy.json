@@ -1,0 +1,24 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:drinks/milk"
+    }
+  ],
+  "results": [
+    {
+      "id": "brewinandchewin:butterscotch_candy",
+      "count": 1
+    }
+  ],
+  "experience": 0.35,
+  "time": 100,
+  "container": "minecraft:paper"
+}

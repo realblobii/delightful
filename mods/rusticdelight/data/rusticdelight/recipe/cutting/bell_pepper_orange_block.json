@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "rusticdelight:bell_pepper_orange_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "rusticdelight:bell_pepper_slice_orange",
+      "count": 9
+    }
+  ]
+}

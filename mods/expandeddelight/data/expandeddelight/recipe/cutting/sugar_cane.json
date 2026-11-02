@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:sugar_cane"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:sugar",
+      "count": 2
+    }
+  ]
+}

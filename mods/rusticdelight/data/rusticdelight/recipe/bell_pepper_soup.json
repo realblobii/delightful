@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bowl",
+    "#c:foods/bell_pepper",
+    "#c:foods/bell_pepper",
+    "#c:foods/bell_pepper",
+    "#c:foods/bell_pepper",
+    "#c:foods/bell_pepper",
+    "#c:foods/bell_pepper"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rusticdelight:bell_pepper_soup"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "template": "minecraft:wheat",
+  "item": true,
+  "state_properties": {
+    "upper": {
+      "type": "boolean"
+    }
+  }
+}

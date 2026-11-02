@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rusticdelight:cotton_boll_crate"
+  ],
+  "result": {
+    "count": 9,
+    "id": "rusticdelight:cotton_boll"
+  }
+}

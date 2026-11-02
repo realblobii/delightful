@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:foods/leafy_green",
+    "#c:foods/goat_cheese",
+    "#c:crops/beetroot",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "count": 1,
+    "id": "expandeddelight:goat_cheese_beetroot_salad"
+  }
+}

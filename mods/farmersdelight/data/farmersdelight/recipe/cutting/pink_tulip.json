@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:pink_tulip"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:pink_dye",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "farmersdelight:wild_beetroots"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:beetroot_seeds",
+      "count": 1
+    },
+    {
+      "id": "minecraft:red_dye",
+      "count": 1
+    }
+  ]
+}

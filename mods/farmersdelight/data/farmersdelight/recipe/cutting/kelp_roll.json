@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "farmersdelight:kelp_roll"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:kelp_roll_slice",
+      "count": 3
+    }
+  ]
+}

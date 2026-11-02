@@ -1,0 +1,20 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "rusticdelight:cooking_oil"
+    },
+    {
+      "tag": "c:foods/dough"
+    }
+  ],
+  "results": [
+    {
+      "id": "rusticdelight:fried_dough",
+      "count": 1
+    }
+  ],
+  "experience": 0.35,
+  "time": 100
+}

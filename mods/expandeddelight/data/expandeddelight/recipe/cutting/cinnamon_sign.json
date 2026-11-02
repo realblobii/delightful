@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "expandeddelight:cinnamon_sign"
+    }
+  ],
+  "results": [
+    {
+      "id": "expandeddelight:cinnamon_planks",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "rusticdelight:syrup_ingredients"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "id": "rusticdelight:syrup",
+      "count": 1
+    }
+  ],
+  "experience": 0.35,
+  "time": 100,
+  "container": "minecraft:glass_bottle"
+}

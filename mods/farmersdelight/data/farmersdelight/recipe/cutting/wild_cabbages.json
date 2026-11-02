@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "farmersdelight:wild_cabbages"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:cabbage_seeds",
+      "count": 1
+    }
+  ]
+}

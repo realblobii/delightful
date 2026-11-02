@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": "brewinandchewin:corn_dough",
+    "e": "#c:eggs"
+  },
+  "pattern": [
+    "ddd",
+    "ded"
+  ],
+  "result": {
+    "count": 5,
+    "id": "brewinandchewin:raw_muffin"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "template": "minecraft:cake",
+  "item": true,
+  "state_properties": {
+    "facing": {
+      "type": "enum",
+      "values": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    }
+  }
+}

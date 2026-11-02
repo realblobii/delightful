@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rusticdelight:bell_pepper_black"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:black_dye"
+  }
+}

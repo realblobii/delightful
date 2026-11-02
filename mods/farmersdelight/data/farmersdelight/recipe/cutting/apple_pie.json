@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "farmersdelight:apple_pie"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:apple_pie_slice",
+      "count": 4
+    }
+  ]
+}

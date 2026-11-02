@@ -1,0 +1,23 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "item": "corn_delight:cornbread_batter"
+    },
+    [
+      "#c:foods/cooked_chicken",
+      "#c:foods/cooked_pork",
+      "#c:foods/cooked_beef",
+      "#c:foods/cooked_mutton"
+    ]
+  ],
+  "results": [
+    {
+      "id": "corn_delight:corn_dog",
+      "count": 1
+    }
+  ],
+  "experience": 0.5,
+  "time": 100
+}

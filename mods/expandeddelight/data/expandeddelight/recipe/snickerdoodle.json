@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": "#c:crops/wheat",
+    "w": "expandeddelight:cinnamon"
+  },
+  "pattern": [
+    "cwc"
+  ],
+  "result": {
+    "count": 8,
+    "id": "expandeddelight:snickerdoodle"
+  }
+}

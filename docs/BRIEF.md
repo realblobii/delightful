@@ -71,7 +71,11 @@ pass must find one, and if there isn't, tell the user before building. Fallbacks
 - Getting the assets means reading each mod's repo or jar. The development container can reach GitHub but not most other
   sites, so jars from CurseForge or Modrinth may need to be supplied by the user.
 
-## Next steps
+## Status (2 Nov 2026)
+
+Research and a first increment are done: see [FEATURES.md](FEATURES.md), [UNSUPPORTED.md](UNSUPPORTED.md) and [SETTINGS.md](SETTINGS.md). The toggle decision became: OFF removes the add-on's items from inventories and does not unload content; hiding from the creative menu is not possible with Horizon's current hooks.
+
+## Next steps (original plan)
 
 1. Research the settings menu and how a disabled add-on can be hidden (see "Settings").
 2. Research pass: what each source mod contains (blocks, items, machines, entities, worldgen) and what Horizon supports.

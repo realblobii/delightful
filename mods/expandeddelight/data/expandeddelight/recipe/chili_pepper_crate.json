@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "expandeddelight:chili_pepper",
+    "expandeddelight:chili_pepper",
+    "expandeddelight:chili_pepper",
+    "expandeddelight:chili_pepper",
+    "expandeddelight:chili_pepper",
+    "expandeddelight:chili_pepper",
+    "expandeddelight:chili_pepper",
+    "expandeddelight:chili_pepper",
+    "expandeddelight:chili_pepper"
+  ],
+  "result": {
+    "count": 1,
+    "id": "expandeddelight:chili_pepper_crate"
+  }
+}

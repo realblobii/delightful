@@ -1,0 +1,26 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "rusticdelight:cooking_oil"
+    },
+    {
+      "tag": "c:foods/dough"
+    },
+    {
+      "tag": "c:foods/leafy_green"
+    },
+    {
+      "tag": "rusticdelight:spring_roll_ingredients"
+    }
+  ],
+  "results": [
+    {
+      "id": "rusticdelight:spring_rolls",
+      "count": 2
+    }
+  ],
+  "experience": 1.0,
+  "time": 100
+}

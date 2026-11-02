@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:chest_minecart"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:minecart",
+      "count": 1
+    },
+    {
+      "id": "minecraft:chest",
+      "count": 1
+    }
+  ]
+}

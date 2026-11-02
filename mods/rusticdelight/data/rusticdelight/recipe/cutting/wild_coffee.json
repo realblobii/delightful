@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "rusticdelight:wild_coffee"
+    }
+  ],
+  "results": [
+    {
+      "id": "rusticdelight:coffee_beans",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:cherry_wood"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:stripped_cherry_wood",
+      "count": 1
+    },
+    {
+      "id": "farmersdelight:tree_bark",
+      "count": 1
+    }
+  ]
+}

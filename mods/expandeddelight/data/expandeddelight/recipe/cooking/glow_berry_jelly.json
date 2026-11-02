@@ -1,0 +1,24 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "id": "expandeddelight:glow_berry_jelly",
+      "count": 1
+    }
+  ],
+  "experience": 0.35,
+  "time": 200,
+  "container": "expandeddelight:glass_jar"
+}

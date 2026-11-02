@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "brewinandchewin:rich_chocolate_cake"
+    }
+  ],
+  "results": [
+    {
+      "id": "brewinandchewin:slice_of_rich_chocolate_cake",
+      "count": 6
+    }
+  ]
+}

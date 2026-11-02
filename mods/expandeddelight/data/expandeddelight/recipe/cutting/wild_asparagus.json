@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "expandeddelight:wild_asparagus"
+    }
+  ],
+  "results": [
+    {
+      "id": "expandeddelight:asparagus",
+      "count": 1
+    }
+  ]
+}

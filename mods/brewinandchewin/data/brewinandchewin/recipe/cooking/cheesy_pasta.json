@@ -1,0 +1,27 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "item": "brewinandchewin:flaxen_cheese_wedge"
+    },
+    {
+      "tag": "c:foods/pasta"
+    },
+    {
+      "tag": "c:foods/tomato"
+    },
+    {
+      "tag": "c:foods/safe_raw_fish"
+    }
+  ],
+  "results": [
+    {
+      "id": "brewinandchewin:cheesy_pasta",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

@@ -1,0 +1,13 @@
+{
+  "template": "minecraft:beetroots",
+  "item": true,
+  "state_properties": {
+    "axis": {
+      "type": "enum",
+      "values": [
+        "x",
+        "z"
+      ]
+    }
+  }
+}

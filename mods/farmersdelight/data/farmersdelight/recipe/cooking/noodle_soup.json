@@ -1,0 +1,26 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/pasta"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "tag": "c:foods/raw_pork"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:noodle_soup",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

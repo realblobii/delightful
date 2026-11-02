@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "farmersdelight:bamboo_basket"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:canvas",
+      "count": 1
+    },
+    {
+      "id": "minecraft:bamboo",
+      "count": 1
+    }
+  ]
+}

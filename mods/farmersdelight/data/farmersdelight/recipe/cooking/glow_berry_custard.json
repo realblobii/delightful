@@ -1,0 +1,26 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "tag": "c:drinks/milk"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:glow_berry_custard",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

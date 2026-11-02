@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:porkchop"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:bacon",
+      "count": 2
+    }
+  ]
+}

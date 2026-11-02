@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:crimson_hyphae"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:stripped_crimson_hyphae",
+      "count": 1
+    },
+    {
+      "id": "farmersdelight:tree_bark",
+      "count": 1
+    }
+  ]
+}

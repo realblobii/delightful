@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:cooked_chicken"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:cooked_chicken_cuts",
+      "count": 2
+    },
+    {
+      "id": "minecraft:bone_meal",
+      "count": 1
+    }
+  ]
+}

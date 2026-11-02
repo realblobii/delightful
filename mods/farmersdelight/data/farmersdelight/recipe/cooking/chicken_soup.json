@@ -1,0 +1,26 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/raw_chicken"
+    },
+    {
+      "tag": "c:crops/carrot"
+    },
+    {
+      "tag": "c:foods/leafy_green"
+    },
+    {
+      "tag": "c:foods/vegetable"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:chicken_soup",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

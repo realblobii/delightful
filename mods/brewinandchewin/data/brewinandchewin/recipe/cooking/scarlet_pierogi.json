@@ -1,0 +1,30 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "item": "brewinandchewin:scarlet_cheese_wedge"
+    },
+    {
+      "tag": "c:crops/potato"
+    },
+    {
+      "tag": "c:foods/dough"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "tag": "c:foods/cabbage"
+    }
+  ],
+  "results": [
+    {
+      "id": "brewinandchewin:scarlet_pierogi",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

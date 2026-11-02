@@ -1,0 +1,23 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "rusticdelight:cooking_oil"
+    },
+    {
+      "item": "rusticdelight:batter"
+    },
+    {
+      "tag": "c:foods/safe_raw_fish"
+    }
+  ],
+  "results": [
+    {
+      "id": "rusticdelight:fried_fish",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 100
+}

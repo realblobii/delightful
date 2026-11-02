@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:beef"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:minced_beef",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "brewinandchewin:pumpkin_roll"
+    }
+  ],
+  "results": [
+    {
+      "id": "brewinandchewin:slice_of_pumpkin_roll",
+      "count": 6
+    }
+  ]
+}

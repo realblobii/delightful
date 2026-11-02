@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "fd_cabinet",
+  "key": {
+    "i": "expandeddelight:cinnamon_planks",
+    "t": "expandeddelight:cinnamon_trapdoor"
+  },
+  "pattern": [
+    "iii",
+    "t t",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "id": "expandeddelight:cinnamon_cabinet"
+  }
+}

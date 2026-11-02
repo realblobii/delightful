@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:pumpkin_pie"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:pumpkin_pie_slice",
+      "count": 4
+    }
+  ]
+}

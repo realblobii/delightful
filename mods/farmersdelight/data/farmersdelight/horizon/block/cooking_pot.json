@@ -1,0 +1,17 @@
+{
+  "template": "minecraft:furnace",
+  "item": true,
+  "state_properties": {
+    "support": {
+      "type": "enum",
+      "values": [
+        "none",
+        "tray",
+        "handle"
+      ]
+    }
+  },
+  "components": {
+    "minecraft:max_stack_size": 1
+  }
+}

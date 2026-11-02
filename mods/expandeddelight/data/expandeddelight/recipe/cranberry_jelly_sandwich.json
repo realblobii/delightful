@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bread",
+    "expandeddelight:peanut_butter",
+    "#c:jams/cranberry"
+  ],
+  "result": {
+    "count": 1,
+    "id": "expandeddelight:cranberry_jelly_sandwich"
+  }
+}

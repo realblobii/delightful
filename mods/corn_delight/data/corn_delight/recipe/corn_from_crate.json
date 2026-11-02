@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "corn_delight:corn_crate"
+  ],
+  "result": {
+    "id": "corn_delight:corn",
+    "count": 9
+  }
+}

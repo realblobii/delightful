@@ -8,7 +8,7 @@ Delightful is **content (`.hmod`) with no code**, plus a small native mod for it
 
 ## Status
 
-Planning. This repository holds the brief and instructions only; nothing is built, and nothing has been run in the game.
+First increment generated (2 Nov 2026): five content mods and an add-on settings page. **Nothing has been run in Horizon yet.**
 
 ## Requirements
 
@@ -16,6 +16,8 @@ Planning. This repository holds the brief and instructions only; nothing is buil
 - [Cookpot](https://github.com/realblobii/cookpot), installed as a native mod.
 
 ## Docs
+
+- [What is built](docs/FEATURES.md), [what was left out](docs/UNSUPPORTED.md), [add-on settings](docs/SETTINGS.md), [credits](CREDITS.md).
 
 - [Project brief](docs/BRIEF.md): scope, decisions, and the open questions.
 - [Source mods](docs/SOURCES.md): the 13 mods considered, their repositories and licences (five are left out).

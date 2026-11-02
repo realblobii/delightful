@@ -1,0 +1,32 @@
+{
+  "variants": {
+    "age=0,axis=x": {
+      "model": "brewinandchewin:block/grape_stem_base_white_0"
+    },
+    "age=0,axis=z": {
+      "model": "brewinandchewin:block/grape_stem_base_white_0",
+      "y": 90
+    },
+    "age=1,axis=x": {
+      "model": "brewinandchewin:block/grape_stem_base_white_1"
+    },
+    "age=1,axis=z": {
+      "model": "brewinandchewin:block/grape_stem_base_white_1",
+      "y": 90
+    },
+    "age=2,axis=x": {
+      "model": "brewinandchewin:block/grape_stem_base_white_2"
+    },
+    "age=2,axis=z": {
+      "model": "brewinandchewin:block/grape_stem_base_white_2",
+      "y": 90
+    },
+    "age=3,axis=x": {
+      "model": "brewinandchewin:block/grape_stem_base_white_3"
+    },
+    "age=3,axis=z": {
+      "model": "brewinandchewin:block/grape_stem_base_white_3",
+      "y": 90
+    }
+  }
+}

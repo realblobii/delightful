@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:bucket",
+    "b": "minecraft:barrel",
+    "i": "#c:ingots/iron",
+    "w": "#minecraft:planks"
+  },
+  "pattern": [
+    "iwi",
+    "bBb",
+    "iwi"
+  ],
+  "result": {
+    "count": 1,
+    "id": "expandeddelight:cask"
+  }
+}

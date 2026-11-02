@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:foods/milk",
+    "#c:foods/dough",
+    "#c:dusts/cinnamon",
+    "minecraft:sugar"
+  ],
+  "result": {
+    "count": 1,
+    "id": "expandeddelight:sweet_roll"
+  }
+}

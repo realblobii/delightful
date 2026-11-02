@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:cornflower"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:blue_dye",
+      "count": 2
+    }
+  ]
+}

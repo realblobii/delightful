@@ -1,0 +1,24 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "item": "brewinandchewin:cornmeal"
+    },
+    {
+      "item": "brewinandchewin:cornmeal"
+    },
+    {
+      "tag": "c:drinks/milk"
+    }
+  ],
+  "results": [
+    {
+      "id": "brewinandchewin:grits",
+      "count": 1
+    }
+  ],
+  "experience": 0.35,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

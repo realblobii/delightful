@@ -1,0 +1,17 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:crops/corn"
+    }
+  ],
+  "results": [
+    {
+      "id": "corn_delight:boiled_corn",
+      "count": 1
+    }
+  ],
+  "experience": 0.15,
+  "time": 100
+}

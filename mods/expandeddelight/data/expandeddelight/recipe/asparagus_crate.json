@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "expandeddelight:asparagus",
+    "expandeddelight:asparagus",
+    "expandeddelight:asparagus",
+    "expandeddelight:asparagus",
+    "expandeddelight:asparagus",
+    "expandeddelight:asparagus",
+    "expandeddelight:asparagus",
+    "expandeddelight:asparagus",
+    "expandeddelight:asparagus"
+  ],
+  "result": {
+    "count": 1,
+    "id": "expandeddelight:asparagus_crate"
+  }
+}

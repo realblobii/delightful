@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "expandeddelight:cheese_wheel"
+    }
+  ],
+  "results": [
+    {
+      "id": "expandeddelight:cheese_slice",
+      "count": 4
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "brewinandchewin:foods/cheese_wedge"
+    },
+    {
+      "tag": "c:foods/onion"
+    },
+    {
+      "tag": "c:foods/vegetable"
+    },
+    {
+      "tag": "c:foods/bread"
+    }
+  ],
+  "results": [
+    {
+      "id": "brewinandchewin:creamy_onion_soup",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

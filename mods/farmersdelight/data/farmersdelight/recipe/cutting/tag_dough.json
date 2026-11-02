@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "tag": "c:foods/dough"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:raw_pasta",
+      "count": 1
+    }
+  ]
+}

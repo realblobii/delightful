@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:saddle"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:leather",
+      "count": 2
+    }
+  ]
+}

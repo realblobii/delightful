@@ -1,0 +1,115 @@
+{
+  "type": "cookpot:machine",
+  "block": "farmersdelight:cooking_pot",
+  "menu": "farmersdelight:cooking_pot",
+  "data_slots": 4,
+  "heat": {
+    "offset": [
+      0,
+      -1,
+      0
+    ],
+    "sources": [
+      "minecraft:campfire[lit=true]",
+      "minecraft:soul_campfire[lit=true]",
+      "minecraft:furnace[lit=true]",
+      "minecraft:blast_furnace[lit=true]",
+      "minecraft:smoker[lit=true]",
+      "#farmersdelight:heat_sources"
+    ]
+  },
+  "process": {
+    "default_time": 200
+  },
+  "sounds": {
+    "working": {
+      "id": "minecraft:block.campfire.crackle",
+      "interval": 40,
+      "volume": 0.5
+    },
+    "done": "minecraft:entity.experience_orb.pickup"
+  },
+  "gui": {
+    "size": [
+      176,
+      166
+    ],
+    "texture": "farmersdelight:gui/cooking_pot",
+    "slots": [
+      {
+        "id": "in0",
+        "role": "input",
+        "pos": [
+          30,
+          17
+        ]
+      },
+      {
+        "id": "in1",
+        "role": "input",
+        "pos": [
+          48,
+          17
+        ]
+      },
+      {
+        "id": "in2",
+        "role": "input",
+        "pos": [
+          66,
+          17
+        ]
+      },
+      {
+        "id": "in3",
+        "role": "input",
+        "pos": [
+          30,
+          35
+        ]
+      },
+      {
+        "id": "in4",
+        "role": "input",
+        "pos": [
+          48,
+          35
+        ]
+      },
+      {
+        "id": "in5",
+        "role": "input",
+        "pos": [
+          66,
+          35
+        ]
+      },
+      {
+        "id": "bowl",
+        "role": "container",
+        "pos": [
+          92,
+          55
+        ]
+      },
+      {
+        "id": "out",
+        "role": "output",
+        "pos": [
+          124,
+          26
+        ]
+      }
+    ],
+    "progress": {
+      "pos": [
+        89,
+        30
+      ],
+      "size": [
+        24,
+        6
+      ]
+    }
+  }
+}

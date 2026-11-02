@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "expandeddelight:cinnamon_wood"
+    }
+  ],
+  "results": [
+    {
+      "id": "expandeddelight:cinnamon_stick",
+      "count": 6
+    },
+    {
+      "id": "expandeddelight:stripped_cinnamon_wood",
+      "count": 1
+    }
+  ]
+}

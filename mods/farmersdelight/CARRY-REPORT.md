@@ -1,0 +1,248 @@
+# Carry report: farmersdelight
+
+NOTHING here has been run in Horizon.
+
+- files copied: 1157
+- blocks declared: 53, left out: 79
+- items declared: 94
+- recipes: {'vanilla': 118, 'cooking pot': 27, 'cutting board': 94}
+- recipes skipped: 94
+
+## Not carried or approximated
+- cutting chances below 100% dropped: 9
+- effect nourishment has no behaviour in Horizon: 1
+- ingredient 'difference' approximated by its base: 3
+- knife stats (a plain iron sword stands in): 5
+
+## Blocks left out
+- black_canvas_sign: signs need a text-editing block entity
+- black_canvas_wall_sign: signs need a text-editing block entity
+- black_hanging_canvas_sign: signs need a text-editing block entity
+- black_wall_hanging_canvas_sign: signs need a text-editing block entity
+- blue_canvas_sign: signs need a text-editing block entity
+- blue_canvas_wall_sign: signs need a text-editing block entity
+- blue_hanging_canvas_sign: signs need a text-editing block entity
+- blue_wall_hanging_canvas_sign: signs need a text-editing block entity
+- brown_canvas_sign: signs need a text-editing block entity
+- brown_canvas_wall_sign: signs need a text-editing block entity
+- brown_hanging_canvas_sign: signs need a text-editing block entity
+- brown_wall_hanging_canvas_sign: signs need a text-editing block entity
+- canvas_sign: signs need a text-editing block entity
+- canvas_wall_sign: signs need a text-editing block entity
+- cyan_canvas_sign: signs need a text-editing block entity
+- cyan_canvas_wall_sign: signs need a text-editing block entity
+- cyan_hanging_canvas_sign: signs need a text-editing block entity
+- cyan_wall_hanging_canvas_sign: signs need a text-editing block entity
+- full_tatami_mat: no template for properties [facing, part]
+- gleaming_salad_block: feast blocks (servings taken with a bowl) need behaviour Horizon's templates lack
+- gray_canvas_sign: signs need a text-editing block entity
+- gray_canvas_wall_sign: signs need a text-editing block entity
+- gray_hanging_canvas_sign: signs need a text-editing block entity
+- gray_wall_hanging_canvas_sign: signs need a text-editing block entity
+- green_canvas_sign: signs need a text-editing block entity
+- green_canvas_wall_sign: signs need a text-editing block entity
+- green_hanging_canvas_sign: signs need a text-editing block entity
+- green_wall_hanging_canvas_sign: signs need a text-editing block entity
+- hanging_canvas_sign: signs need a text-editing block entity
+- honey_glazed_ham_block: feast blocks (servings taken with a bowl) need behaviour Horizon's templates lack
+- light_blue_canvas_sign: signs need a text-editing block entity
+- light_blue_canvas_wall_sign: signs need a text-editing block entity
+- light_blue_hanging_canvas_sign: signs need a text-editing block entity
+- light_blue_wall_hanging_canvas_sign: signs need a text-editing block entity
+- light_gray_canvas_sign: signs need a text-editing block entity
+- light_gray_canvas_wall_sign: signs need a text-editing block entity
+- light_gray_hanging_canvas_sign: signs need a text-editing block entity
+- light_gray_wall_hanging_canvas_sign: signs need a text-editing block entity
+- lime_canvas_sign: signs need a text-editing block entity
+- lime_canvas_wall_sign: signs need a text-editing block entity
+- lime_hanging_canvas_sign: signs need a text-editing block entity
+- lime_wall_hanging_canvas_sign: signs need a text-editing block entity
+- magenta_canvas_sign: signs need a text-editing block entity
+- magenta_canvas_wall_sign: signs need a text-editing block entity
+- magenta_hanging_canvas_sign: signs need a text-editing block entity
+- magenta_wall_hanging_canvas_sign: signs need a text-editing block entity
+- orange_canvas_sign: signs need a text-editing block entity
+- orange_canvas_wall_sign: signs need a text-editing block entity
+- orange_hanging_canvas_sign: signs need a text-editing block entity
+- orange_wall_hanging_canvas_sign: signs need a text-editing block entity
+- organic_compost: no template for properties [composting]
+- pink_canvas_sign: signs need a text-editing block entity
+- pink_canvas_wall_sign: signs need a text-editing block entity
+- pink_hanging_canvas_sign: signs need a text-editing block entity
+- pink_wall_hanging_canvas_sign: signs need a text-editing block entity
+- purple_canvas_sign: signs need a text-editing block entity
+- purple_canvas_wall_sign: signs need a text-editing block entity
+- purple_hanging_canvas_sign: signs need a text-editing block entity
+- purple_wall_hanging_canvas_sign: signs need a text-editing block entity
+- red_canvas_sign: signs need a text-editing block entity
+- red_canvas_wall_sign: signs need a text-editing block entity
+- red_hanging_canvas_sign: signs need a text-editing block entity
+- red_wall_hanging_canvas_sign: signs need a text-editing block entity
+- rice_roll_medley_block: feast blocks (servings taken with a bowl) need behaviour Horizon's templates lack
+- roast_chicken_block: feast blocks (servings taken with a bowl) need behaviour Horizon's templates lack
+- rope: no template for properties [east, north, south, tied_to_bell, west]
+- shepherds_pie_block: feast blocks (servings taken with a bowl) need behaviour Horizon's templates lack
+- skillet: no template for properties [facing, support]
+- stuffed_pumpkin_block: feast blocks (servings taken with a bowl) need behaviour Horizon's templates lack
+- tatami: no template for properties [facing, paired]
+- wall_hanging_canvas_sign: signs need a text-editing block entity
+- white_canvas_sign: signs need a text-editing block entity
+- white_canvas_wall_sign: signs need a text-editing block entity
+- white_hanging_canvas_sign: signs need a text-editing block entity
+- white_wall_hanging_canvas_sign: signs need a text-editing block entity
+- yellow_canvas_sign: signs need a text-editing block entity
+- yellow_canvas_wall_sign: signs need a text-editing block entity
+- yellow_hanging_canvas_sign: signs need a text-editing block entity
+- yellow_wall_hanging_canvas_sign: signs need a text-editing block entity
+
+## Recipes skipped
+- beetroot_crate: needs farmersdelight:vanilla_crates_enabled 
+- black_canvas_sign: makes farmersdelight:black_canvas_sign, which is left out
+- black_hanging_canvas_sign: makes farmersdelight:black_hanging_canvas_sign, which is left out
+- blue_canvas_sign: makes farmersdelight:blue_canvas_sign, which is left out
+- blue_hanging_canvas_sign: makes farmersdelight:blue_hanging_canvas_sign, which is left out
+- brown_canvas_sign: makes farmersdelight:brown_canvas_sign, which is left out
+- brown_hanging_canvas_sign: makes farmersdelight:brown_hanging_canvas_sign, which is left out
+- canvas_sign: makes farmersdelight:canvas_sign, which is left out
+- carrot_crate: needs farmersdelight:vanilla_crates_enabled 
+- cooking/stuffed_pumpkin_block: makes farmersdelight:stuffed_pumpkin_block, which is left out
+- cyan_canvas_sign: makes farmersdelight:cyan_canvas_sign, which is left out
+- cyan_hanging_canvas_sign: makes farmersdelight:cyan_hanging_canvas_sign, which is left out
+- food_serving: type farmersdelight:food_serving is not supported
+- full_tatami_mat: makes farmersdelight:full_tatami_mat, which is left out
+- full_tatami_mat_from_halves: makes farmersdelight:full_tatami_mat, which is left out
+- gleaming_salad_block: makes farmersdelight:gleaming_salad_block, which is left out
+- gray_canvas_sign: makes farmersdelight:gray_canvas_sign, which is left out
+- gray_hanging_canvas_sign: makes farmersdelight:gray_hanging_canvas_sign, which is left out
+- green_canvas_sign: makes farmersdelight:green_canvas_sign, which is left out
+- green_hanging_canvas_sign: makes farmersdelight:green_hanging_canvas_sign, which is left out
+- hanging_canvas_sign: makes farmersdelight:hanging_canvas_sign, which is left out
+- honey_glazed_ham_block: makes farmersdelight:honey_glazed_ham_block, which is left out
+- integration/create/filling/chocolate_pie: integration with another mod
+- integration/create/milling/rice_panicle: integration with another mod
+- integration/create/milling/wild_beetroots: integration with another mod
+- integration/create/milling/wild_cabbages: integration with another mod
+- integration/create/milling/wild_carrots: integration with another mod
+- integration/create/milling/wild_onions: integration with another mod
+- integration/create/milling/wild_potatoes: integration with another mod
+- integration/create/milling/wild_rice: integration with another mod
+- integration/create/milling/wild_tomatoes: integration with another mod
+- integration/create/mixing/cabbage_slice_from_mixing: integration with another mod
+- integration/create/mixing/pie_crust_from_mixing: integration with another mod
+- integration/create/mixing/tomato_sauce_from_mixing: integration with another mod
+- integration/immersiveengineering/cloche/cabbage: integration with another mod
+- integration/immersiveengineering/cloche/onion: integration with another mod
+- integration/immersiveengineering/cloche/rice: integration with another mod
+- integration/immersiveengineering/cloche/tomato: integration with another mod
+- integration/immersiveengineering/crusher/rice_panicle: integration with another mod
+- integration/immersiveengineering/crusher/wild_beetroots: integration with another mod
+- integration/immersiveengineering/crusher/wild_cabbages: integration with another mod
+- integration/immersiveengineering/crusher/wild_carrots: integration with another mod
+- integration/immersiveengineering/crusher/wild_onions: integration with another mod
+- integration/immersiveengineering/crusher/wild_potatoes: integration with another mod
+- integration/immersiveengineering/crusher/wild_rice: integration with another mod
+- integration/immersiveengineering/crusher/wild_tomatoes: integration with another mod
+- integration/immersiveengineering/fermenter/tomato: integration with another mod
+- integration/immersiveengineering/metalpress/pumpkin: integration with another mod
+- integration/immersiveengineering/squeezer/cabbage_seeds: integration with another mod
+- integration/immersiveengineering/squeezer/tomato_seeds: integration with another mod
+- integration/silentgear/cutting/netherwood: integration with another mod
+- light_blue_canvas_sign: makes farmersdelight:light_blue_canvas_sign, which is left out
+- light_blue_hanging_canvas_sign: makes farmersdelight:light_blue_hanging_canvas_sign, which is left out
+- light_gray_canvas_sign: makes farmersdelight:light_gray_canvas_sign, which is left out
+- light_gray_hanging_canvas_sign: makes farmersdelight:light_gray_hanging_canvas_sign, which is left out
+- lime_canvas_sign: makes farmersdelight:lime_canvas_sign, which is left out
+- lime_hanging_canvas_sign: makes farmersdelight:lime_hanging_canvas_sign, which is left out
+- magenta_canvas_sign: makes farmersdelight:magenta_canvas_sign, which is left out
+- magenta_hanging_canvas_sign: makes farmersdelight:magenta_hanging_canvas_sign, which is left out
+- orange_canvas_sign: makes farmersdelight:orange_canvas_sign, which is left out
+- orange_hanging_canvas_sign: makes farmersdelight:orange_hanging_canvas_sign, which is left out
+- organic_compost_from_rotten_flesh: makes farmersdelight:organic_compost, which is left out
+- organic_compost_from_tree_bark: makes farmersdelight:organic_compost, which is left out
+- pink_canvas_sign: makes farmersdelight:pink_canvas_sign, which is left out
+- pink_hanging_canvas_sign: makes farmersdelight:pink_hanging_canvas_sign, which is left out
+- potato_crate: needs farmersdelight:vanilla_crates_enabled 
+- purple_canvas_sign: makes farmersdelight:purple_canvas_sign, which is left out
+- purple_hanging_canvas_sign: makes farmersdelight:purple_hanging_canvas_sign, which is left out
+- red_canvas_sign: makes farmersdelight:red_canvas_sign, which is left out
+- red_hanging_canvas_sign: makes farmersdelight:red_hanging_canvas_sign, which is left out
+- rice_roll_medley_block: makes farmersdelight:rice_roll_medley_block, which is left out
+- roast_chicken_block: makes farmersdelight:roast_chicken_block, which is left out
+- rope: makes farmersdelight:rope, which is left out
+- rope_from_safety_net: makes farmersdelight:rope, which is left out
+- salvaging/acacia_furniture: no certain result
+- salvaging/bamboo_furniture: no certain result
+- salvaging/birch_furniture: no certain result
+- salvaging/cherry_furniture: no certain result
+- salvaging/crimson_furniture: no certain result
+- salvaging/dark_oak_furniture: no certain result
+- salvaging/jungle_furniture: no certain result
+- salvaging/mangrove_furniture: no certain result
+- salvaging/oak_furniture: no certain result
+- salvaging/spruce_furniture: no certain result
+- salvaging/warped_furniture: no certain result
+- shepherds_pie_block: makes farmersdelight:shepherds_pie_block, which is left out
+- skillet: makes farmersdelight:skillet, which is left out
+- tatami: makes farmersdelight:tatami, which is left out
+- tatami_block_from_full: makes farmersdelight:tatami, which is left out
+- wheat_dough_from_water: type farmersdelight:dough is not supported
+- white_canvas_sign: makes farmersdelight:white_canvas_sign, which is left out
+- white_hanging_canvas_sign: makes farmersdelight:white_hanging_canvas_sign, which is left out
+- yellow_canvas_sign: makes farmersdelight:yellow_canvas_sign, which is left out
+- yellow_hanging_canvas_sign: makes farmersdelight:yellow_hanging_canvas_sign, which is left out
+
+## Block templates
+
+- acacia_cabinet: minecraft:barrel
+- apple_pie: minecraft:cake
+- bamboo_basket: minecraft:barrel
+- bamboo_cabinet: minecraft:barrel
+- beetroot_crate: minecraft:stone
+- birch_cabinet: minecraft:barrel
+- brown_mushroom_colony: minecraft:beetroots
+- budding_tomatoes: minecraft:wheat
+- cabbage_crate: minecraft:stone
+- cabbages: minecraft:wheat
+- canvas_rug: minecraft:stone
+- carrot_crate: minecraft:stone
+- cherry_cabinet: minecraft:barrel
+- chocolate_pie: minecraft:cake
+- cooking_pot: minecraft:furnace (Cookpot machine)
+- crimson_cabinet: minecraft:barrel
+- cutting_board: minecraft:furnace (Cookpot machine)
+- dark_oak_cabinet: minecraft:barrel
+- half_tatami_mat: minecraft:glazed_terracotta
+- jungle_cabinet: minecraft:barrel
+- mangrove_cabinet: minecraft:barrel
+- oak_cabinet: minecraft:barrel
+- onion_crate: minecraft:stone
+- onions: minecraft:wheat
+- potato_crate: minecraft:stone
+- pumpkin_pie: minecraft:cake
+- red_mushroom_colony: minecraft:beetroots
+- rice: minecraft:beetroots
+- rice_bag: minecraft:stone
+- rice_bale: minecraft:barrel
+- rice_panicles: minecraft:beetroots
+- rich_soil: minecraft:stone
+- rich_soil_farmland: minecraft:farmland
+- rope_fence: minecraft:oak_fence
+- rope_fence_gate: minecraft:oak_fence_gate
+- safety_net: minecraft:stone
+- sandy_shrub: minecraft:stone
+- spruce_cabinet: minecraft:barrel
+- stove: minecraft:furnace
+- straw_bale: minecraft:oak_log
+- sweet_berry_cheesecake: minecraft:cake
+- tomato_crate: minecraft:stone
+- tomatoes: minecraft:beetroots
+- tomatoes_on_rope: minecraft:beetroots
+- warped_cabinet: minecraft:barrel
+- wild_beetroots: minecraft:stone
+- wild_cabbages: minecraft:stone
+- wild_carrots: minecraft:stone
+- wild_onions: minecraft:stone
+- wild_potatoes: minecraft:stone
+- wild_rice: minecraft:tall_grass
+- wild_tomatoes: minecraft:stone
+- wooden_basket: minecraft:barrel

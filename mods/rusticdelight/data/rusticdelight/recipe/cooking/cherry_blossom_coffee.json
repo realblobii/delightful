@@ -1,0 +1,30 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "rusticdelight:coffee_ingredients"
+    },
+    {
+      "tag": "rusticdelight:coffee_ingredients"
+    },
+    {
+      "tag": "rusticdelight:coffee_ingredients"
+    },
+    {
+      "tag": "c:drinks/milk"
+    },
+    {
+      "tag": "rusticdelight:cherry_blossom_ingredients"
+    }
+  ],
+  "results": [
+    {
+      "id": "rusticdelight:cherry_blossom_coffee",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200,
+  "container": "minecraft:glass_bottle"
+}

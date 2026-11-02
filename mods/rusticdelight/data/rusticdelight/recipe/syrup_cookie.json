@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#rusticdelight:syrup",
+    "minecraft:wheat",
+    "minecraft:wheat"
+  ],
+  "result": {
+    "count": 8,
+    "id": "rusticdelight:syrup_cookie"
+  }
+}

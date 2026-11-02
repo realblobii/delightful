@@ -1,0 +1,30 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:crops/corn"
+    },
+    {
+      "tag": "c:foods/leafy_green"
+    },
+    [
+      "#c:foods/raw_chicken",
+      "#c:foods/raw_pork",
+      "#c:foods/raw_beef",
+      "minecraft:brown_mushroom"
+    ],
+    [
+      "#c:foods/milk",
+      "#c:drinks/milk"
+    ]
+  ],
+  "results": [
+    {
+      "id": "corn_delight:corn_soup",
+      "count": 1
+    }
+  ],
+  "experience": 0.35,
+  "time": 200
+}

@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:dark_oak_chest_boat"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:dark_oak_boat",
+      "count": 1
+    },
+    {
+      "id": "minecraft:chest",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rusticdelight:milk_coffee",
+    "#rusticdelight:syrup"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rusticdelight:syrup_coffee"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "farmersdelight:sweet_berry_cheesecake"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:sweet_berry_cheesecake_slice",
+      "count": 4
+    }
+  ]
+}

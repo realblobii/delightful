@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "brewinandchewin:corn"
+    }
+  ],
+  "results": [
+    {
+      "id": "brewinandchewin:corn_kernels",
+      "count": 1
+    },
+    {
+      "id": "farmersdelight:straw",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/pasta"
+    },
+    {
+      "tag": "c:foods/bell_pepper"
+    },
+    {
+      "tag": "c:foods/bell_pepper"
+    },
+    {
+      "tag": "c:foods/bell_pepper"
+    }
+  ],
+  "results": [
+    {
+      "id": "rusticdelight:bell_pepper_pasta",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

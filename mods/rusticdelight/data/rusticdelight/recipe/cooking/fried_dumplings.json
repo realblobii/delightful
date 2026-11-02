@@ -1,0 +1,23 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "rusticdelight:cooking_oil"
+    },
+    {
+      "item": "farmersdelight:dumplings"
+    },
+    {
+      "item": "farmersdelight:dumplings"
+    }
+  ],
+  "results": [
+    {
+      "id": "rusticdelight:fried_dumplings",
+      "count": 2
+    }
+  ],
+  "experience": 1.0,
+  "time": 100
+}

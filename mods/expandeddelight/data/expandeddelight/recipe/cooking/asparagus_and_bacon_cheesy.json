@@ -1,0 +1,27 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:foods/raw_bacon"
+    },
+    {
+      "tag": "c:crops/asparagus"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    {
+      "tag": "c:foods/cheese"
+    }
+  ],
+  "results": [
+    {
+      "id": "expandeddelight:asparagus_and_bacon_cheesy",
+      "count": 1
+    }
+  ],
+  "experience": 1.2,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

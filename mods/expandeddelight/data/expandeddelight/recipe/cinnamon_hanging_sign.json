@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "hanging_sign",
+  "key": {
+    "i": "expandeddelight:stripped_cinnamon_log",
+    "s": "#c:chains"
+  },
+  "pattern": [
+    "s s",
+    "iii",
+    "iii"
+  ],
+  "result": {
+    "count": 6,
+    "id": "expandeddelight:cinnamon_hanging_sign"
+  }
+}

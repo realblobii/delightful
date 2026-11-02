@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "corn_delight:corncob"
+    }
+  ],
+  "results": [
+    {
+      "id": "farmersdelight:straw",
+      "count": 1
+    }
+  ]
+}

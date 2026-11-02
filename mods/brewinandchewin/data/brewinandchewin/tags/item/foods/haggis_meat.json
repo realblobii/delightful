@@ -1,0 +1,9 @@
+{
+  "values": [
+    "brewinandchewin:raw_sausage",
+    {
+      "id": "#c:foods/raw_mutton",
+      "required": false
+    }
+  ]
+}

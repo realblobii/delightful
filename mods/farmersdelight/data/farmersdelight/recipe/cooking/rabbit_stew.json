@@ -1,0 +1,28 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "tag": "c:crops/potato"
+    },
+    {
+      "item": "minecraft:rabbit"
+    },
+    {
+      "tag": "c:crops/carrot"
+    },
+    [
+      "minecraft:brown_mushroom",
+      "minecraft:red_mushroom"
+    ]
+  ],
+  "results": [
+    {
+      "id": "minecraft:rabbit_stew",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

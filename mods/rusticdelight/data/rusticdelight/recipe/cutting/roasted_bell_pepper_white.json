@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "rusticdelight:roasted_bell_pepper_white"
+    }
+  ],
+  "results": [
+    {
+      "id": "rusticdelight:roasted_bell_pepper_slice_white",
+      "count": 2
+    }
+  ]
+}

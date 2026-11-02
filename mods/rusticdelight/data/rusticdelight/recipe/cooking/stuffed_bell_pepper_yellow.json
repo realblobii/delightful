@@ -1,0 +1,23 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "item": "rusticdelight:bell_pepper_yellow"
+    },
+    {
+      "tag": "c:crops/rice"
+    },
+    {
+      "tag": "rusticdelight:stuffed_bell_pepper_ingredients"
+    }
+  ],
+  "results": [
+    {
+      "id": "rusticdelight:stuffed_bell_pepper_yellow",
+      "count": 1
+    }
+  ],
+  "experience": 1.0,
+  "time": 200
+}

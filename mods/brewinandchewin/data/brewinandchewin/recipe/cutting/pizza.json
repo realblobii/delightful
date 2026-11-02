@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "brewinandchewin:pizza"
+    }
+  ],
+  "results": [
+    {
+      "id": "brewinandchewin:pizza_slice",
+      "count": 4
+    }
+  ]
+}

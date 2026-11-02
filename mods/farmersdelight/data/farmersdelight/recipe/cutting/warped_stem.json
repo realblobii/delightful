@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:warped_stem"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:stripped_warped_stem",
+      "count": 1
+    },
+    {
+      "id": "farmersdelight:tree_bark",
+      "count": 1
+    }
+  ]
+}

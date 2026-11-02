@@ -1,0 +1,19 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:spruce_chest_boat"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:spruce_boat",
+      "count": 1
+    },
+    {
+      "id": "minecraft:chest",
+      "count": 1
+    }
+  ]
+}

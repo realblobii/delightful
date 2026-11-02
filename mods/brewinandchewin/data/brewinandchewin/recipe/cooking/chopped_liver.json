@@ -1,0 +1,33 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "item": "brewinandchewin:innards"
+    },
+    {
+      "item": "brewinandchewin:innards"
+    },
+    {
+      "tag": "c:crops/beetroot"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "brewinandchewin:kimchi"
+    },
+    {
+      "tag": "c:foods/vegetable"
+    }
+  ],
+  "results": [
+    {
+      "id": "brewinandchewin:chopped_liver",
+      "count": 1
+    }
+  ],
+  "experience": 2.0,
+  "time": 400,
+  "container": "minecraft:bowl"
+}

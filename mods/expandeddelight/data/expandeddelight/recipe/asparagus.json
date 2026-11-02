@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "expandeddelight:asparagus_crate"
+  ],
+  "result": {
+    "count": 9,
+    "id": "expandeddelight:asparagus"
+  }
+}

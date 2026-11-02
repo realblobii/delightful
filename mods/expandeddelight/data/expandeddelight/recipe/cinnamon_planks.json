@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "wooden_planks",
+  "ingredients": [
+    "#expandeddelight:cinnamon_logs"
+  ],
+  "result": {
+    "count": 4,
+    "id": "expandeddelight:cinnamon_planks"
+  }
+}

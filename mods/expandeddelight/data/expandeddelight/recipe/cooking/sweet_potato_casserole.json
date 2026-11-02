@@ -1,0 +1,27 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cooking_pot",
+  "inputs": [
+    {
+      "item": "expandeddelight:sweet_potato"
+    },
+    {
+      "tag": "c:foods/milk"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "id": "expandeddelight:sweet_potato_casserole",
+      "count": 1
+    }
+  ],
+  "experience": 0.9,
+  "time": 200,
+  "container": "minecraft:bowl"
+}

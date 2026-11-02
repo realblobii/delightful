@@ -1,0 +1,15 @@
+{
+  "type": "cookpot:recipe",
+  "machine": "farmersdelight:cutting_board",
+  "inputs": [
+    {
+      "item": "minecraft:blue_orchid"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:light_blue_dye",
+      "count": 2
+    }
+  ]
+}

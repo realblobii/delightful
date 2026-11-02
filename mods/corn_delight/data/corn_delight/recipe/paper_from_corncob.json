@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "corn_delight:corncob",
+    "corn_delight:corncob",
+    "corn_delight:corncob"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:paper"
+  }
+}

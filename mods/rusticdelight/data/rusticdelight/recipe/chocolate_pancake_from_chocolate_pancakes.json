@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rusticdelight:chocolate_pancakes"
+  ],
+  "result": {
+    "count": 6,
+    "id": "rusticdelight:chocolate_pancake"
+  }
+}
