@@ -4,22 +4,26 @@
 
 ## Goal
 
-Delightful is a Farmer's Delight-style food and farming mod for Horizon, built as **content mods (`.hmod`, no Rust)** on
-top of [Cookpot](https://github.com/realblobii/cookpot) (the crafting-machine library). It reproduces the content of
-Farmer's Delight and 12 add-ons (`docs/SOURCES.md`) as closely as Horizon allows.
+Delightful is a Farmer's Delight-style food and farming mod for Horizon, built as **content (`.hmod`, no Rust)** on top of
+[Cookpot](https://github.com/realblobii/cookpot) (the crafting-machine library), plus **one small native mod for the
+settings menu** (see "Settings"). It reproduces the content of Farmer's Delight and 7 add-ons (`docs/SOURCES.md`) as
+closely as Horizon allows.
 
 ## Scope
 
-**Included mods** (all 1:1 where possible): Farmer's Delight, Brewin' And Chewin', Rustic Delight, Expanded Delight,
-Corn Delight, Fruits Delight, Crate Delight, Dumpling Delight, Gensokyo Delight ~ Youkais' Feasts, Coffee Delight,
-Cocktails Delight, Cultural Delights, Storage Delight.
+**Included mods** (1:1 where possible): Farmer's Delight, Brewin' And Chewin', Rustic Delight, Expanded Delight,
+Corn Delight, Crate Delight, Dumpling Delight, Storage Delight.
+
+**Left out (decided 2 Nov 2026):** Fruits Delight, Gensokyo Delight ~ Youkais' Feasts, Coffee Delight, Cocktails Delight
+and Cultural Delights. Their licences are All Rights Reserved, custom, or unknown, so their assets cannot be reused. They
+may be revisited if their authors give written permission. (Cocktails Delight also needs Brewin' And Chewin'.)
 
 **Rule for gaps:** anything Horizon or Cookpot cannot do is **removed**, and listed in `docs/UNSUPPORTED.md` with the
 reason (so the list is reviewed, not silent).
 
 ## Decisions made
 
-1. **Each add-on is toggleable, all on by default.** **[open]** how: see "Settings" below.
+1. **Each add-on is toggleable, all on by default**, from a **real settings menu** (decided 2 Nov 2026): see "Settings".
 2. **Heat:** the cooking pot (and other heated machines) are heated by a **lit campfire or lit furnace** below them, using
    Cookpot's heat-from-block rule (`heat.sources`, default offset directly below).
 3. **Cabinets, drawers, crates, shelves** are **custom chests** (container blocks with a vanilla menu), not Cookpot machines.
@@ -27,27 +31,29 @@ reason (so the list is reviewed, not silent).
    infinite "fuel"**: it must be present but is not used up. **[open]** needs a small Cookpot change: see below.
 5. Machines are Cookpot machine files; recipes are Cookpot recipe files. Machine ids are public API once chosen.
 
-## Assets and licences **[open]**
+## Assets and licences
 
-The request is to use the real textures, models and sounds from the source mods. Whether that is allowed depends on each
-mod's licence (`docs/SOURCES.md`):
+The aim is to use the real textures, models and sounds from the source mods, so licences decide what is allowed
+(`docs/SOURCES.md`).
 
-- **MIT or similar (most of them):** reuse is permitted if the licence text and copyright notice are kept. Delightful must
-  carry a `CREDITS.md` and the licence texts. Still check each repo for a separate asset licence.
-- **All Rights Reserved (Cocktails Delight, Cultural Delights) and unknown (Fruits Delight, Gensokyo Delight, Coffee
-  Delight's custom licence):** the assets cannot be copied without the author's permission.
+- **Included mods are MIT-licensed** (some unconfirmed): reuse is permitted if the licence text and copyright notice are
+  kept. Delightful carries a `CREDITS.md` and the licence texts, and every reused file's origin is recorded.
+- **Confirm before copying:** for each mod, open its repo's `LICENSE` and README (an asset licence may differ from the code
+  licence). Repos still to be found: Crate Delight, Storage Delight, Dumpling Delight (the Rewrapped port and the
+  original). Farmer's Delight's asset licence is unchecked.
+- The five left-out mods are not touched.
 
-Proposed policy, **pending the user's decision**: reuse from MIT-licensed mods with attribution; for the others, either get
-written permission, draw original art with the same design, or leave the content out.
+## Settings (add-on toggles)
 
-## Settings (add-on toggles) **[open]**
+**Decided: a real settings menu.** A content mod has no code, so this is a **native mod** (`delightful_settings`, in this
+repo) with its own screen, a saved setting per add-on, and all add-ons **on by default**. It would use the native hooks
+Cookpot already relies on, plus the screen and settings hooks (`native_screen`, `native_set_setting`).
 
-A content mod has no code, so it cannot draw a settings screen on its own. Two options:
-
-- **A. One `.hmod` per add-on** (a `delightful` core plus `delightful_brewin`, `delightful_corn`, ...). The existing
-  Options > Mods list already enables and disables each, with everything enabled by default. No new code.
-- **B. A real settings menu** (a native mod with its own screen and saved settings) that hides or disables an add-on's
-  recipes, items and machines at runtime. More code, and it needs a way to switch content off that has not been checked.
+**[open] research first:** a disabled add-on has to disappear (its items, blocks, recipes, machines, creative-tab entries).
+Content is read once at game start, and nothing checked so far shows a way to switch content off at runtime. The research
+pass must find one, and if there isn't, tell the user before building. Fallbacks to put to the user then:
+(a) the setting takes effect after a restart and the native mod filters recipes/items it can reach, or
+(b) one `.hmod` per add-on toggled in Options > Mods.
 
 ## Cookpot changes this needs
 
@@ -55,6 +61,8 @@ A content mod has no code, so it cannot draw a settings screen on its own. Two o
   durability damage. Cookpot's fuel slot consumes its item today.
 - Possibly **fluids** for Brewin' And Chewin's keg (Horizon has a fluid container hook; not yet used by Cookpot).
 - Cabinet-style storage needs no Cookpot change.
+- Machines from toggled-off add-ons must be skippable: Cookpot would need a way to ignore a machine or recipe when its add-on
+  is off (for example a condition on the file). **[open]**
 
 ## Practical limits
 
@@ -67,7 +75,7 @@ A content mod has no code, so it cannot draw a settings screen on its own. Two o
 
 ## Next steps
 
-1. User answers the [open] items.
+1. Research the settings menu and how a disabled add-on can be hidden (see "Settings").
 2. Research pass: what each source mod contains (blocks, items, machines, entities, worldgen) and what Horizon supports.
    Output: `docs/FEATURES.md` (what we build) and `docs/UNSUPPORTED.md` (what we drop).
 3. Cookpot changes (tool slot), tested by the user.
