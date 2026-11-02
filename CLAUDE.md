@@ -5,8 +5,8 @@ Its crafting machines are data files for **Cookpot** (`https://github.com/realbl
 
 ## Current state: wait for the feature list
 
-The repo holds instructions only. **Do not add blocks, items, recipes, art, or a mod manifest until the user has
-given the feature list** and said to start. When they do, restate the list back as a checklist and build in small
+The repo holds a brief and instructions only. **Do not add blocks, items, recipes, art, or a mod manifest until the user has
+answered the [open] items in `docs/BRIEF.md`** and said to start. When they do, restate the list back as a checklist and build in small
 steps. If asked to "start" without a list, ask for it.
 
 Decisions already made (do not re-ask):
@@ -16,14 +16,22 @@ Decisions already made (do not re-ask):
   rename them.
 - Prefer **tags** for heat sources, fuels and ingredient categories so other mods can extend them.
 - Singleplayer first.
+- Scope: Farmer's Delight plus 12 add-ons (`docs/SOURCES.md`). Features Horizon or Cookpot cannot do are removed and listed
+  in `docs/UNSUPPORTED.md`. Cabinets and storage are custom chests, not machines. The cutting board is a Cookpot machine
+  with a screen and a knife as non-consumed "fuel". Pots are heated by a lit campfire or furnace below.
 
-## Originality (important)
+## Assets and licences (important)
 
-Delightful is "like Farmer's Delight", not a copy of it.
-- Do **not** copy Farmer's Delight's textures, models, sounds, lang text, code or data files, and do not download them.
-- Draw original textures; use original sounds or vanilla sound events; write original names and descriptions.
-- Mechanics and ideas (a cooking pot, a cutting board, crops that grow in a field) are fine to reimplement in our own way.
-- Keep a short `CREDITS.md` once there is anything to credit.
+The user wants a near 1:1 clone that uses the source mods' real textures, models and sounds. That is only allowed where
+each mod's licence permits it. **Read `docs/BRIEF.md` and `docs/SOURCES.md` first.**
+- Before copying anything from a mod, open its repo's `LICENSE` (and README) and confirm the licence. Do not trust the
+  table in `docs/SOURCES.md` alone: some entries are unverified.
+- MIT and similar: reuse is fine if the licence text and copyright notice are kept. Record each reused asset's origin in
+  `CREDITS.md` and ship the licence texts.
+- **All Rights Reserved, custom, or unknown licence** (currently Cocktails Delight, Cultural Delights, Coffee Delight,
+  Fruits Delight, Gensokyo Delight): do **not** copy assets, code or data without the author's written permission. Follow
+  the user's decision on how to handle these (original art, permission, or leave out).
+- Never copy assets by downloading from sites that forbid it, and do not rely on memory for a licence.
 
 ## Read first
 
