@@ -39,7 +39,7 @@ From the carry reports. Nothing here has been checked in the game.
 - **Storage Delight's per-block container sizes** and its cabinet screens: all its blocks are plain barrels.
 - **Skillet and campfire cooking on a stove**, **the picnic basket's behaviour**, **canvas rugs and signs**.
 
-## Wild crops (added 2 Nov 2026, **untested**)
+## Wild crops (untested)
 
 15 wild-crop features generate (cabbages, carrots, onions, potatoes, tomatoes, beetroots, coffee, cotton, corn, peanuts, asparagus,
 chili pepper, sweet potato, cranberries, and one more). The originals use Java-coded feature types, so `tools/carry.py` rewrites

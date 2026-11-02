@@ -1,7 +1,7 @@
 # Source mods
 
 The eight projects Delightful's content is carried from, with the repository, branch and commit used, and the licence found in
-the repository itself (checked 2 Nov 2026 by reading each `LICENSE` file). `tools/carry.py` and `tools/carry_dd.py` read them;
+the repository itself (read from each `LICENSE` file). `tools/carry.py` and `tools/carry_dd.py` read them;
 the licence texts are in `licenses/` and every reuse is credited in [CREDITS.md](../CREDITS.md). Licences can change: open the
 repo's `LICENSE` again before copying anything new.
 

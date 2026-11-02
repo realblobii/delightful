@@ -57,7 +57,7 @@ The aim is to use the real textures, models and sounds from the source mods, so 
 
 ## Status (2 Nov 2026)
 
-First increment generated: see [FEATURES.md](FEATURES.md) and [UNSUPPORTED.md](UNSUPPORTED.md).
+First increment generated: see [FEATURES.md](../FEATURES.md) and [UNSUPPORTED.md](../UNSUPPORTED.md).
 
 ## Next steps (original plan)
 
