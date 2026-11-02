@@ -27,7 +27,7 @@ Decisions already made (do not re-ask):
 The user wants a near 1:1 clone that uses the source mods' real textures, models and sounds. That is only allowed where
 each mod's licence permits it. **Read `docs/BRIEF.md` and `docs/SOURCES.md` first.**
 - Before copying anything from a mod, open its repo's `LICENSE` (and README) and confirm the licence. Do not trust the
-  table in `docs/SOURCES.md` alone: some entries are unverified.
+  table in `docs/SOURCES.md` alone.
 - MIT and similar: reuse is fine if the licence text and copyright notice are kept. Record each reused asset's origin in
   `CREDITS.md` and ship the licence texts.
 - **All Rights Reserved, custom, or unknown licence:** do not copy assets, code or data without the author's written permission.
