@@ -9,7 +9,7 @@ Verified means a page for that project said so while this list was made (2 Nov 2
 | # | Mod | Repo | Stated licence | Status |
 |---|---|---|---|---|
 | 1 | Farmer's Delight | https://github.com/vectorwing/FarmersDelight (Fabric port: https://github.com/MehVahdJukaar/FarmersDelight) | MIT (repo licence) | Repo and code licence verified. **Asset licence not checked**: read the repo's LICENSE and README. |
-| 2 | Brewin' And Chewin' | https://github.com/ChefsDelights/BrewinAndChewin | MIT | Repo found. MIT is from a port's permission note, not from the repo's LICENSE: confirm. |
+| 2 | Brewin' And Chewin' **(REMOVED FOR NOW)** | https://github.com/ChefsDelights/BrewinAndChewin | MIT | Repo found. MIT is from a port's permission note, not from the repo's LICENSE: confirm. |
 | 3 | Rustic Delight | https://github.com/PhantomWing/RusticDelight | MIT | Repo found. MIT is from a port's note: confirm. |
 | 4 | Expanded Delight | https://github.com/ianm1647/expandeddelight | MIT | Verified (Modrinth page). |
 | 5 | Corn Delight | https://github.com/0999312/Corn-Delight | MIT | Verified (Modrinth page). A separate Fabric edition exists (also listed MIT). |

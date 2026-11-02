@@ -1,6 +1,0 @@
-{
-  "parent": "brewinandchewin:block/coaster_chicken",
-  "textures": {
-    "chicken": "brewinandchewin:block/cooked_chicken"
-  }
-}

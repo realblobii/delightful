@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "brewinandchewin:item/wine/wine_old_8_foam",
-    "layer1": "brewinandchewin:item/wine/wine_old_8_label",
-    "layer2": "brewinandchewin:item/wine/wine_old_8_fine"
-  }
-}

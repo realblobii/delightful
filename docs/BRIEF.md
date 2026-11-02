@@ -11,7 +11,7 @@ closely as Horizon allows.
 
 ## Scope
 
-**Included mods** (1:1 where possible): Farmer's Delight, Brewin' And Chewin', Rustic Delight, Expanded Delight,
+**Included mods** (1:1 where possible): Farmer's Delight, Rustic Delight, Expanded Delight,
 Corn Delight, Crate Delight, Dumpling Delight, Storage Delight.
 
 **Left out (decided 2 Nov 2026):** Fruits Delight, Gensokyo Delight ~ Youkais' Feasts, Coffee Delight, Cocktails Delight
@@ -23,7 +23,7 @@ reason (so the list is reviewed, not silent).
 
 ## Decisions made
 
-1. **Each add-on is toggleable, all on by default**, from a **real settings menu** (decided 2 Nov 2026): see "Settings".
+1. **Each add-on is a separate mod**, toggled in Options > Mods (decided 2 Nov 2026).
 2. **Heat:** the cooking pot (and other heated machines) are heated by a **lit campfire or lit furnace** below them, using
    Cookpot's heat-from-block rule (`heat.sources`, default offset directly below).
 3. **Cabinets, drawers, crates, shelves** are **custom chests** (container blocks with a vanilla menu), not Cookpot machines.
@@ -43,17 +43,9 @@ The aim is to use the real textures, models and sounds from the source mods, so 
   original). Farmer's Delight's asset licence is unchecked.
 - The five left-out mods are not touched.
 
-## Settings (add-on toggles)
+## Add-on toggles
 
-**Decided: a real settings menu.** A content mod has no code, so this is a **native mod** (`delightful_settings`, in this
-repo) with its own screen, a saved setting per add-on, and all add-ons **on by default**. It would use the native hooks
-Cookpot already relies on, plus the screen and settings hooks (`native_screen`, `native_set_setting`).
-
-**[open] research first:** a disabled add-on has to disappear (its items, blocks, recipes, machines, creative-tab entries).
-Content is read once at game start, and nothing checked so far shows a way to switch content off at runtime. The research
-pass must find one, and if there isn't, tell the user before building. Fallbacks to put to the user then:
-(a) the setting takes effect after a restart and the native mod filters recipes/items it can reach, or
-(b) one `.hmod` per add-on toggled in Options > Mods.
+**Decided 2 Nov 2026:** no settings menu. Each add-on is its own `.hmod`, switched on or off in Options > Mods. (An earlier plan, a native settings page, was dropped.)
 
 ## Cookpot changes this needs
 
@@ -73,7 +65,7 @@ pass must find one, and if there isn't, tell the user before building. Fallbacks
 
 ## Status (2 Nov 2026)
 
-Research and a first increment are done: see [FEATURES.md](FEATURES.md), [UNSUPPORTED.md](UNSUPPORTED.md) and [SETTINGS.md](SETTINGS.md). The toggle decision became: OFF removes the add-on's items from inventories and does not unload content; hiding from the creative menu is not possible with Horizon's current hooks.
+First increment generated: see [FEATURES.md](FEATURES.md) and [UNSUPPORTED.md](UNSUPPORTED.md). Brewin' And Chewin' is removed for now.
 
 ## Next steps (original plan)
 

@@ -6,12 +6,11 @@ Expect kinks. Counts are from each mod's `CARRY-REPORT.md` in `mods/<id>/`.
 | Content mod | Blocks | Items | Vanilla recipes | Cooking pot | Cutting board | Source |
 |---|---|---|---|---|---|---|
 | `farmersdelight` | 53 | 94 | 118 | 27 | 94 | github.com/vectorwing/FarmersDelight (MIT) |
-| `brewinandchewin` | 35 (19 more removed) | 61 | 43 | 15 | 9 | github.com/ChefsDelights/BrewinAndChewin (MIT) |
 | `rusticdelight` | 44 | 108 | 176 | 32 | 48 | github.com/PhantomWing/RusticDelight (MIT) |
 | `expandeddelight` | 41 (2 removed) | 61 | 57 | 17 | 17 | github.com/ianm1647/expandeddelight (MIT) |
 | `corn_delight` | 4 | 21 | 23 | 9 | 4 | github.com/0999312/Corn-Delight, branch 1.21 (MIT) |
 
-Each is a separate content mod whose id is the original's namespace, so recipes and models that name another mod's
+Brewin' And Chewin' is **removed for now** (its keg needs fluids, which Cookpot lacks). Each is a separate content mod whose id is the original's namespace, so recipes and models that name another mod's
 (`farmersdelight:...`) still resolve. Install `farmersdelight` first; the add-ons need it.
 
 ## How things map
@@ -31,10 +30,10 @@ Each is a separate content mod whose id is the original's namespace, so recipes 
 - **Loot tables** of declared blocks copied (format unchecked against 26.3).
 - **Tags** copied.
 
-## Add-on settings
+## Add-ons are separate mods
 
-`mixins/delightful_settings/` (a small native mod, `.hnmod`): Options > Mods > Delightful settings has an ON/OFF button per
-add-on, all ON by default. See [SETTINGS.md](SETTINGS.md) for exactly what OFF does and does not do.
+Each add-on is its own `.hmod`. **Turn one on or off in Options > Mods**; there is no settings page of our own (decided
+2 Nov 2026). `farmersdelight` is required by the others.
 
 ## Rebuilding
 
@@ -43,7 +42,6 @@ git clone --depth 1 <each source repo>   # into ../src/mods/ (see the commands i
 python3 tools/carry.py --src ../src/mods/FarmersDelight --id farmersdelight --out mods/farmersdelight   # and the others
 python3 tools/prune.py mods
 python3 tools/package_mods.py            # dist/*.hmod
-python3 tools/package_native.py          # target/delightful_settings-0.1.0.hnmod
 ```
 
 ## Not built yet

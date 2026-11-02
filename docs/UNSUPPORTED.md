@@ -8,7 +8,7 @@ From the carry reports. Nothing here has been checked in the game.
 |---|---|
 | Signs need a text-editing block entity (canvas, hanging, wall) | 72 |
 | Feast blocks (servings taken with a bowl): Horizon's templates have no such behaviour | 22 |
-| Model files absent from the source repository (Brewin's placeable drinks and similar) | 21 |
+| Model files absent from the source repository | 2 |
 | No template fits: tatami mats (3), rope, skillet, rich-soil compost, tomato vine variants, Expanded Delight pieces | about 12 |
 
 ## Items and behaviour approximated
@@ -25,7 +25,6 @@ From the carry reports. Nothing here has been checked in the game.
 | Reason | Count |
 |---|---|
 | Integration with Create, Immersive Engineering and others (no such mods in Horizon) | 37 |
-| Brewin' And Chewin's keg: `fermenting` and `keg_pouring` types (needs fluids, which Cookpot lacks) | 51 |
 | Expanded Delight `juicing` | 5 |
 | Result is a block or item that was left out | about 10 |
 | Recipes with no certain result (FD salvaging etc.) | 11 |
@@ -36,6 +35,6 @@ From the carry reports. Nothing here has been checked in the game.
 - **World generation** (wild crops, structures, villager trades, mobs such as Expanded's): a malformed worldgen file can stop
   the whole content load, so it is left for a later pass. Wild crops therefore do not generate.
 - **Advancements, enchantments, damage types**, JEI/EMI/Create integrations.
-- **Brewin's keg** and fluids; **Fruits, Coffee, Cocktails, Cultural and Gensokyo Delight** (left out by decision).
+- **Brewin' And Chewin'** (removed for now; its keg needs fluids) and **Fruits, Coffee, Cocktails, Cultural and Gensokyo Delight** (left out by decision).
 - **Crate, Storage and Dumpling Delight**: sources not found.
 - **Skillet and campfire cooking on a stove**, **the picnic basket's behaviour**, **canvas rugs and signs**.

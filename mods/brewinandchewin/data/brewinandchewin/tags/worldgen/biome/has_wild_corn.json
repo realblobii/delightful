@@ -1,9 +1,0 @@
-{
-  "values": [
-    "#c:is_plains",
-    {
-      "id": "nomansland:prairie",
-      "required": false
-    }
-  ]
-}

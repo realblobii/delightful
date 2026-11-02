@@ -38,7 +38,7 @@ CROP_BY_MAX_AGE = {3: "minecraft:beetroots", 7: "minecraft:wheat"}
 
 # The machines Cookpot provides for Farmer's Delight (see docs/FEATURES.md). Their blocks use the furnace as template
 # because it has a block entity and a horizontal `facing`.
-INCLUDED = {"farmersdelight", "expandeddelight", "corn_delight", "brewinandchewin", "rusticdelight"}
+INCLUDED = {"farmersdelight", "expandeddelight", "corn_delight", "rusticdelight"}
 MACHINE_BLOCKS = {"cooking_pot": "farmersdelight:cooking_pot", "cutting_board": "farmersdelight:cutting_board"}
 
 
