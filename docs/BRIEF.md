@@ -13,10 +13,6 @@ closely as Horizon allows.
 **Included mods** (1:1 where possible): Farmer's Delight, Rustic Delight, Expanded Delight,
 Corn Delight, Crate Delight, Dumpling Delight, Storage Delight.
 
-**Left out (decided 2 Nov 2026):** Fruits Delight, Gensokyo Delight ~ Youkais' Feasts, Coffee Delight, Cocktails Delight
-and Cultural Delights. Their licences are All Rights Reserved, custom, or unknown, so their assets cannot be reused. They
-may be revisited if their authors give written permission. (Cocktails Delight also needs Brewin' And Chewin'.)
-
 **Rule for gaps:** anything Horizon or Cookpot cannot do is **removed**, and listed in `docs/UNSUPPORTED.md` with the
 reason (so the list is reviewed, not silent).
 
@@ -48,7 +44,6 @@ The aim is to use the real textures, models and sounds from the source mods, so 
 
 ## Cookpot changes this needs
 
-- Possibly **fluids** for Brewin' And Chewin's keg (Horizon has a fluid container hook; not yet used by Cookpot).
 - Cabinet-style storage needs no Cookpot change.
 
 ## Practical limits
@@ -62,7 +57,7 @@ The aim is to use the real textures, models and sounds from the source mods, so 
 
 ## Status (2 Nov 2026)
 
-First increment generated: see [FEATURES.md](FEATURES.md) and [UNSUPPORTED.md](UNSUPPORTED.md). Brewin' And Chewin' is removed for now.
+First increment generated: see [FEATURES.md](FEATURES.md) and [UNSUPPORTED.md](UNSUPPORTED.md).
 
 ## Next steps (original plan)
 

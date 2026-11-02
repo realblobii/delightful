@@ -127,6 +127,8 @@ for s in srcs:
                 for k, v in jl(p).items():
                     sounds.setdefault(k, json.loads(rw(json.dumps(v))))
                 continue
+            if rest.startswith("brewinandchewin/"):
+                continue  # Rustic Delight's files for another mod's block; not used
             dest = OUT / "assets" / NAME / rest
             if rest.endswith(".json"):
                 data = rw(data.decode("utf-8-sig")).encode("utf-8")

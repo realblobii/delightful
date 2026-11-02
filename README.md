@@ -20,7 +20,7 @@ First increment generated (2 Nov 2026): one merged content mod, `delightful`, fr
 - [What is built](docs/FEATURES.md), [what was left out](docs/UNSUPPORTED.md), [credits](CREDITS.md).
 
 - [Project brief](docs/BRIEF.md): scope, decisions, and the open questions.
-- [Source mods](docs/SOURCES.md): the 13 mods considered, their repositories and licences (five are left out).
+- [Source mods](docs/SOURCES.md): the mods used, their repositories and licences.
 
 ## Files
 

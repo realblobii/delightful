@@ -72,6 +72,6 @@ python3 tools/package_mods.py   # dist/delightful-0.2.0.hmod
 
 ## Not built yet
 
-Nothing from the agreed list is missing except Brewin' And Chewin' (removed for now). Storage Delight's cabinets, drawers and
+Storage Delight's cabinets, drawers and
 bookshelves are all `minecraft:barrel` blocks (27 slots each, one vanilla menu); the originals' drawer-specific slot counts are
 not reproduced.

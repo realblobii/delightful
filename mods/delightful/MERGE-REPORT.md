@@ -2,7 +2,7 @@
 
 - sources: farmersdelight, rusticdelight, expandeddelight, corn_delight, dumplings_delight, cratedelight, storagedelight, displaydelight
 - blocks: 475, items: 312
-- asset files: 4773
+- asset files: 4697
 - tags merged: 340
 - worldgen files: 42
 - loot tables given a type key: 382

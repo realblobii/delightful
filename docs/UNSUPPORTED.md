@@ -36,7 +36,6 @@ From the carry reports. Nothing here has been checked in the game.
   cinnamon trees and salt ore, structures and villager houses, and any wild crop whose block was left out.
 
 - **Advancements, enchantments, damage types**, JEI/EMI/Create integrations.
-- **Brewin' And Chewin'** (removed for now; its keg needs fluids) and **Fruits, Coffee, Cocktails, Cultural and Gensokyo Delight** (left out by decision).
 - **Storage Delight's per-block container sizes** and its cabinet screens: all its blocks are plain barrels.
 - **Skillet and campfire cooking on a stove**, **the picnic basket's behaviour**, **canvas rugs and signs**.
 
