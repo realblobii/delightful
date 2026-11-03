@@ -1,0 +1,10 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:corn_seeds",
+  "block": "delightful:corn_crop",
+  "top_only": true,
+  "sneak_to_place": false,
+  "take": false,
+  "stack_max": 1,
+  "sound": "minecraft:item.crop.plant"
+}

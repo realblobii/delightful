@@ -1,0 +1,10 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:pale_bell_pepper_seeds",
+  "block": "delightful:pale_bell_peppers",
+  "top_only": true,
+  "sneak_to_place": false,
+  "take": false,
+  "stack_max": 1,
+  "sound": "minecraft:item.crop.plant"
+}

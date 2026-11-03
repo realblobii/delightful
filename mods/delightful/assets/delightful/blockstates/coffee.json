@@ -17,6 +17,12 @@
     },
     "age=5": {
       "model": "delightful:block/coffee_stage5"
+    },
+    "age=6": {
+      "model": "delightful:block/coffee_stage5"
+    },
+    "age=7": {
+      "model": "delightful:block/coffee_stage5"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "template": "minecraft:white_carpet",
+  "template": "minecraft:glass",
   "item": false,
   "state_properties": {
     "facing": {
@@ -14,5 +14,9 @@
     "support": {
       "type": "boolean"
     }
+  },
+  "properties": {
+    "hardness": 0.5,
+    "sounds": "minecraft:oak_planks"
   }
 }

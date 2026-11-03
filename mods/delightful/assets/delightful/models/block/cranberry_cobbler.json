@@ -1,5 +1,5 @@
 {
-  "parent": "delightful:block/pie",
+  "parent": "delightful:block/template_pie",
   "textures": {
     "particle": "delightful:block/pie_bottom",
     "bottom": "delightful:block/pie_bottom",

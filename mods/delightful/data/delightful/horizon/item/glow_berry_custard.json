@@ -23,7 +23,7 @@
           "probability": 0.0
         }
       ]
-    },
-    "minecraft:max_stack_size": 16
-  }
+    }
+  },
+  "max_stack_size": 16
 }

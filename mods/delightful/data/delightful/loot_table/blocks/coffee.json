@@ -15,7 +15,7 @@
             "block": "delightful:coffee",
             "condition": "minecraft:block_state_property",
             "properties": {
-              "age": "5"
+              "age": {"min": "5", "max": "7"}
             },
             "type": "minecraft:block_state_property"
           },
@@ -37,7 +37,7 @@
           "block": "delightful:coffee",
           "condition": "minecraft:block_state_property",
           "properties": {
-            "age": "5"
+            "age": {"min": "5", "max": "7"}
           },
           "type": "minecraft:block_state_property"
         }
@@ -76,7 +76,7 @@
           "block": "delightful:coffee",
           "condition": "minecraft:block_state_property",
           "properties": {
-            "age": "5"
+            "age": {"min": "5", "max": "7"}
           },
           "type": "minecraft:block_state_property"
         }

@@ -1,5 +1,5 @@
 {
-  "template": "minecraft:glazed_terracotta",
+  "template": "minecraft:glass",
   "item": true,
   "state_properties": {
     "servings": {
@@ -11,9 +11,23 @@
         "3",
         "4"
       ]
+    },
+    "facing": {
+      "type": "enum",
+      "values": [
+        "north",
+        "south",
+        "east",
+        "west"
+      ]
     }
   },
   "default_state": {
-    "servings": "4"
+    "servings": "4",
+    "facing": "north"
+  },
+  "properties": {
+    "hardness": 0.5,
+    "sounds": "minecraft:white_wool"
   }
 }

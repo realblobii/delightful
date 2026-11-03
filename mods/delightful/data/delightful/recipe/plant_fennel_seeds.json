@@ -1,0 +1,10 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:fennel_seeds",
+  "block": "delightful:fennel",
+  "top_only": true,
+  "sneak_to_place": false,
+  "take": false,
+  "stack_max": 1,
+  "sound": "minecraft:item.crop.plant"
+}

@@ -145,15 +145,6 @@
           ],
           "rotation": 90,
           "texture": "#4"
-        },
-        "down": {
-          "uv": [
-            12.5,
-            0,
-            7.5,
-            2.5
-          ],
-          "texture": "#missing"
         }
       }
     },
@@ -196,15 +187,6 @@
           ],
           "texture": "#4"
         },
-        "south": {
-          "uv": [
-            7.5,
-            7,
-            10,
-            9
-          ],
-          "texture": "#missing"
-        },
         "west": {
           "uv": [
             2,
@@ -222,15 +204,6 @@
             5
           ],
           "texture": "#4"
-        },
-        "down": {
-          "uv": [
-            7.5,
-            4.5,
-            5,
-            7
-          ],
-          "texture": "#missing"
         }
       }
     }

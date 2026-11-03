@@ -1,0 +1,10 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:garlic_chive_seeds",
+  "block": "delightful:garlic_chive",
+  "top_only": true,
+  "sneak_to_place": false,
+  "take": false,
+  "stack_max": 1,
+  "sound": "minecraft:item.crop.plant"
+}

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:simple_block",
   "to_place": {
-    "Name": "delightful:wild_chili_pepper"
+    "id": "delightful:wild_chili_pepper"
   }
 }

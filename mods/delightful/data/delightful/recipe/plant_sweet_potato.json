@@ -1,0 +1,10 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:sweet_potato",
+  "block": "delightful:sweet_potato_crop",
+  "top_only": true,
+  "sneak_to_place": true,
+  "take": false,
+  "stack_max": 1,
+  "sound": "minecraft:item.crop.plant"
+}

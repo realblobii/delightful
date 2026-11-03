@@ -1,8 +1,8 @@
 {
-  "template": "minecraft:furnace",
+  "template": "minecraft:chest",
   "item": true,
   "state_properties": {
-    "support": {
+    "y_support": {
       "type": "enum",
       "values": [
         "none",

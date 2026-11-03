@@ -7,7 +7,7 @@
 		"particle": "delightful:block/nacho_top",
 		"top": "delightful:block/nacho_top",
 		"side": "delightful:block/nacho_side",
-		"tray_top": "delightful:block/tray_pie_leftover",
+		"tray_top": "delightful:block/dd/tray_top",
 		"tray_side": "delightful:block/tray_bottom"
 	},
 	"render_type": "cutout",

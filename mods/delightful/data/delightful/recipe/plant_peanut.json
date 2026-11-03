@@ -1,0 +1,10 @@
+{
+  "type": "roast:placeable",
+  "item": "delightful:peanut",
+  "block": "delightful:peanut_crop",
+  "top_only": true,
+  "sneak_to_place": true,
+  "take": false,
+  "stack_max": 1,
+  "sound": "minecraft:item.crop.plant"
+}

@@ -1,4 +1,18 @@
 {
-  "template": "minecraft:barrel",
-  "item": true
+  "template": "minecraft:furnace",
+  "item": true,
+  "state_properties": {
+    "open": {
+      "type": "boolean"
+    }
+  },
+  "default_state": {
+    "open": "false"
+  },
+  "properties": {
+    "hardness": 2.0,
+    "explosion_resistance": 3.0,
+    "sounds": "minecraft:oak_planks",
+    "requires_tool": false
+  }
 }

@@ -1,0 +1,417 @@
+{
+  "type": "cookpot:machine",
+  "block": [
+    "delightful:acacia_bookshelf_with_door",
+    "delightful:acacia_cabinet",
+    "delightful:acacia_cabinet_with_glass_doors",
+    "delightful:acacia_cabinet_with_polished_andesite_countertop",
+    "delightful:acacia_cabinet_with_polished_blackstone_countertop",
+    "delightful:acacia_cabinet_with_polished_deepslate_countertop",
+    "delightful:acacia_cabinet_with_polished_diorite_countertop",
+    "delightful:acacia_cabinet_with_polished_tuff_countertop",
+    "delightful:acacia_cabinet_with_stone_bricks_countertop",
+    "delightful:acacia_drawer",
+    "delightful:acacia_drawer_with_books",
+    "delightful:acacia_drawer_with_door",
+    "delightful:acacia_single_door_cabinet",
+    "delightful:bamboo_basket",
+    "delightful:bamboo_bookshelf_with_door",
+    "delightful:bamboo_cabinet",
+    "delightful:bamboo_cabinet_with_glass_doors",
+    "delightful:bamboo_cabinet_with_polished_andesite_countertop",
+    "delightful:bamboo_cabinet_with_polished_blackstone_countertop",
+    "delightful:bamboo_cabinet_with_polished_deepslate_countertop",
+    "delightful:bamboo_cabinet_with_polished_diorite_countertop",
+    "delightful:bamboo_cabinet_with_polished_tuff_countertop",
+    "delightful:bamboo_cabinet_with_stone_bricks_countertop",
+    "delightful:bamboo_drawer",
+    "delightful:bamboo_drawer_with_books",
+    "delightful:bamboo_drawer_with_door",
+    "delightful:bamboo_single_door_cabinet",
+    "delightful:birch_bookshelf_with_door",
+    "delightful:birch_cabinet",
+    "delightful:birch_cabinet_with_glass_doors",
+    "delightful:birch_cabinet_with_polished_andesite_countertop",
+    "delightful:birch_cabinet_with_polished_blackstone_countertop",
+    "delightful:birch_cabinet_with_polished_deepslate_countertop",
+    "delightful:birch_cabinet_with_polished_diorite_countertop",
+    "delightful:birch_cabinet_with_polished_tuff_countertop",
+    "delightful:birch_cabinet_with_stone_bricks_countertop",
+    "delightful:birch_drawer",
+    "delightful:birch_drawer_with_books",
+    "delightful:birch_drawer_with_door",
+    "delightful:birch_single_door_cabinet",
+    "delightful:cherry_bookshelf_with_door",
+    "delightful:cherry_cabinet",
+    "delightful:cherry_cabinet_with_glass_doors",
+    "delightful:cherry_cabinet_with_polished_andesite_countertop",
+    "delightful:cherry_cabinet_with_polished_blackstone_countertop",
+    "delightful:cherry_cabinet_with_polished_deepslate_countertop",
+    "delightful:cherry_cabinet_with_polished_diorite_countertop",
+    "delightful:cherry_cabinet_with_polished_tuff_countertop",
+    "delightful:cherry_cabinet_with_stone_bricks_countertop",
+    "delightful:cherry_drawer",
+    "delightful:cherry_drawer_with_books",
+    "delightful:cherry_drawer_with_door",
+    "delightful:cherry_single_door_cabinet",
+    "delightful:cinnamon_cabinet",
+    "delightful:crimson_bookshelf_with_door",
+    "delightful:crimson_cabinet",
+    "delightful:crimson_cabinet_with_glass_doors",
+    "delightful:crimson_cabinet_with_polished_andesite_countertop",
+    "delightful:crimson_cabinet_with_polished_blackstone_countertop",
+    "delightful:crimson_cabinet_with_polished_deepslate_countertop",
+    "delightful:crimson_cabinet_with_polished_diorite_countertop",
+    "delightful:crimson_cabinet_with_polished_tuff_countertop",
+    "delightful:crimson_cabinet_with_stone_bricks_countertop",
+    "delightful:crimson_drawer",
+    "delightful:crimson_drawer_with_books",
+    "delightful:crimson_drawer_with_door",
+    "delightful:crimson_single_door_cabinet",
+    "delightful:dark_oak_bookshelf_with_door",
+    "delightful:dark_oak_cabinet",
+    "delightful:dark_oak_cabinet_with_glass_doors",
+    "delightful:dark_oak_cabinet_with_polished_andesite_countertop",
+    "delightful:dark_oak_cabinet_with_polished_blackstone_countertop",
+    "delightful:dark_oak_cabinet_with_polished_deepslate_countertop",
+    "delightful:dark_oak_cabinet_with_polished_diorite_countertop",
+    "delightful:dark_oak_cabinet_with_polished_tuff_countertop",
+    "delightful:dark_oak_cabinet_with_stone_bricks_countertop",
+    "delightful:dark_oak_drawer",
+    "delightful:dark_oak_drawer_with_books",
+    "delightful:dark_oak_drawer_with_door",
+    "delightful:dark_oak_single_door_cabinet",
+    "delightful:glass_acacia_cabinet",
+    "delightful:glass_bamboo_cabinet",
+    "delightful:glass_birch_cabinet",
+    "delightful:glass_cherry_cabinet",
+    "delightful:glass_crimson_cabinet",
+    "delightful:glass_dark_oak_cabinet",
+    "delightful:glass_jungle_cabinet",
+    "delightful:glass_mangrove_cabinet",
+    "delightful:glass_oak_cabinet",
+    "delightful:glass_pale_oak_cabinet",
+    "delightful:glass_spruce_cabinet",
+    "delightful:glass_warped_cabinet",
+    "delightful:jungle_bookshelf_with_door",
+    "delightful:jungle_cabinet",
+    "delightful:jungle_cabinet_with_glass_doors",
+    "delightful:jungle_cabinet_with_polished_andesite_countertop",
+    "delightful:jungle_cabinet_with_polished_blackstone_countertop",
+    "delightful:jungle_cabinet_with_polished_deepslate_countertop",
+    "delightful:jungle_cabinet_with_polished_diorite_countertop",
+    "delightful:jungle_cabinet_with_polished_tuff_countertop",
+    "delightful:jungle_cabinet_with_stone_bricks_countertop",
+    "delightful:jungle_drawer",
+    "delightful:jungle_drawer_with_books",
+    "delightful:jungle_drawer_with_door",
+    "delightful:jungle_single_door_cabinet",
+    "delightful:mangrove_bookshelf_with_door",
+    "delightful:mangrove_cabinet",
+    "delightful:mangrove_cabinet_with_glass_doors",
+    "delightful:mangrove_cabinet_with_polished_andesite_countertop",
+    "delightful:mangrove_cabinet_with_polished_blackstone_countertop",
+    "delightful:mangrove_cabinet_with_polished_deepslate_countertop",
+    "delightful:mangrove_cabinet_with_polished_diorite_countertop",
+    "delightful:mangrove_cabinet_with_polished_tuff_countertop",
+    "delightful:mangrove_cabinet_with_stone_bricks_countertop",
+    "delightful:mangrove_drawer",
+    "delightful:mangrove_drawer_with_books",
+    "delightful:mangrove_drawer_with_door",
+    "delightful:mangrove_single_door_cabinet",
+    "delightful:oak_bookshelf_with_door",
+    "delightful:oak_cabinet",
+    "delightful:oak_cabinet_with_glass_doors",
+    "delightful:oak_cabinet_with_polished_andesite_countertop",
+    "delightful:oak_cabinet_with_polished_blackstone_countertop",
+    "delightful:oak_cabinet_with_polished_deepslate_countertop",
+    "delightful:oak_cabinet_with_polished_diorite_countertop",
+    "delightful:oak_cabinet_with_polished_tuff_countertop",
+    "delightful:oak_cabinet_with_stone_bricks_countertop",
+    "delightful:oak_drawer",
+    "delightful:oak_drawer_with_books",
+    "delightful:oak_drawer_with_door",
+    "delightful:oak_single_door_cabinet",
+    "delightful:pale_oak_bookshelf_with_door",
+    "delightful:pale_oak_cabinet",
+    "delightful:pale_oak_cabinet_with_glass_doors",
+    "delightful:pale_oak_cabinet_with_polished_andesite_countertop",
+    "delightful:pale_oak_cabinet_with_polished_blackstone_countertop",
+    "delightful:pale_oak_cabinet_with_polished_deepslate_countertop",
+    "delightful:pale_oak_cabinet_with_polished_diorite_countertop",
+    "delightful:pale_oak_cabinet_with_polished_tuff_countertop",
+    "delightful:pale_oak_cabinet_with_stone_bricks_countertop",
+    "delightful:pale_oak_drawer",
+    "delightful:pale_oak_drawer_with_books",
+    "delightful:pale_oak_drawer_with_door",
+    "delightful:pale_oak_single_door_cabinet",
+    "delightful:rice_bale",
+    "delightful:small_acacia_drawers",
+    "delightful:small_bamboo_drawers",
+    "delightful:small_birch_drawers",
+    "delightful:small_cherry_drawers",
+    "delightful:small_crimson_drawers",
+    "delightful:small_dark_oak_drawers",
+    "delightful:small_jungle_drawers",
+    "delightful:small_mangrove_drawers",
+    "delightful:small_oak_drawers",
+    "delightful:small_pale_oak_drawers",
+    "delightful:small_spruce_drawers",
+    "delightful:small_warped_drawers",
+    "delightful:spruce_bookshelf_with_door",
+    "delightful:spruce_cabinet",
+    "delightful:spruce_cabinet_with_glass_doors",
+    "delightful:spruce_cabinet_with_polished_andesite_countertop",
+    "delightful:spruce_cabinet_with_polished_blackstone_countertop",
+    "delightful:spruce_cabinet_with_polished_deepslate_countertop",
+    "delightful:spruce_cabinet_with_polished_diorite_countertop",
+    "delightful:spruce_cabinet_with_polished_tuff_countertop",
+    "delightful:spruce_cabinet_with_stone_bricks_countertop",
+    "delightful:spruce_drawer",
+    "delightful:spruce_drawer_with_books",
+    "delightful:spruce_drawer_with_door",
+    "delightful:spruce_single_door_cabinet",
+    "delightful:warped_bookshelf_with_door",
+    "delightful:warped_cabinet",
+    "delightful:warped_cabinet_with_glass_doors",
+    "delightful:warped_cabinet_with_polished_andesite_countertop",
+    "delightful:warped_cabinet_with_polished_blackstone_countertop",
+    "delightful:warped_cabinet_with_polished_deepslate_countertop",
+    "delightful:warped_cabinet_with_polished_diorite_countertop",
+    "delightful:warped_cabinet_with_polished_tuff_countertop",
+    "delightful:warped_cabinet_with_stone_bricks_countertop",
+    "delightful:warped_drawer",
+    "delightful:warped_drawer_with_books",
+    "delightful:warped_drawer_with_door",
+    "delightful:warped_single_door_cabinet",
+    "delightful:wooden_basket"
+  ],
+  "menu": "delightful:cabinet",
+  "data_slots": 0,
+  "mode": "instant",
+  "gui": {
+    "texture": "delightful:gui/cabinet",
+    "size": [
+      176,
+      166
+    ],
+    "slots": [
+      {
+        "id": "s0",
+        "role": "input",
+        "pos": [
+          8,
+          18
+        ]
+      },
+      {
+        "id": "s1",
+        "role": "input",
+        "pos": [
+          26,
+          18
+        ]
+      },
+      {
+        "id": "s2",
+        "role": "input",
+        "pos": [
+          44,
+          18
+        ]
+      },
+      {
+        "id": "s3",
+        "role": "input",
+        "pos": [
+          62,
+          18
+        ]
+      },
+      {
+        "id": "s4",
+        "role": "input",
+        "pos": [
+          80,
+          18
+        ]
+      },
+      {
+        "id": "s5",
+        "role": "input",
+        "pos": [
+          98,
+          18
+        ]
+      },
+      {
+        "id": "s6",
+        "role": "input",
+        "pos": [
+          116,
+          18
+        ]
+      },
+      {
+        "id": "s7",
+        "role": "input",
+        "pos": [
+          134,
+          18
+        ]
+      },
+      {
+        "id": "s8",
+        "role": "input",
+        "pos": [
+          152,
+          18
+        ]
+      },
+      {
+        "id": "s9",
+        "role": "input",
+        "pos": [
+          8,
+          36
+        ]
+      },
+      {
+        "id": "s10",
+        "role": "input",
+        "pos": [
+          26,
+          36
+        ]
+      },
+      {
+        "id": "s11",
+        "role": "input",
+        "pos": [
+          44,
+          36
+        ]
+      },
+      {
+        "id": "s12",
+        "role": "input",
+        "pos": [
+          62,
+          36
+        ]
+      },
+      {
+        "id": "s13",
+        "role": "input",
+        "pos": [
+          80,
+          36
+        ]
+      },
+      {
+        "id": "s14",
+        "role": "input",
+        "pos": [
+          98,
+          36
+        ]
+      },
+      {
+        "id": "s15",
+        "role": "input",
+        "pos": [
+          116,
+          36
+        ]
+      },
+      {
+        "id": "s16",
+        "role": "input",
+        "pos": [
+          134,
+          36
+        ]
+      },
+      {
+        "id": "s17",
+        "role": "input",
+        "pos": [
+          152,
+          36
+        ]
+      },
+      {
+        "id": "s18",
+        "role": "input",
+        "pos": [
+          8,
+          54
+        ]
+      },
+      {
+        "id": "s19",
+        "role": "input",
+        "pos": [
+          26,
+          54
+        ]
+      },
+      {
+        "id": "s20",
+        "role": "input",
+        "pos": [
+          44,
+          54
+        ]
+      },
+      {
+        "id": "s21",
+        "role": "input",
+        "pos": [
+          62,
+          54
+        ]
+      },
+      {
+        "id": "s22",
+        "role": "input",
+        "pos": [
+          80,
+          54
+        ]
+      },
+      {
+        "id": "s23",
+        "role": "input",
+        "pos": [
+          98,
+          54
+        ]
+      },
+      {
+        "id": "s24",
+        "role": "input",
+        "pos": [
+          116,
+          54
+        ]
+      },
+      {
+        "id": "s25",
+        "role": "input",
+        "pos": [
+          134,
+          54
+        ]
+      },
+      {
+        "id": "s26",
+        "role": "input",
+        "pos": [
+          152,
+          54
+        ]
+      }
+    ]
+  }
+}
